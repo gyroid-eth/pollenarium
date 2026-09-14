@@ -8,7 +8,7 @@ Pollenarium is an educational lab for observing pollen SEM photographs and gener
 
 In Observe, select **15点から選ぶ** (“Choose from 15”). Search by scientific name, or filter by protrusions, pits/pores, grooves/bands, networks, or smoothness. **すべて** (“All”) resets the shape filter; clear the search field separately when needed.
 
-Selecting a photograph updates the image, species, photographer and source in Observe. **It leaves your calculation conditions and result unchanged.** Choose mathematical presets separately in the settings panel.
+Selecting a photograph updates the image, species, photographer and source in Observe. **It does not reset or reconfigure your calculation.** Choose mathematical presets separately in the settings panel. A running calculation continues while the atlas is open, so its field can still evolve. Stop it first if you want to inspect a fixed result.
 
 Use **実験へ戻る** (“Return to experiment”) or Escape to close. Opening focuses the search field; closing returns focus to the launch button. Use Tab/Shift+Tab to move within the atlas and Enter to select a specimen.
 

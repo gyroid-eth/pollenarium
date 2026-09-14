@@ -87,6 +87,6 @@ JSON import adds a new ID and preserves the source ID as `importedFrom`. Exports
 
 ## UI and release checks
 
-Before keeping a UI change, inspect real desktop and mobile screens, both models and expanded settings. Verify name search, filters and empty results; reference/credit switching; Escape, Enter and focus return; save/restore and JSON transfer; and the nested code-only build with media placeholders. Compare full saved states before/after changing an observation to catch accidental numerical resets. Use an isolated browser profile for destructive storage tests.
+Before keeping a UI change, inspect real desktop and mobile screens, both models and expanded settings. Verify name search, filters and empty results; reference/credit switching; Escape, Enter and focus return; save/restore and JSON transfer; and the nested code-only build with media placeholders. With the calculation paused, compare full saved states before/after changing an observation to catch accidental numerical resets. Use an isolated browser profile for destructive storage tests.
 
 Original code and original project outputs are [MIT licensed](../LICENSE). The authors' implementation, the paper and PalDat images are not covered by that license. Preserve the research citations and label approximations rather than claiming exact paper reproduction. Do not add third-party scientific code or media without checking its license and provenance.
