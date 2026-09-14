@@ -1,0 +1,26 @@
+[
+  {
+    "q0": 2,
+    "a": "middle-cellwise-projection",
+    "b": "q2-cell-band32",
+    "relativeL2": 1.0803864198441273
+  },
+  {
+    "q0": 2,
+    "a": "q2-cell-band32",
+    "b": "q2-cell-band32-rescaled",
+    "relativeL2": 0.9245904243003912
+  },
+  {
+    "q0": 0.5,
+    "a": "bottom-cellwise-projection",
+    "b": "q0.5-cell-band32",
+    "relativeL2": 0.3498414070941111
+  },
+  {
+    "q0": 0.5,
+    "a": "q0.5-cell-band32",
+    "b": "q0.5-cell-band32-rescaled",
+    "relativeL2": 1.0109354115663705
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "fipyVersion": "4.0.3",
+  "cells": 42310,
+  "faces": 148085,
+  "vertices": 42314,
+  "cellRadiusMinMax": [
+    15.747254565059098,
+    15.749100674952105
+  ],
+  "meanRadius": 15.74817658512576,
+  "volumeTotal": 4678.183434775063,
+  "effectiveIndependentAngularCells": 41986.26023187861,
+  "innerOuterSphereRadii": [
+    15,
+    16.5
+  ],
+  "laplacianAudit": {
+    "versions": {
+      "fipy": "4.0.3",
+      "gmsh": "4.15.2"
+    },
+    "connectedComponents": 1,
+    "rows": [
+      {
+        "l": 1,
+        "rayleigh": 0.00807288851687471,
+        "sphereR15": 0.008888888888888889,
+        "ratio": 0.9081999581484049,
+        "effectiveRadius": 15.739847500806231,
+        "relativeEigenResidual": 3.7314369074915277
+      },
+      {
+        "l": 2,
+        "rayleigh": 0.024240758963941147,
+        "sphereR15": 0.02666666666666667,
+        "ratio": 0.9090284611477929,
+        "effectiveRadius": 15.73267309202317,
+        "relativeEigenResidual": 2.035464523367386
+      },
+      {
+        "l": 8,
+        "rayleigh": 0.29053524128402375,
+        "sphereR15": 0.32,
+        "ratio": 0.9079226290125741,
+        "effectiveRadius": 15.742251221608296,
+        "relativeEigenResidual": 0.6476340824365023
+      },
+      {
+        "l": 16,
+        "rayleigh": 1.0953800983116888,
+        "sphereR15": 1.208888888888889,
+        "ratio": 0.906104860735772,
+        "effectiveRadius": 15.758033847176547,
+        "relativeEigenResidual": 0.37350689125382536
+      },
+      {
+        "l": 24,
+        "rayleigh": 2.406594603251663,
+        "sphereR15": 2.6666666666666665,
+        "ratio": 0.9024729762193736,
+        "effectiveRadius": 15.789710083576553,
+        "relativeEigenResidual": 0.2719413640021921
+      },
+      {
+        "l": 32,
+        "rayleigh": 4.208913721272235,
+        "sphereR15": 4.693333333333333,
+        "ratio": 0.8967855940210727,
+        "effectiveRadius": 15.839699839151763,
+        "relativeEigenResidual": 0.22294404417583275
+      },
+      {
+        "l": 48,
+        "rayleigh": 9.199780777770007,
+        "sphereR15": 10.453333333333333,
+        "ratio": 0.8800810693019777,
+        "effectiveRadius": 15.989317242048365,
+        "relativeEigenResidual": 0.18025399973614947
+      },
+      {
+        "l": 64,
+        "rayleigh": 15.846705042186471,
+        "sphereR15": 18.488888888888887,
+        "ratio": 0.8570934217528742,
+        "effectiveRadius": 16.202318984065297,
+        "relativeEigenResidual": 0.17311050800532143
+      }
+    ]
+  },
+  "provenance": "Rebuilt published notebook geometry with FiPy4.0.3/Gmsh4.15.2; removed obsolete order argument (historically serial/overlap handling) and literal doctest ellipses. Not the unavailable original mesh."
+}

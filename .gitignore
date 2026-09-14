@@ -1,0 +1,25 @@
+.DS_Store
+__pycache__/
+# Third-party SEMs retained only for this local educational review.
+/private-reference-media/
+# These review screenshots contain PalDat material and are not code-license assets.
+/previews/game-*.png
+/previews/education-games-combined.png
+/.site/
+/previews/studio-*.png
+/.numerical-audit/
+
+# Internal handoff and abandoned design directions (not part of the release).
+/HANDOFF.md
+/PALDAT_DESIGN.md
+/GAME_DESIGN.md
+/LICENSE.proposed
+/previews/
+/prototypes/
+/game/
+/directions/
+
+/assets/game-data.json
+/assets/simulation.json
+/scripts/compute.py
+/scripts/compute_game.py

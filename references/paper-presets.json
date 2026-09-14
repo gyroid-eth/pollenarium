@@ -1,0 +1,293 @@
+{
+  "equilibrium": [
+    {
+      "species": "Alisma lanceolatum",
+      "l0": 9.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Iris bucharica",
+      "l0": 6.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Chenopodium album",
+      "l0": 19.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Gaillardia aristata",
+      "l0": 10.0,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Bidens pilosa",
+      "l0": 14.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Iva xanthiifolia",
+      "l0": 19.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Ibicella lutea",
+      "l0": 11.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Cerastium tomentosum",
+      "l0": 9.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Alisma plantago-aquatica",
+      "l0": 8.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Amaranthus blitum",
+      "l0": 12.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Phyllanthus sp.",
+      "l0": 11.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Echinodorus quadricostatus",
+      "l0": 8.0,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Echinodorus cordifolius",
+      "l0": 4.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Sarcococca hookeriana",
+      "l0": 9.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Polemonium pauciflorum",
+      "l0": 20.5,
+      "u": 1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Gomphrena globosa",
+      "l0": 15.5,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Pfaffia tuberosa",
+      "l0": 12.0,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Kallstroemia maxima",
+      "l0": 16.5,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Caldesia parnassifolia",
+      "l0": 5.5,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Phlox drummondii",
+      "l0": 16.0,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Chondrilla juncea",
+      "l0": 8.0,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Ipomoea cholulensis",
+      "l0": 19.5,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Pfaffia gnaphaloides",
+      "l0": 10.0,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Persicaria mitis",
+      "l0": 19.5,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Bougainvillea sp.",
+      "l0": 17.5,
+      "u": -1.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Berberis vulgaris",
+      "l0": 3.5,
+      "u": 0.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Galium wirtgenii",
+      "l0": 8.5,
+      "u": 0.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Galium album",
+      "l0": 13.5,
+      "u": 0.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Primula veris",
+      "l0": 8.5,
+      "u": 0.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Arnebia pulchra",
+      "l0": 13.5,
+      "u": 0.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Diascia barberae",
+      "l0": 12.5,
+      "u": 0.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Utricularia sandersonii",
+      "l0": 13.5,
+      "u": 0.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Sarracenia flava",
+      "l0": 13.5,
+      "u": 0.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    },
+    {
+      "species": "Primula elatior",
+      "l0": 12.5,
+      "u": 0.0,
+      "r": -1,
+      "source": "Radja 2019 Table 1 / Fig. 1",
+      "status": "parameter reference; independent candidate minimum, not author solution"
+    }
+  ],
+  "dynamics": [
+    {
+      "name": "Fig. 2 top",
+      "q0": 1.5,
+      "tau": 20
+    },
+    {
+      "name": "Fig. 2 middle",
+      "q0": 2,
+      "tau": -20
+    },
+    {
+      "name": "Fig. 2 bottom",
+      "q0": 0.5,
+      "tau": -20
+    }
+  ]
+}

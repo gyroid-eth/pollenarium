@@ -1,0 +1,621 @@
+{
+  "rights": "AutPal / photographers. Educational and noncommercial use under PalDat's stated exception; not MIT; no general open-data license asserted.",
+  "checkedOn": "2026-09-14",
+  "terms": "https://www.paldat.org/info/copyright",
+  "usage": "15 individually verified reference images for noncommercial education. Excluded from source Git history; fetched as a separately restricted pack for the official educational demo. No bulk collection.",
+  "images": [
+    {
+      "id": "delonix-regia-302200-2004953",
+      "status": "active local prototype target",
+      "species": "Delonix regia",
+      "publicationUrl": "https://www.paldat.org/pub/Delonix_regia/302200",
+      "publicationCitation": "Halbritter H., Weis B. 2016. Delonix regia. In: PalDat – A palynological database.",
+      "imageUrl": "https://www.paldat.org/pic/2004953.jpg",
+      "localPath": "private-reference-media/paldat/delonix-regia-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "oblique polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        531
+      ],
+      "scaleBar": "10 µm, visible in original image, retained without cropping",
+      "preparation": "dry, rehydrated (water), critical point dried, sputter coated with gold",
+      "learningFocus": "qualitative network spacing and connectivity",
+      "notModeled": [
+        "apertures",
+        "free-standing columellae",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "sha256": "438c7609c415cad56f335e2596b497dd7a30ad27a9f616e1f49863f424805f5d",
+      "shapeTags": [
+        "network"
+      ],
+      "observationHintJa": "網目の間隔とつながりを観察。発芽孔や壁の層はモデル外。",
+      "checkedOn": "2026-09-14",
+      "scaleMicrometers": 10
+    },
+    {
+      "id": "aristolochia-clematitis-303787-1018467",
+      "status": "global smoothness reference; microscopic perforations outside the paper global-pattern model",
+      "species": "Aristolochia clematitis",
+      "publicationUrl": "https://www.paldat.org/pub/Aristolochia_clematitis/303787",
+      "publicationCitation": "Hesse M., Halbritter H., Heigl H., Buchner R. 2020. Aristolochia clematitis. In: PalDat – A palynological database.",
+      "imageUrl": "https://www.paldat.org/pic/1018467.jpg",
+      "localPath": "private-reference-media/paldat/aristolochia-clematitis-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visible in original image, retained without cropping",
+      "preparation": "fresh, rehydrated (water), critical point dried, sputter coated with gold",
+      "learningFocus": "global smoothness / unpatterned category (Fig. 2 top), not matching microscopic perforation density",
+      "notModeled": [
+        "microscopic perforations below the paper global-pattern scale",
+        "wall stratification",
+        "molecular material properties"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "sha256": "0acc26058f281d897fed6bc0c689236fd9989313a95d8c46956ebe73a333b403",
+      "shapeTags": [
+        "smooth"
+      ],
+      "observationHintJa": "全体の滑らかさを観察。写真の微細孔は論文の全体模様のモデル対象外。",
+      "checkedOn": "2026-09-14",
+      "scaleMicrometers": 10
+    },
+    {
+      "id": "berberis-vulgaris-303900-1012963",
+      "status": "active qualitative spiral-pattern reference",
+      "species": "Berberis vulgaris",
+      "publicationUrl": "https://www.paldat.org/pub/Berberis_vulgaris/303900",
+      "publicationCitation": "Oberschneider W., Heigl H. 2020. Berberis vulgaris. In: PalDat – A palynological database.",
+      "imageUrl": "https://www.paldat.org/pic/1012963.jpg",
+      "localPath": "private-reference-media/paldat/berberis-vulgaris-sem.jpg",
+      "photographer": "Oberschneider, W.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, retained without cropping",
+      "preparation": "fresh, rehydration (water) & chloroform, critical point dried, sputter coated with gold",
+      "learningFocus": "qualitative spiral geometry; Table 1 l0=3.5, u=0",
+      "notModeled": [
+        "aperture biogenesis",
+        "wall ultrastructure",
+        "grain deformation"
+      ],
+      "requiredCredit": "Photo: W. Oberschneider / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "sha256": "0abfdbb1ddbac4830fc55857ccffa500373ee5fad3c99fc1f4a50c5333856c49",
+      "shapeTags": [
+        "bands"
+      ],
+      "observationHintJa": "螺旋の向きと本数を観察。発芽孔の形成や微細構造はモデル外。",
+      "checkedOn": "2026-09-14",
+      "scaleMicrometers": 10
+    },
+    {
+      "id": "gaillardia-aristata-306220-1013069",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Gaillardia aristata",
+      "publicationUrl": "https://www.paldat.org/pub/Gaillardia_aristata/306220",
+      "publicationCitation": "Halbritter H., Heigl H., Auer W. 2021. Gaillardia aristata. In: PalDat - A palynological database. /pub/Gaillardia_aristata/306220; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1013069.jpg",
+      "localPath": "private-reference-media/paldat/gaillardia-aristata-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "とがった突起の間隔と高さを比べる。発芽口と微細な孔は別に観察。",
+      "observationHintJa": "とがった突起の間隔と高さを比べる。発芽口と微細な孔は別に観察。",
+      "shapeTags": [
+        "spines"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "1ffd9bc99914207754ac433ee059edce41001ad3369bb09c6f79dd6ceaf89490",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 10.0,
+        "u": 1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "chenopodium-album-304986-1021681",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Chenopodium album",
+      "publicationUrl": "https://www.paldat.org/pub/Chenopodium_album/304986",
+      "publicationCitation": "Diethart B., Auer W. 2021. Chenopodium album. In: PalDat - A palynological database. /pub/Chenopodium_album/304986; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1021681.jpg",
+      "localPath": "private-reference-media/paldat/chenopodium-album-sem.jpg",
+      "photographer": "Diethart, B.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "丸い発芽孔と小さな突起を見分ける。孔の形成機構はモデル外。",
+      "observationHintJa": "丸い発芽孔と小さな突起を見分ける。孔の形成機構はモデル外。",
+      "shapeTags": [
+        "pits",
+        "spines"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: B. Diethart / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "d724dca83c261a4d1cb55dc8fe51504851a0c8ecb97da8c442453eb598962e57",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 19.5,
+        "u": 1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "gomphrena-globosa-300588-1211648",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Gomphrena globosa",
+      "publicationUrl": "https://www.paldat.org/pub/Gomphrena_globosa/300588",
+      "publicationCitation": "Halbritter H. 2016. Gomphrena globosa. In: PalDat - A palynological database. /pub/Gomphrena_globosa/300588; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1211648.jpg",
+      "localPath": "private-reference-media/paldat/gomphrena-globosa-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "盛り上がった壁が囲む区画を観察。中の発芽孔と壁の層はモデル外。",
+      "observationHintJa": "盛り上がった壁が囲む区画を観察。中の発芽孔と壁の層はモデル外。",
+      "shapeTags": [
+        "network",
+        "pits"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "c1ff01c62025951286b76bec03d953a52c0cfa8e40d1d045f51f4fa622dcfa77",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 15.5,
+        "u": -1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "alisma-lanceolatum-304719-1013446",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Alisma lanceolatum",
+      "publicationUrl": "https://www.paldat.org/pub/Alisma_lanceolatum/304719",
+      "publicationCitation": "Halbritter H., Heigl H., Svojtka M. 2020. Alisma lanceolatum. In: PalDat - A palynological database. /pub/Alisma_lanceolatum/304719; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1013446.jpg",
+      "localPath": "private-reference-media/paldat/alisma-lanceolatum-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "fresh, rehydration (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "大きな丸い発芽孔と細かな突起を分けて見る。孔は場のくぼみと同義ではない。",
+      "observationHintJa": "大きな丸い発芽孔と細かな突起を分けて見る。孔は場のくぼみと同義ではない。",
+      "shapeTags": [
+        "pits",
+        "spines"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "8735d8aa6d55fababd4b2b01b6607982b390618b976be9b1f61b5a7e0fe9a430",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 9.5,
+        "u": 1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "phlox-drummondii-300583-1211789",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Phlox drummondii",
+      "publicationUrl": "https://www.paldat.org/pub/Phlox_drummondii/300583",
+      "publicationCitation": "Halbritter H. 2016. Phlox drummondii. In: PalDat - A palynological database. /pub/Phlox_drummondii/300583; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1211789.jpg",
+      "localPath": "private-reference-media/paldat/phlox-drummondii-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "大きな網目の中にある細かな網目を見る。二重構造を単一波長だけで説明しない。",
+      "observationHintJa": "大きな網目の中にある細かな網目を見る。二重構造を単一波長だけで説明しない。",
+      "shapeTags": [
+        "network",
+        "pits"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "676d408285eadf9c1ae61e4ed293b2bf136f805f089e9601f942cef2de72e9b1",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 16.0,
+        "u": -1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "galium-album-305038-1018166",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Galium album",
+      "publicationUrl": "https://www.paldat.org/pub/Galium_album/305038",
+      "publicationCitation": "Halbritter H., Auer W., Svojtka M. 2021. Galium album. In: PalDat - A palynological database. /pub/Galium_album/305038; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1018166.jpg",
+      "localPath": "private-reference-media/paldat/galium-album-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view (oblique)",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "球をめぐる溝の本数と配置を観察。溝は発芽口で、モデルはその形成を扱わない。",
+      "observationHintJa": "球をめぐる溝の本数と配置を観察。溝は発芽口で、モデルはその形成を扱わない。",
+      "shapeTags": [
+        "bands"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "76221b7a4c0fda32e78dc6270716b66d7c4c43cfae5f25afc1f539ddc7a6e301",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 13.5,
+        "u": 0.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "primula-veris-306818-1016116",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Primula veris",
+      "publicationUrl": "https://www.paldat.org/pub/Primula_veris/306818",
+      "publicationCitation": "Halbritter H., Heigl H., Auer W., Gilot P. 2025. Primula veris. In: PalDat - A palynological database. /pub/Primula_veris/306818; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1016116.jpg",
+      "localPath": "private-reference-media/paldat/primula-veris-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view (long-styled morph)",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "帯状の溝と細かな網目の組合せを見る。写真は長花柱型の花の花粉。",
+      "observationHintJa": "帯状の溝と細かな網目の組合せを見る。写真は長花柱型の花の花粉。",
+      "shapeTags": [
+        "bands",
+        "network"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "958bc154aace9bb5dacff96891993d7d19dda1b566cd3fe9c67a4480c523e378",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 8.5,
+        "u": 0.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "iris-bucharica-302289-1011227",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Iris bucharica",
+      "publicationUrl": "https://www.paldat.org/pub/Iris_bucharica/302289",
+      "publicationCitation": "Halbritter H. 2016. Iris bucharica. In: PalDat - A palynological database. /pub/Iris_bucharica/302289; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1011227.jpg",
+      "localPath": "private-reference-media/paldat/iris-bucharica-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "100 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 100,
+      "preparation": "fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "広い滑らかな面と網目の島の対比を見る。単一の模様だけでは表せない構造もある。",
+      "observationHintJa": "広い滑らかな面と網目の島の対比を見る。単一の模様だけでは表せない構造もある。",
+      "shapeTags": [
+        "network",
+        "smooth"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "d851e7c473b237676f149a58581d547ab506b5c81a105e481011f130941dd0e4",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 6.5,
+        "u": 1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "persicaria-mitis-302862-1017282",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Persicaria mitis",
+      "publicationUrl": "https://www.paldat.org/pub/Persicaria_mitis/302862",
+      "publicationCitation": "Halbritter H. 2016. Persicaria mitis. In: PalDat - A palynological database. /pub/Persicaria_mitis/302862; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1017282.jpg",
+      "localPath": "private-reference-media/paldat/persicaria-mitis-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目の大きさと境界のつながりを見る。孔と壁の微細構造は別の特徴。",
+      "observationHintJa": "網目の大きさと境界のつながりを見る。孔と壁の微細構造は別の特徴。",
+      "shapeTags": [
+        "network",
+        "pits"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "cea8301f403dd7738658362dcf8157e4cc5e6fef0faab8c6c79eae59d0be15d8",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 19.5,
+        "u": -1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "chondrilla-juncea-304698-1013865",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Chondrilla juncea",
+      "publicationUrl": "https://www.paldat.org/pub/Chondrilla_juncea/304698",
+      "publicationCitation": "Halbritter H., Auer W. 2020. Chondrilla juncea. In: PalDat - A palynological database. /pub/Chondrilla_juncea/304698; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/1013865.jpg",
+      "localPath": "private-reference-media/paldat/chondrilla-juncea-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "区画を囲む隆起と、その上の突起を観察。発芽口や変形はモデル外。",
+      "observationHintJa": "区画を囲む隆起と、その上の突起を観察。発芽口や変形はモデル外。",
+      "shapeTags": [
+        "network",
+        "spines"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "8f322976a7f8a1f684167080877f7df54688c7d17381fe49261c404dcf2534f2",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 8.0,
+        "u": -1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "bidens-pilosa-305444-2005911",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Bidens pilosa",
+      "publicationUrl": "https://www.paldat.org/pub/Bidens_pilosa/305444",
+      "publicationCitation": "Halbritter H., Auer W., Weis B. 2021. Bidens pilosa. In: PalDat - A palynological database. /pub/Bidens_pilosa/305444; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/2005911.jpg",
+      "localPath": "private-reference-media/paldat/bidens-pilosa-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        531
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "細長い突起の向きと間隔を観察。輪郭の突起と面の突起を見比べよう。",
+      "observationHintJa": "細長い突起の向きと間隔を観察。輪郭の突起と面の突起を見比べよう。",
+      "shapeTags": [
+        "spines"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "b497c762dee6690e4a4a1b0b239fd03b67a9b3ec3742955977c2783fe1534e18",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 14.5,
+        "u": 1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    },
+    {
+      "id": "echinodorus-cordifolius-303026-2005819",
+      "status": "individually checked educational observation; not an exact paper-image match",
+      "species": "Echinodorus cordifolius",
+      "publicationUrl": "https://www.paldat.org/pub/Echinodorus_cordifolius/303026",
+      "publicationCitation": "Halbritter H., Weis B. 2017. Echinodorus cordifolius. In: PalDat - A palynological database. /pub/Echinodorus_cordifolius/303026; accessed 2026-09-14",
+      "imageUrl": "https://www.paldat.org/pic/2005819.jpg",
+      "localPath": "private-reference-media/paldat/echinodorus-cordifolius-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        531
+      ],
+      "scaleBar": "10 µm, visually checked in original; retained without cropping",
+      "scaleMicrometers": 10,
+      "preparation": "dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "細かな突起の間にある発芽孔を観察。孔と突起を同じ構造として数えない。",
+      "observationHintJa": "細かな突起の間にある発芽孔を観察。孔と突起を同じ構造として数えない。",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "notModeled": [
+        "aperture biogenesis",
+        "layered wall ultrastructure",
+        "specimen preparation and deformation"
+      ],
+      "requiredCredit": "Photo: H. Halbritter / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. See PalDat terms.",
+      "termsUrl": "https://www.paldat.org/info/copyright",
+      "checkedOn": "2026-09-14",
+      "sha256": "9488fbb3f604224977296b6e475f4b1fbd46165c1286f7db6ddb14cf686858bb",
+      "paperRelation": {
+        "source": "Radja 2019 Table 1",
+        "speciesMatch": "exact taxon label",
+        "l0": 4.5,
+        "u": 1.0,
+        "r": -1,
+        "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      }
+    }
+  ],
+  "shapeTagsMeaning": "Editorial visual browsing cues, not PalDat taxonomic diagnoses or physical-model correspondence. Bands/pits may include apertures."
+}

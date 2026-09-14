@@ -1,0 +1,5 @@
+import assert from'node:assert/strict';import{ETDRK4,phi,compare}from'../scripts/numerics/etdrk4.mjs';import{index}from'../app/spectral.mjs';
+assert.equal(phi(0,1),1);assert.equal(phi(0,2),.5);assert.equal(phi(0,3),1/6);for(let z of[-100,-1,-.001,.001,.5,1])assert.ok(Math.abs(phi(z,1)-Math.expm1(z)/z)<1e-13);
+const run=(p,state)=>{let s=new ETDRK4(p,state);while(s.step());return s};
+const p={L:16,dt:.005,stopTime:.2,u3:0,noise:0};let s=new ETDRK4(p),state=s.state();state.coefficients[index(12,3)]=1e-8;const k=12*13/225,rate=-k*((.65**2-k)**2-3),linear=run(p,state),expected=1e-8*Math.exp(rate*.2);assert.ok(Math.abs(linear.a[index(12,3)]-expected)/expected<1e-12);console.log('PASS ETDRK4 exact linear growth and phi values');
+const params={L:24,stopTime:1,q0:1,tau:-5,u3:-15,noise:.2};const a=run({...params,dt:.02}),b=run({...params,dt:.01}),c=run({...params,dt:.005});const e1=compare(a.a,c.a).relativeL2,e2=compare(b.a,c.a).relativeL2;assert.ok(e2<e1/8);assert.equal(c.diagnostics().meanDrift,0);console.log('PASS ETDRK4 nonlinear refinement',e1,e2,e1/e2);

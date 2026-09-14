@@ -1,0 +1,52 @@
+name: Verify and deploy Pollenarium
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Numerical tests
+        run: |
+          node tests/spectral.test.mjs
+          node tests/equilibrium.test.mjs
+          node tests/etdrk4.test.mjs
+          node tests/etdrk4-continuation.test.mjs
+      - name: Build code-only site
+        run: python3 scripts/build_static.py
+      - name: Add separately licensed educational references for official demo
+        if: github.repository == 'gyroid-eth/pollenarium' && github.event_name != 'pull_request'
+        run: |
+          python3 scripts/fetch_reference_media.py
+          python3 scripts/build_static.py --educational-media
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .site
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

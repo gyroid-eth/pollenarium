@@ -1,0 +1,5 @@
+import assert from'node:assert/strict';import{AdaptiveETDRK4,ETDRK4_ID,compare}from'../app/etdrk4.mjs';import{validateRecord}from'../app/storage.mjs';
+const run=(p,state)=>{const s=new AdaptiveETDRK4(p,state);while(s.step());return s};
+const p={L:24,q0:1,tau:-5,u3:-15,noise:.2,stopTime:1,dt:.02};const whole=run(p),half=run({...p,stopTime:.5}),resumed=run(p,JSON.parse(JSON.stringify(half.state())));assert.ok(compare(whole.a,resumed.a).relativeL2<1e-12);assert.equal(whole.diagnostics().meanDrift,0);assert.equal(whole.state().model,ETDRK4_ID);
+const stiff=run({...p,tau:-20,u3:-40,dt:.5,stopTime:.5});assert.ok(stiff.rejected>0);assert.ok(stiff.a.every(Number.isFinite));assert.ok(stiff.energy<stiff.initialEnergy);assert.equal(stiff.p.dt,.5);
+const record={schema:'pollen-specimen/2',id:'test',createdAt:'2026-09-14',title:'test',state:whole.state(),previewPng:'data:image/png;base64,AA==',view:{angle:0,tilt:0,zoom:1,relief:.1}};assert.equal(validateRecord(record),record);console.log('PASS ETDRK4 checkpoint continuation, scheme identity, rejected-step recovery, and record validation',stiff.rejected);

@@ -1,0 +1,197 @@
+{
+  "method": "central finite-difference Hessian, h=1e-5; restricted Eq6 subspace only; rotational zero modes expected",
+  "conditions": [
+    {
+      "condition": "9.5:1",
+      "energy": -9.48915283542993,
+      "gradientNorm": 9.945741327415777e-08,
+      "minEigenvalue": -4.554444953102643e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "6.5:1",
+      "energy": -11.177774271082722,
+      "gradientNorm": 6.805857380265499e-08,
+      "minEigenvalue": 2.016367304135087e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "19.5:1",
+      "energy": -7.145552490742844,
+      "gradientNorm": 9.40643764149164e-08,
+      "minEigenvalue": -3.593118858620373e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "10:1",
+      "energy": -12.763203822608764,
+      "gradientNorm": 8.251737393483753e-08,
+      "minEigenvalue": -8.096111028484114e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "14.5:1",
+      "energy": -7.600414739572245,
+      "gradientNorm": 8.71122665307175e-08,
+      "minEigenvalue": -4.077996706447296e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "11.5:1",
+      "energy": -9.994244242273966,
+      "gradientNorm": 4.7493509487426566e-08,
+      "minEigenvalue": -4.878702017983838e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "8.5:1",
+      "energy": -8.664297309600384,
+      "gradientNorm": 9.85545633339727e-08,
+      "minEigenvalue": -4.333898914145126e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "12.5:1",
+      "energy": -10.184112725580915,
+      "gradientNorm": 5.434918001308393e-08,
+      "minEigenvalue": 5.689982748274802e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "8:1",
+      "energy": -12.412126702573353,
+      "gradientNorm": 9.755098058984615e-08,
+      "minEigenvalue": -1.144800264222177e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "4.5:1",
+      "energy": -10.42557509224368,
+      "gradientNorm": 2.215871747538897e-08,
+      "minEigenvalue": 4.069420278465042e-10,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "20.5:1",
+      "energy": -6.884902936593995,
+      "gradientNorm": 9.257383910163618e-08,
+      "minEigenvalue": -3.235466933013045e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "15.5:-1",
+      "energy": -9.255279983866247,
+      "gradientNorm": 8.115225248286902e-08,
+      "minEigenvalue": -2.8758133219684352e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "12:-1",
+      "energy": -13.535316784784781,
+      "gradientNorm": 9.022648722150026e-08,
+      "minEigenvalue": -2.3650765851825723e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "16.5:-1",
+      "energy": -7.776929598253874,
+      "gradientNorm": 8.816890651647473e-08,
+      "minEigenvalue": -6.521645730838498e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "5.5:-1",
+      "energy": -11.177774271082722,
+      "gradientNorm": 6.469934321098266e-08,
+      "minEigenvalue": 9.709675352493773e-11,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "16:-1",
+      "energy": -11.432595959341759,
+      "gradientNorm": 7.724744587679844e-08,
+      "minEigenvalue": -6.440932444611045e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "8:-1",
+      "energy": -12.412126702573413,
+      "gradientNorm": 9.598490395535584e-08,
+      "minEigenvalue": -7.9565523259586e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "19.5:-1",
+      "energy": -7.145552490742811,
+      "gradientNorm": 9.793528043278943e-08,
+      "minEigenvalue": -6.333421993666869e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "10:-1",
+      "energy": -12.763203822608778,
+      "gradientNorm": 7.429043129772542e-08,
+      "minEigenvalue": -4.858199719077667e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "17.5:-1",
+      "energy": -8.272345711806079,
+      "gradientNorm": 9.95084686719402e-08,
+      "minEigenvalue": 3.933249805617845e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "3.5:0",
+      "energy": -5.529865319970517,
+      "gradientNorm": 9.074089138778569e-08,
+      "minEigenvalue": -3.4301899100204966e-10,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "8.5:0",
+      "energy": -4.803138421681917,
+      "gradientNorm": 9.518390702758644e-08,
+      "minEigenvalue": -2.62084261220161e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "13.5:0",
+      "energy": -4.470676951752159,
+      "gradientNorm": 9.983120895203849e-08,
+      "minEigenvalue": -1.3179761695122363e-09,
+      "negativeDirections": 0,
+      "nearZeroModes": 3
+    },
+    {
+      "condition": "12.5:0",
+      "energy": -4.522960217388357,
+      "gradientNorm": 9.891643932021042e-08,
+      "minEigenvalue": -4.14287059020859e-08,
+      "negativeDirections": 0,
+      "nearZeroModes": 4
+    }
+  ]
+}
