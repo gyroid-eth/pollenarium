@@ -4,6 +4,10 @@
 
 Pollenariumは、本物の花粉のSEM写真を観察し、球面上の数理モデルで模様を作る実験室です。似ているかは自分で判断します。採点や、生物の物性値を逆算する機能はありません。画面の操作名は日本語中心です。
 
+![Pollenarium observation, calculation and specimen collection](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/overview.png)
+
+実画面：左が観察するSEM、中央が計算結果、右が条件、下が保存した標本。保存例はこのガイド用に作成。SEM: H. Halbritter / PalDat。 [Image credits](SCREENSHOTS.md).
+
 ## 1. アトラスから観察標本を選ぶ
 
 Observeの「15点から選ぶ」で形態アトラスを開きます。学名を入力するか、「突起」「くぼみ・孔」「溝・帯」「網目」「平滑」で絞り込み、写真を選んでください。「すべて」は形態の絞り込みを解除します。検索語は残るため、必要なら検索欄も空にします。
@@ -13,6 +17,10 @@ Observeの「15点から選ぶ」で形態アトラスを開きます。学名�
 「実験へ戻る」またはEscapeでも閉じられます。開くと検索欄へ、閉じると元のボタンへフォーカスが移ります。Tab／Shift+Tabでアトラス内を移動し、Enterで標本を選べます。
 
 分類は見た目から探すための手がかりです。孔や溝には発芽口も含まれ、その形成機構をこのモデルが説明するわけではありません。写真のスケールバーを見てください。画像の表示サイズは物理的な大きさにそろえていません。Iris bucharicaの選択画像は100 µm、ほかの14点は10 µmのバーを含みます。
+
+![Pollenarium shape atlas and filters](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/atlas.png)
+
+15点を一覧で比較し、学名や見た目から選びます。SEM: H. Halbritter、W. Oberschneider、B. Diethart / PalDat。 [Image credits](SCREENSHOTS.md).
 
 ## 2. モデルを選ぶ
 
@@ -32,6 +40,10 @@ Eq. 7を長時間計算することと、Eq. 6の制限された平衡探索は�
 まず1項目だけ変えて計算し、変化を観察すると比較しやすくなります。「停止」で現在の状態を観察できます。計算中や、まだ計算していない条件へ変更した状態では保存できません。画面のステータスと案内を確認してください。
 
 生成した球体はドラッグで回転でき、マウスホイールで拡大・縮小できます。「凹凸の見せ方」は図示だけを変えます。物理的な壁厚ではなく、SEMを生成する光学・電子顕微鏡モデルでもありません。
+
+![Controls and result of an Eq. 7 growth experiment](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/growth.png)
+
+Eq. 7の操作例：q₀=1.1、τ=−3、u₃=−8、t=2。論文の図そのものの再現ではなく、自由探索の例です。左のSEMは独立した参照標本です。SEM: W. Oberschneider / PalDat。 [Image credits](SCREENSHOTS.md).
 
 ### 主なパラメータ
 

@@ -17,3 +17,5 @@ The demo is independent of PalDat and does not imply affiliation or endorsement.
 Radja, A., Horsley, E. M., Lavrentovich, M. O., & Sweeney, A. M. (2019). Pollen Cell Wall Patterns Form from Modulated Phases. Cell 176(4), 856–868.e10. https://doi.org/10.1016/j.cell.2019.01.014
 
 The numerical implementation is independent; its scope and differences are described in [MODEL.md](MODEL.md) and [REPRODUCTION_DIAGNOSTICS.md](REPRODUCTION_DIAGNOSTICS.md).
+
+Documentation screenshots in the [separate media release](https://github.com/gyroid-eth/pollenarium/releases/tag/docs-media-v1) contain third-party SEMs and carry the same separate restrictions. See [screenshot credits](docs/SCREENSHOTS.md).

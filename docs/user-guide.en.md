@@ -4,6 +4,10 @@
 
 Pollenarium is an educational lab for observing pollen SEM photographs and generating patterns with mathematical models on a sphere. You decide what resembles the reference. There is no automatic score or identification of biological material properties. The interface currently uses mostly Japanese control labels; their meanings are explained below.
 
+![Pollenarium overview screenshot](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/overview.png)
+
+Actual screen: SEM at left, computed field in the center, conditions at right, saved specimens below. Examples were created for this guide. SEM: H. Halbritter / PalDat. [Image credits](SCREENSHOTS.md).
+
 ## 1. Choose an observation in the atlas
 
 In Observe, select **15点から選ぶ** (“Choose from 15”). Search by scientific name, or filter by protrusions, pits/pores, grooves/bands, networks, or smoothness. **すべて** (“All”) resets the shape filter; clear the search field separately when needed.
@@ -13,6 +17,10 @@ Selecting a photograph updates the image, species, photographer and source in Ob
 Use **実験へ戻る** (“Return to experiment”) or Escape to close. Opening focuses the search field; closing returns focus to the launch button. Use Tab/Shift+Tab to move within the atlas and Enter to select a specimen.
 
 The filters are visual browsing cues. Some pores and grooves are apertures, whose formation is outside these models. Photographs are not displayed at a common physical scale: the selected Iris bucharica image has a 100 µm bar, while the other 14 have 10 µm bars. Read the original scale bar in each image.
+
+![Pollenarium atlas screenshot](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/atlas.png)
+
+Choose from 15 references using scientific names and visual features. SEM: H. Halbritter, W. Oberschneider and B. Diethart / PalDat. [Image credits](SCREENSHOTS.md).
 
 ## 2. Choose a model
 
@@ -46,6 +54,10 @@ Drag the generated sphere to rotate it; use a mouse wheel to zoom. **凹凸の�
 | L and Δt | Retained degree and timestep upper limit; these affect numerical accuracy |
 
 Expand **初期条件・計算の設定** (“Initial conditions and numerical settings”) for detailed controls. Eq. 6 also offers the number of independent starts and an iteration limit. Eq. 7 fixes D=K=1 and u₄=120 in the interface and records them explicitly.
+
+![Pollenarium growth screenshot](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/growth.png)
+
+Eq. 7 example at q₀=1.1, τ=−3, u₃=−8, t=2: an exploratory calculation, not a reproduction of a paper panel. The SEM at left is an independently chosen reference. SEM: W. Oberschneider / PalDat. [Image credits](SCREENSHOTS.md).
 
 ## 4. Keep a specimen
 

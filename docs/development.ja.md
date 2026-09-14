@@ -73,6 +73,10 @@ node tests/etdrk4-continuation.test.mjs
 
 監査スクリプトは管理対象の結果JSONを書き換える場合があるため、再生成後は差分を確認してください。旧1次時間積分の監査データは過去の証拠であり、現行ソルバーの結果ではありません。
 
+![Independent numerical validation of pollen-pattern simulations](../diagnostics/numerical-validation.png)
+
+独自計算による数値検証図。上段は3条件の場の図示、下段は時間刻み・空間解像度・初期スペクトルの比較です。SEM画像は含みません。
+
 ## 記録形式と互換性
 
 記録形式は`pollen-specimen/2`です。`state`にはモデル識別子、全係数、パラメータ、時刻または探索情報が入り、記録には参照情報・表示条件・生成PNGも含まれます。検証処理の正本は`app/storage.mjs`です。

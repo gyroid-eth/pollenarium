@@ -10,3 +10,7 @@
 For the mathematical definitions and evidence, read [the models](../MODEL.md), [design-space coverage](../COVERAGE.md), and [numerical reproduction diagnostics](../REPRODUCTION_DIAGNOSTICS.md). The [bibliography](../REFERENCES.bib) contains the research citations.
 
 The [image rights guide](../references/PALDAT_RIGHTS.md) and [per-image manifest](../references/paldat-manifest.json) describe the separately restricted PalDat photographs. The repository's MIT license does not cover those photographs.
+
+![Searchable atlas of 15 pollen SEM references](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/atlas.png)
+
+*The atlas groups references by visible features. Photographs: H. Halbritter, W. Oberschneider and B. Diethart / PalDat. [Credits and image terms](SCREENSHOTS.md).*

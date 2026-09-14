@@ -5,6 +5,10 @@ Observe real pollen, explore mathematical patterns, and keep your own specimen c
 
 **[Open Pollenarium](https://gyroid-eth.github.io/pollenarium/)** · [日本語ガイド](docs/user-guide.ja.md) · [English guide](docs/user-guide.en.md)
 
+![Pollenarium: observe pollen, explore an equilibrium shape and save specimens](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/overview.png)
+
+*Actual app screen with three example specimens. SEM: H. Halbritter / PalDat. [Screenshot credits and separate image terms](docs/SCREENSHOTS.md).*
+
 - Browse 15 individually credited SEM references in a searchable shape atlas.
 - Explore two distinct models from Radja et al. (2019): restricted equilibrium shapes (Eq. 6) and conserved pattern growth (Eq. 7).
 - Save complete numerical states, conditions, observations and generated snapshots locally; export/import JSON without an account.

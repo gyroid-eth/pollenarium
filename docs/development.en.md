@@ -71,6 +71,10 @@ For numerical changes, compare the same initial coefficient vector at the same p
 
 [The reproduction report](../REPRODUCTION_DIAGNOSTICS.md) documents the reference audit and its commands. `node scripts/prepare_numerical_audit.mjs` prepares fixed initial vectors. Further scripts write substantial output and may take much longer than unit tests. They use `.numerical-audit/` by default; `POLLEN_AUDIT_DIR` selects another scratch directory. The independent Python audit needs NumPy, SciPy and Matplotlib. Reconstructing the diagnostic mesh additionally used FiPy and Gmsh; these are not app/runtime requirements. Audit scripts can overwrite tracked result JSONs, so inspect their diffs before keeping regenerated results. Earlier first-order audit assets are historical evidence, not results of the current solver.
 
+![Independent numerical validation of pollen-pattern simulations](../diagnostics/numerical-validation.png)
+
+Independent numerical validation: three coefficient cases above, time refinement, spatial refinement and initial spectra below. This figure contains no SEM images.
+
 ## Records and compatibility
 
 The record schema is `pollen-specimen/2`. Its `state` includes a model identifier, complete coefficients, parameters and time/search information; the record also includes reference metadata, view and a generated PNG. `app/storage.mjs` is the validation authority.
