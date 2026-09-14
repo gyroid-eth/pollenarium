@@ -22,6 +22,7 @@ jobs:
           python-version: '3.12'
       - name: Numerical tests
         run: |
+          node tests/renderer.test.mjs
           node tests/spectral.test.mjs
           node tests/equilibrium.test.mjs
           node tests/etdrk4.test.mjs
