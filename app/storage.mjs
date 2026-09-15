@@ -1,3 +1,4 @@
+import {validateHeightView}from'./wall-profile.mjs';
 import {MODEL_ID,validateParameters}from'./spectral.mjs';
 import {EQUILIBRIUM_ID,validateEquilibrium}from'./equilibrium.mjs';
 import {ETDRK4_ID}from'./etdrk4.mjs';
@@ -16,7 +17,6 @@ export function validateRecord(r){
  if(typeof r.id!=='string'||typeof r.createdAt!=='string'||typeof r.title!=='string'||typeof r.previewPng!=='string'||!r.previewPng.startsWith('data:image/png;base64,'))throw Error('標本のメタデータが不正です');
  if(r.reference){for(const key of['id','species','requiredCredit'])if(typeof r.reference[key]!=='string')throw Error('参照情報が不正です');for(const key of['publicationUrl','imageUrl'])if(typeof r.reference[key]!=='string'||!r.reference[key].startsWith('https://'))throw Error('参照URLが不正です')}
  for(let k of['angle','tilt','zoom','relief'])if(!Number.isFinite(r.view?.[k]))throw Error('表示条件が不正です');
- if(r.view.peakSharpness!==undefined&&(!Number.isFinite(r.view.peakSharpness)||r.view.peakSharpness<1||r.view.peakSharpness>6))throw Error('突出部の表示条件が不正です');
- if(r.view.valleyDepth!==undefined&&(!Number.isFinite(r.view.valleyDepth)||r.view.valleyDepth<0||r.view.valleyDepth>1))throw Error('谷の表示条件が不正です');return r;
+ validateHeightView(r.view,r.rendering);return r;
 }
 export function downloadRecord(record){const blob=new Blob([JSON.stringify(record,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`specimen-${record.id}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);return blob}

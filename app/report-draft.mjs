@@ -1,3 +1,4 @@
+import{resolveHeightView,PROFILE_HEIGHT_MAPPING}from'./wall-profile.mjs';
 const DEFAULT_REPOSITORY='gyroid-eth/pollenarium';
 
 function compact(value,max=64){
@@ -23,7 +24,8 @@ function markdownValue(value){return value==null||value===''?'—':String(value)
  */
 export function buildReportDraft(record,{similarities='',differences='',repository=DEFAULT_REPOSITORY}={}){
  assertReportable(record,repository);
- const reference=record.reference||null,state=record.state;
+ const reference=record.reference||null,state=record.state,view=resolveHeightView(record.view,record.rendering);
+ const wallMeaning=view.heightMappingVersion===PROFILE_HEIGHT_MAPPING?'足場を領域ごとに正規化した外壁形状。幅は半高位置、先端はメッシュ依存。沈着や成長の物理予測ではありません。':'旧方式の単調な場→半径表示。保存時の見え方を保持。';
  const taxon=reference?.species||'観察標本なし';
  const title=`Pollenarium reproduction candidate — ${compact(reference?.species||state.model)}`;
  const relationship=reference?.paperPreset
@@ -45,6 +47,8 @@ export function buildReportDraft(record,{similarities='',differences='',reposito
   `- 計算の由来: ${markdownValue(record.origin)}`,
   `- presetとの関係: ${relationship}`,
   `- 係数数: ${state.coefficients.length}`,
+  `- 外壁表示方式: ${view.heightMappingVersion}`,
+  `- 形状の意味: ${wallMeaning}`,
   '',
   '## 似ていると思うところ',
   '',

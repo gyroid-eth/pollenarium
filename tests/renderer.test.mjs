@@ -36,3 +36,6 @@ for(const [np,nt] of [[64,32],[512,256]]){
  }
  console.log(`PASS unit finite normals at ${np}x${nt}`);
 }
+
+// Keep the new mapping/record compatibility checks in the existing CI renderer entry.
+await import('./wall-profile.test.mjs');

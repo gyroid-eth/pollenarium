@@ -43,9 +43,15 @@ Integrating Eq. 7 for a long time is not the same as the restricted Eq. 6 equili
 
 Change one parameter at a time to make comparisons easier. Press **停止** (“Stop”) to inspect the current state. Saving is disabled while computing or after you change conditions without recalculating. Follow the status message beside the controls.
 
-Drag the generated sphere to rotate it; use a mouse wheel to zoom. **凹凸の見せ方** controls the geometric presentation of the outer wall. Adjust height, protrusion sharpness and valley depth, or reset the two extra controls to their defaults while retaining the relief height. These settings change the height mapping while retaining the computed field and its spatial pattern; stripes do not become independently placed spines.
+Drag the sphere to rotate it; use a mouse wheel to zoom. Open **外壁の形を調整** in Experiment while keeping the SEM comparison visible.
 
-This is a geometric representation of a possible wall shape, not a simulation of sporopollenin deposition, a physical wall-thickness prediction, or an electron-microscope image model. Display settings are preserved with saved specimens and report JSON, separately from model parameters.
+The new **外壁を成形（A）** mode controls protrusion height, spread, tip rounding and valley depth. Height fixes the sampled maximum in each positive display component. Spread sets a normalized **half-height position**, not the basal footprint. Rounding retains these two calibrated quantities, but intermediate sections and actual angular widths are not completely independent. Valley depth is independent of protrusion height. Some settings produce a basal crease as a property of the chosen geometric profile.
+
+Sharp tips remain sensitive to display tessellation. **高密度** evaluates the same coefficients on a denser display mesh; it does not increase the numerical model resolution. Exact cone apices and curvature are not established at either density. Component normalization also amplifies tiny initial fluctuations: displayed wall height is not the physical amplitude of the computed field.
+
+**旧表示（保存互換）** retains the previous narrowing and relative valley controls, including the loss of height during narrowing. Old specimens restore this legacy mode. **形状設定を元に戻す** resets the selected mode's extra controls while retaining the relief/protrusion height. Missing saved keys use defined defaults, never values left over from the previously viewed specimen.
+
+The physical coefficients remain unchanged. A applies a monotone profile within each positive display component and normalizes its height; it does not replace connected stripes with independently placed spines. This is a phenomenological geometry of the wall after deposition, not a deposition-rate, growth, thickness or SEM-image model. The mapping version, all shape conditions and display density are retained in the specimen and report JSON. The exported PNG is the saved generated view.
 
 | Setting | Meaning |
 | --- | --- |
