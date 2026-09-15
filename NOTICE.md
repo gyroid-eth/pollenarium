@@ -6,7 +6,7 @@ The scientific article, author implementation, and PalDat photographs are **not*
 
 ## Educational reference photographs
 
-The hosted, noncommercial educational demo displays 15 individually credited PalDat SEM photographs under the educational/noncommercial exception in [PalDat’s terms](https://www.paldat.org/info/copyright). These files are fetched separately during the official site build and are not committed to the source repository. Their copyright and usage rights remain with AutPal; commercial use requires prior written permission. Do not relicense them as MIT. See [full image terms and provenance](references/PALDAT_RIGHTS.md).
+The hosted, noncommercial educational demo displays 52 individually credited PalDat SEM photographs under the educational/noncommercial exception in [PalDat’s terms](https://www.paldat.org/info/copyright). These files are fetched separately during the official site build and are not committed to the source repository. Their copyright and usage rights remain with AutPal; commercial use requires prior written permission. Do not relicense them as MIT. See [full image terms and provenance](references/PALDAT_RIGHTS.md).
 
 Credits are attached to every image. Photographers in this collection are H. Halbritter, W. Oberschneider, and B. Diethart. Publication authors and image photographers are recorded separately in [the manifest](references/paldat-manifest.json).
 

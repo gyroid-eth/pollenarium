@@ -10,17 +10,19 @@ Actual screen: SEM at left, computed field in the center, conditions at right, s
 
 ## 1. Choose an observation in the atlas
 
-In Observe, select **15点から選ぶ** (“Choose from 15”). Search by scientific name, Japanese name, or Japanese genus/family label, or filter by protrusions, pits/pores, grooves/bands, networks, or smoothness. **すべて** (“All”) resets the shape filter; clear the search field separately when needed.
+In Observe, select **52点から選ぶ** (“Choose from 52”). Search by scientific or accepted name, Japanese name, or genus/family label, or filter by protrusions, pits/pores, grooves/bands, networks, smoothness, or compound pollen units. **すべて** (“All”) resets the shape filter; clear the search field separately when needed. **論文presetあり** (“Has paper preset”) combines with the shape filter and shows the 33 references linked to Table 1 rows.
 
-Selecting a photograph updates the image, species, photographer and source in Observe. **It does not reset or reconfigure your calculation.** Choose mathematical presets separately in the settings panel. A running calculation continues while the atlas is open, so its field can still evolve. Stop it first if you want to inspect a fixed result.
+Selecting a photograph updates the image, species, Japanese display label, photographer and source in Observe. A Wikipedia link states whether its target is a species, subspecies, genus or family, and whether the article is Japanese or English; genus/family fallbacks are not presented as species articles. **Selecting a photograph does not reset or reconfigure your calculation.** Choose mathematical presets separately in the settings panel. A running calculation continues while the atlas is open, so its field can still evolve. Stop it first if you want to inspect a fixed result.
 
 Use **実験へ戻る** (“Return to experiment”) or Escape to close. Opening focuses the search field; closing returns focus to the launch button. Use Tab/Shift+Tab to move within the atlas and Enter to select a specimen.
 
-The filters are visual browsing cues. Some pores and grooves are apertures, whose formation is outside these models. Photographs are not displayed at a common physical scale: the selected Iris bucharica image has a 100 µm bar, while the other 14 have 10 µm bars. Read the original scale bar in each image.
+The filters are visual browsing cues. Some pores and grooves are apertures, whose formation is outside these models. Photographs are not displayed at a common physical scale: 46 selected images have a 10 µm bar and six have a 100 µm bar. Read the original scale bar in each image.
 
 ![Pollenarium atlas screenshot](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/atlas.png)
 
-Choose from 15 references using scientific names and visual features. SEM: H. Halbritter, W. Oberschneider and B. Diethart / PalDat. [Image credits](SCREENSHOTS.md).
+Choose from 52 references using names, visual features and paper-preset availability. SEM: H. Halbritter, W. Oberschneider and B. Diethart / PalDat. [Image credits](SCREENSHOTS.md).
+
+Table 1 links distinguish exact species, synonym bridges, spelling discrepancies and genus-only records. “Genus only” is not a species match. A link means that the reference taxon corresponds to the preset row; it does not mean those parameters were morphologically fitted to the selected SEM photograph.
 
 Japanese labels supplement scientific names. Where a Japanese species name is unconfirmed or under review, a genus/family group label is shown instead. Name sources are linked from Observe.
 

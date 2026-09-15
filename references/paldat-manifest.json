@@ -1,8 +1,28 @@
 {
-  "rights": "AutPal / photographers. Educational and noncommercial use under PalDat's stated exception; not MIT; no general open-data license asserted.",
-  "checkedOn": "2026-09-14",
+  "schemaVersion": "2.0.0",
+  "checkedOn": "2026-09-15",
+  "updatedAt": "2026-09-15T14:09:23+09:00",
+  "rights": "AutPal picture copyright. PalDat states an educational/other non-commercial exception; commercial use requires prior written permission. Photographer + PalDat attribution required. Not MIT.",
   "terms": "https://www.paldat.org/info/copyright",
-  "usage": "15 individually verified reference images for noncommercial education. Excluded from source Git history; fetched as a separately restricted pack for the official educational demo. No bulk collection.",
+  "usage": "52 individually verified SEM reference images in a separately restricted educational/noncommercial pack. Excluded from source Git history and fetched at build time; no open-license claim.",
+  "counts": {
+    "images": 52,
+    "uniqueTaxa": 52,
+    "paperPresetMatches": 33,
+    "existingManifestRecordsPreserved": 15,
+    "addedRecords": 37,
+    "displayRecommended": 30,
+    "displayReview": 5,
+    "displayNone": 17
+  },
+  "shapeTagsMeaning": {
+    "spines": "突起",
+    "pits": "くぼみ・孔",
+    "bands": "溝・帯",
+    "network": "網目",
+    "smooth": "平滑",
+    "compound-unit": "複合粒（四分子・多分子・気嚢など）"
+  },
   "images": [
     {
       "id": "delonix-regia-302200-2004953",
@@ -35,7 +55,71 @@
       ],
       "observationHintJa": "網目の間隔とつながりを観察。発芽孔や壁の層はモデル外。",
       "checkedOn": "2026-09-14",
-      "scaleMicrometers": 10
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Delonix regia (Bojer ex Hook.) Raf.",
+        "taxonomyUrl": "https://www.gbif.org/species/2956176"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Fabaceae",
+          "japaneseName": "マメ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2956176",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Delonix",
+          "japaneseName": "ホウオウボク属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/gaikokugo/d/Delonix%20regia.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Delonix",
+          "japaneseName": "ホウオウボク属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2956176",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/gaikokugo/d/Delonix%20regia.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ホウオウボク属（マメ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ホウオウボク",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%82%A6%E3%82%AA%E3%82%A6%E3%83%9C%E3%82%AF",
+        "language": "ja",
+        "title": "ホウオウボク",
+        "targetRank": "species",
+        "targetScientificName": "Delonix regia",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": null
     },
     {
       "id": "aristolochia-clematitis-303787-1018467",
@@ -68,7 +152,71 @@
       ],
       "observationHintJa": "全体の滑らかさを観察。写真の微細孔は論文の全体模様のモデル対象外。",
       "checkedOn": "2026-09-14",
-      "scaleMicrometers": 10
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Aristolochia clematitis L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A92841-1"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Aristolochiaceae",
+          "japaneseName": "ウマノスズクサ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A92841-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Aristolochia",
+          "japaneseName": "ウマノスズクサ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://mhlw-grants.niph.go.jp/system/files/2005/058051/200501080A/200501080A0008.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Aristolochia",
+          "japaneseName": "ウマノスズクサ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A92841-1",
+          "japaneseNameEvidence": {
+            "url": "https://mhlw-grants.niph.go.jp/system/files/2005/058051/200501080A/200501080A0008.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ウマノスズクサ属（ウマノスズクサ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ウマノスズクサ属（ウマノスズクサ科）の仲間",
+        "labelType": "group-companion",
+        "basisRank": "genus",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Aristolochia_clematitis",
+        "language": "en",
+        "title": "Aristolochia clematitis",
+        "targetRank": "species",
+        "targetScientificName": "Aristolochia clematitis",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": null
     },
     {
       "id": "berberis-vulgaris-303900-1012963",
@@ -101,7 +249,77 @@
       ],
       "observationHintJa": "螺旋の向きと本数を観察。発芽孔の形成や微細構造はモデル外。",
       "checkedOn": "2026-09-14",
-      "scaleMicrometers": 10
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Berberis vulgaris L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/328527-2"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Berberidaceae",
+          "japaneseName": "メギ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/328527-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Berberis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Berberis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/328527-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "メギ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "メギ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "review",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": "セイヨウメギ"
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%82%A4%E3%83%A8%E3%82%A6%E3%83%A1%E3%82%AE",
+        "language": "ja",
+        "title": "セイヨウメギ",
+        "targetRank": "species",
+        "targetScientificName": "Berberis vulgaris",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 26,
+        "sourceIndex": 25,
+        "inputScientificName": "Berberis vulgaris",
+        "parameters": {
+          "l0": 3.5,
+          "u": 0.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
     },
     {
       "id": "gaillardia-aristata-306220-1013069",
@@ -143,6 +361,82 @@
         "u": 1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Gaillardia aristata Pursh",
+        "taxonomyUrl": "https://www.gbif.org/species/5387859"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Asteraceae",
+          "japaneseName": "キク科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5387859",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Gaillardia",
+          "japaneseName": "テンニンギク属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://www.hinshu2.maff.go.jp/info/sinsakijun/kijun/1293.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Gaillardia",
+          "japaneseName": "テンニンギク属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5387859",
+          "japaneseNameEvidence": {
+            "url": "https://www.hinshu2.maff.go.jp/info/sinsakijun/kijun/1293.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "テンニンギク属（キク科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "オオテンニンギク",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Gaillardia_aristata",
+        "language": "en",
+        "title": "Gaillardia aristata",
+        "targetRank": "species",
+        "targetScientificName": "Gaillardia aristata",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 4,
+        "sourceIndex": 3,
+        "inputScientificName": "Gaillardia aristata",
+        "parameters": {
+          "l0": 10.0,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -186,6 +480,82 @@
         "u": 1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Chenopodium album L.",
+        "taxonomyUrl": "https://www.gbif.org/species/3083838"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3083838",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Chenopodium",
+          "japaneseName": "アカザ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/goosefoot/chenopodium/alb.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Chenopodium",
+          "japaneseName": "アカザ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3083838",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/goosefoot/chenopodium/alb.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "アカザ属（ヒユ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "シロザ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%AD%E3%82%B6",
+        "language": "ja",
+        "title": "シロザ",
+        "targetRank": "species",
+        "targetScientificName": "Chenopodium album",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 3,
+        "sourceIndex": 2,
+        "inputScientificName": "Chenopodium album",
+        "parameters": {
+          "l0": 19.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -229,6 +599,82 @@
         "u": -1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Gomphrena globosa L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/327333-2"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/327333-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Gomphrena",
+          "japaneseName": "センニチコウ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://sakata-tsushin.com/lesson-flower/detail_63/",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Gomphrena",
+          "japaneseName": "センニチコウ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/327333-2",
+          "japaneseNameEvidence": {
+            "url": "https://sakata-tsushin.com/lesson-flower/detail_63/",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "センニチコウ属（ヒユ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "センニチコウ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%B3%E3%83%8B%E3%83%81%E3%82%B3%E3%82%A6",
+        "language": "ja",
+        "title": "センニチコウ",
+        "targetRank": "species",
+        "targetScientificName": "Gomphrena globosa",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 16,
+        "sourceIndex": 15,
+        "inputScientificName": "Gomphrena globosa",
+        "parameters": {
+          "l0": 15.5,
+          "u": -1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -272,6 +718,76 @@
         "u": 1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Alisma lanceolatum With.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1047073-2"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Alismataceae",
+          "japaneseName": "オモダカ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1047073-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Alisma",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Alisma",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1047073-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オモダカ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "オモダカ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Alisma_lanceolatum",
+        "language": "en",
+        "title": "Alisma lanceolatum",
+        "targetRank": "species",
+        "targetScientificName": "Alisma lanceolatum",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 1,
+        "sourceIndex": 0,
+        "inputScientificName": "Alisma lanceolatum",
+        "parameters": {
+          "l0": 9.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -315,6 +831,82 @@
         "u": -1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Phlox drummondii Hook.",
+        "taxonomyUrl": "https://www.gbif.org/species/2927723"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Polemoniaceae",
+          "japaneseName": "ハナシノブ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2927723",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Phlox",
+          "japaneseName": "クサキョウチクトウ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/phlox/polemonium/spp-j.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Phlox",
+          "japaneseName": "クサキョウチクトウ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2927723",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/phlox/polemonium/spp-j.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "クサキョウチクトウ属（ハナシノブ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "キキョウナデシコ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%82%AD%E3%83%A7%E3%82%A6%E3%83%8A%E3%83%87%E3%82%B7%E3%82%B3",
+        "language": "ja",
+        "title": "キキョウナデシコ",
+        "targetRank": "species",
+        "targetScientificName": "Phlox drummondii",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 20,
+        "sourceIndex": 19,
+        "inputScientificName": "Phlox drummondii",
+        "parameters": {
+          "l0": 16.0,
+          "u": -1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -357,6 +949,82 @@
         "u": 0.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Galium album Mill.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/749481-1"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Rubiaceae",
+          "japaneseName": "アカネ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/749481-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Galium",
+          "japaneseName": "ヤエムグラ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://mikawanoyasou.org/data/yaemugura.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Galium",
+          "japaneseName": "ヤエムグラ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/749481-1",
+          "japaneseNameEvidence": {
+            "url": "https://mikawanoyasou.org/data/yaemugura.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ヤエムグラ属（アカネ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ヤエムグラ属（アカネ科）の仲間",
+        "labelType": "group-companion",
+        "basisRank": "genus",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Galium_album",
+        "language": "en",
+        "title": "Galium album",
+        "targetRank": "species",
+        "targetScientificName": "Galium album",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 28,
+        "sourceIndex": 27,
+        "inputScientificName": "Galium album",
+        "parameters": {
+          "l0": 13.5,
+          "u": 0.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -400,6 +1068,76 @@
         "u": 0.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Primula veris L.",
+        "taxonomyUrl": "https://www.gbif.org/species/8377689"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Primulaceae",
+          "japaneseName": "サクラソウ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/8377689",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Primula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Primula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/8377689",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "サクラソウ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "キバナノクリンソウ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Primula_veris",
+        "language": "en",
+        "title": "Primula veris",
+        "targetRank": "species",
+        "targetScientificName": "Primula veris",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": {
+        "row": 29,
+        "sourceIndex": 28,
+        "inputScientificName": "Primula veris",
+        "parameters": {
+          "l0": 8.5,
+          "u": 0.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -443,6 +1181,82 @@
         "u": 1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Iris bucharica Foster",
+        "taxonomyUrl": "https://www.gbif.org/species/5298417"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Iridaceae",
+          "japaneseName": "アヤメ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5298417",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Iris",
+          "japaneseName": "アヤメ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://jpsearch.go.jp/gallery/ndl-ZwlK4987YNP",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Iris",
+          "japaneseName": "アヤメ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5298417",
+          "japaneseNameEvidence": {
+            "url": "https://jpsearch.go.jp/gallery/ndl-ZwlK4987YNP",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "アヤメ属（アヤメ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "アヤメ属（アヤメ科）の仲間",
+        "labelType": "group-companion",
+        "basisRank": "genus",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Iris_bucharica",
+        "language": "en",
+        "title": "Iris bucharica",
+        "targetRank": "species",
+        "targetScientificName": "Iris bucharica",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": {
+        "row": 2,
+        "sourceIndex": 1,
+        "inputScientificName": "Iris bucharica",
+        "parameters": {
+          "l0": 6.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -486,6 +1300,82 @@
         "u": -1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Persicaria mitis (Schrank) Assenov",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77108460-1"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Polygonaceae",
+          "japaneseName": "タデ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77108460-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Persicaria",
+          "japaneseName": "イヌタデ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://chigaku.ed.gifu-u.ac.jp/chigakuhp/html/kyo/seibutsu/syokubutsu/SogoZukan/hishi/tadeka/index.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Persicaria",
+          "japaneseName": "イヌタデ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77108460-1",
+          "japaneseNameEvidence": {
+            "url": "https://chigaku.ed.gifu-u.ac.jp/chigakuhp/html/kyo/seibutsu/syokubutsu/SogoZukan/hishi/tadeka/index.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "イヌタデ属（タデ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "イヌタデ属（タデ科）の仲間",
+        "labelType": "group-companion",
+        "basisRank": "genus",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Persicaria_mitis",
+        "language": "en",
+        "title": "Persicaria mitis",
+        "targetRank": "species",
+        "targetScientificName": "Persicaria mitis",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": {
+        "row": 24,
+        "sourceIndex": 23,
+        "inputScientificName": "Persicaria mitis",
+        "parameters": {
+          "l0": 19.5,
+          "u": -1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -529,6 +1419,76 @@
         "u": -1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Chondrilla juncea L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A328774-2"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Asteraceae",
+          "japaneseName": "キク科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A328774-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Chondrilla",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Chondrilla",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A328774-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "キク科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "エダウチニガナ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Chondrilla_juncea",
+        "language": "en",
+        "title": "Chondrilla juncea",
+        "targetRank": "species",
+        "targetScientificName": "Chondrilla juncea",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": {
+        "row": 21,
+        "sourceIndex": 20,
+        "inputScientificName": "Chondrilla juncea",
+        "parameters": {
+          "l0": 8.0,
+          "u": -1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -571,6 +1531,76 @@
         "u": 1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Bidens pilosa L.",
+        "taxonomyUrl": "https://www.gbif.org/species/5391845"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Asteraceae",
+          "japaneseName": "キク科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5391845",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Bidens",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Bidens",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5391845",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "キク科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "コセンダングサ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Bidens_pilosa",
+        "language": "en",
+        "title": "Bidens pilosa",
+        "targetRank": "species",
+        "targetScientificName": "Bidens pilosa",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": {
+        "row": 5,
+        "sourceIndex": 4,
+        "inputScientificName": "Bidens pilosa",
+        "parameters": {
+          "l0": 14.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
       }
     },
     {
@@ -614,8 +1644,3697 @@
         "u": 1.0,
         "r": -1,
         "limitation": "Same species in Table 1 does not establish the same imaged specimen, rendering, preparation, or a fitted parameter match."
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Aquarius cordifolius (L.) Christenh. & Byng",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A58327-1"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Alismataceae",
+          "japaneseName": "オモダカ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A58327-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Echinodorus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Aquarius",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A58327-1",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オモダカ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "シャゼンオモダカ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Aquarius_cordifolius",
+        "language": "en",
+        "title": "Aquarius cordifolius",
+        "targetRank": "species",
+        "targetScientificName": "Aquarius cordifolius",
+        "matchType": "synonym-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists and explicitly treats Echinodorus cordifolius as the same species"
+      },
+      "paperPreset": {
+        "row": 13,
+        "sourceIndex": 12,
+        "inputScientificName": "Echinodorus cordifolius",
+        "parameters": {
+          "l0": 4.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "synonym-bridge",
+        "morphologyFitClaim": false,
+        "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
       }
+    },
+    {
+      "id": "paldat-iva-xanthiifolia-300563-1207002",
+      "status": "active educational atlas target",
+      "species": "Iva xanthiifolia",
+      "paldatSpecies": "Iva xanthiifolia",
+      "publicationUrl": "https://www.paldat.org/pub/Iva_xanthiifolia/300563",
+      "publicationCitation": "Halbritter H. 2016. Iva xanthiifolia . In: PalDat - A palynological database. /pub/Iva_xanthiifolia/300563; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1207002.jpg",
+      "localPath": "private-reference-media/paldat/iva-xanthiifolia-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view - fresh, rehydration (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "1a71925ea68f2cce04ef024db3a370217542770bba0c77b5d29516f1ad7ac601",
+      "shapeTags": [
+        "spines",
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "突起、溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Euphrosyne xanthiifolia (Nutt.) A.Gray",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A329301-2"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Asteraceae",
+          "japaneseName": "キク科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A329301-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Iva",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Euphrosyne",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A329301-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "キク科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "キク科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "review",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": "フナバシソウ"
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Iva_(plant)",
+        "language": "en",
+        "title": "Iva (plant)",
+        "targetRank": "genus",
+        "targetScientificName": "Iva",
+        "matchType": "source-genus-fallback",
+        "checkedOn": "2026-09-15",
+        "verification": "genus article exists and lists Iva xanthiifolia; no species article confirmed"
+      },
+      "paperPreset": {
+        "row": 6,
+        "sourceIndex": 5,
+        "inputScientificName": "Iva xanthiifolia",
+        "parameters": {
+          "l0": 19.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "synonym-bridge",
+        "morphologyFitClaim": false,
+        "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
+      }
+    },
+    {
+      "id": "paldat-ibicella-lutea-301894-1020381",
+      "status": "active educational atlas target",
+      "species": "Ibicella lutea",
+      "paldatSpecies": "Ibicella lutea",
+      "publicationUrl": "https://www.paldat.org/pub/Ibicella_lutea/301894",
+      "publicationCitation": "Halbritter H. 2016. Ibicella lutea . In: PalDat - A palynological database. /pub/Ibicella_lutea/301894; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1020381.jpg",
+      "localPath": "private-reference-media/paldat/ibicella-lutea-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grains",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "100 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grains - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "1db2d146f4a05c856bb0af60bb607b51e9b3c70709c77917172afd29c002bc39",
+      "shapeTags": [
+        "network"
+      ],
+      "observationHintJa": "網目を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 100,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Ibicella lutea (Lindl.) Van Eselt.",
+        "taxonomyUrl": "https://www.gbif.org/species/3172647"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Martyniaceae",
+          "japaneseName": "ツノゴマ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3172647",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Ibicella",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Ibicella",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3172647",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ツノゴマ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "キバナツノゴマ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%90%E3%83%8A%E3%83%84%E3%83%8E%E3%82%B4%E3%83%9E",
+        "language": "ja",
+        "title": "キバナツノゴマ",
+        "targetRank": "species",
+        "targetScientificName": "Ibicella lutea",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 7,
+        "sourceIndex": 6,
+        "inputScientificName": "Ibicella lutea",
+        "parameters": {
+          "l0": 11.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-cerastium-tomentosum-303812-1010942",
+      "status": "active educational atlas target",
+      "species": "Cerastium tomentosum",
+      "paldatSpecies": "Cerastium tomentosum",
+      "publicationUrl": "https://www.paldat.org/pub/Cerastium_tomentosum/303812",
+      "publicationCitation": "Halbritter H., Auer W. 2020. Cerastium tomentosum . In: PalDat - A palynological database. /pub/Cerastium_tomentosum/303812; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1010942.jpg",
+      "localPath": "private-reference-media/paldat/cerastium-tomentosum-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grain - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "650e1c0ace6f767003d9cb1becdef36f0359d2b802d94086f9ec960e4d0547ea",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Cerastium tomentosum L.",
+        "taxonomyUrl": "https://www.gbif.org/species/3085438"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Caryophyllaceae",
+          "japaneseName": "ナデシコ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3085438",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Cerastium",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Cerastium",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3085438",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ナデシコ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "シロミミナグサ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Cerastium_tomentosum",
+        "language": "en",
+        "title": "Cerastium tomentosum",
+        "targetRank": "species",
+        "targetScientificName": "Cerastium tomentosum",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 8,
+        "sourceIndex": 7,
+        "inputScientificName": "Cerastium tomentosum",
+        "parameters": {
+          "l0": 9.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-alisma-plantago-aquatica-304718-1018267",
+      "status": "active educational atlas target",
+      "species": "Alisma plantago-aquatica",
+      "paldatSpecies": "Alisma plantago-aquatica",
+      "publicationUrl": "https://www.paldat.org/pub/Alisma_plantago-aquatica/304718",
+      "publicationCitation": "Halbritter H., Heigl H. 2020. Alisma plantago-aquatica . In: PalDat - A palynological database. /pub/Alisma_plantago-aquatica/304718; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1018267.jpg",
+      "localPath": "private-reference-media/paldat/alisma-plantago-aquatica-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grain - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "4ee18f9cd20b68c2be6aee84020ebdf2a39dacb3816a2797bdc91b77cd79cb1a",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Alisma plantago-aquatica L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30019518-2"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Alismataceae",
+          "japaneseName": "オモダカ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30019518-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Alisma",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Alisma",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30019518-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オモダカ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "オモダカ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "review",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": "サジオモダカ"
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%B8%E3%82%AA%E3%83%A2%E3%83%80%E3%82%AB",
+        "language": "ja",
+        "title": "サジオモダカ",
+        "targetRank": "species",
+        "targetScientificName": "Alisma plantago-aquatica",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 9,
+        "sourceIndex": 8,
+        "inputScientificName": "Alisma plantago-aquatica",
+        "parameters": {
+          "l0": 8.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-amaranthus-blitum-307024-2001192",
+      "status": "active educational atlas target",
+      "species": "Amaranthus blitum",
+      "paldatSpecies": "Amaranthus blitum",
+      "publicationUrl": "https://www.paldat.org/pub/Amaranthus_blitum/307024",
+      "publicationCitation": "Halbritter H., Oberleitner S. 2026. Amaranthus blitum . In: PalDat - A palynological database. /pub/Amaranthus_blitum/307024; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/2001192.jpg",
+      "localPath": "private-reference-media/paldat/amaranthus-blitum-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen in loculus",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        531
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen in loculus - dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "1290ff506dc2a36c59ffbec15986e23de647c848a48a53f5f6a35d5917a12aeb",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Amaranthus blitum L.",
+        "taxonomyUrl": "https://www.gbif.org/species/8911082"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/8911082",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Amaranthus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Amaranthus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/8911082",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ヒユ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "イヌビユ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%8C%E3%83%93%E3%83%A6",
+        "language": "ja",
+        "title": "イヌビユ",
+        "targetRank": "species",
+        "targetScientificName": "Amaranthus blitum",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 10,
+        "sourceIndex": 9,
+        "inputScientificName": "Amaranthus blitum",
+        "parameters": {
+          "l0": 12.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-phyllanthus-sp-302971-1017792",
+      "status": "active educational atlas target",
+      "species": "Phyllanthus sp.",
+      "paldatSpecies": "Phyllanthus spec",
+      "publicationUrl": "https://www.paldat.org/pub/Phyllanthus_spec/302971",
+      "publicationCitation": "Halbritter H. 2017. Phyllanthus spec . In: PalDat - A palynological database. /pub/Phyllanthus_spec/302971; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1017792.jpg",
+      "localPath": "private-reference-media/paldat/phyllanthus-sp-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grains",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grains - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "e03262461aa202a3c0aaebb6648bfe99796b31c6ef4b994202f685f5645b307b",
+      "shapeTags": [
+        "network",
+        "pits"
+      ],
+      "observationHintJa": "網目、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "genus-unspecified",
+        "inputStatus": "incomplete-identification",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.gbif.org/species/search?q=Phyllanthus"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Phyllanthaceae",
+          "japaneseName": "コミカンソウ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/search?q=Phyllanthus",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Phyllanthus",
+          "japaneseName": "コミカンソウ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://www1.ous.ac.jp/garden/hada/plantsdic/angiospermae/dicotyledoneae/choripetalae/euphorbiaceae/komikansou/komikansou.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Phyllanthus",
+          "japaneseName": "コミカンソウ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/search?q=Phyllanthus",
+          "japaneseNameEvidence": {
+            "url": "https://www1.ous.ac.jp/garden/hada/plantsdic/angiospermae/dicotyledoneae/choripetalae/euphorbiaceae/komikansou/komikansou.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "コミカンソウ属（コミカンソウ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "コミカンソウ属（コミカンソウ科）の仲間",
+        "labelType": "group-companion",
+        "basisRank": "genus",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%9F%E3%82%AB%E3%83%B3%E3%82%BD%E3%82%A6%E5%B1%9E",
+        "language": "ja",
+        "title": "コミカンソウ属",
+        "targetRank": "genus",
+        "targetScientificName": "Phyllanthus",
+        "matchType": "genus-fallback",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 11,
+        "sourceIndex": 10,
+        "inputScientificName": "Phyllanthus sp.",
+        "parameters": {
+          "l0": 11.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "genus-only",
+        "morphologyFitClaim": false,
+        "note": "Input is genus-only; PalDat source is likewise unidentified at species level (Phyllanthus spec)."
+      }
+    },
+    {
+      "id": "paldat-echinodorus-quadricostatus-301458-1010643",
+      "status": "active educational atlas target",
+      "species": "Echinodorus quadricostatus",
+      "paldatSpecies": "Echinodorus quadricostatus",
+      "publicationUrl": "https://www.paldat.org/pub/Echinodorus_quadricostatus/301458",
+      "publicationCitation": "Halbritter H. 2016. Echinodorus quadricostatus . In: PalDat - A palynological database. /pub/Echinodorus_quadricostatus/301458; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1010643.jpg",
+      "localPath": "private-reference-media/paldat/echinodorus-quadricostatus-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grain - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "6a1477e678fde1634b0f5f27f5f45b1d0de0b90a270f7d7897036ce2e848c643",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Helanthium bolivianum (Rusby) Lehtonen & Myllys",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A88205-2"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Alismataceae",
+          "japaneseName": "オモダカ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A88205-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Echinodorus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Helanthium",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A88205-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オモダカ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "オモダカ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Helanthium_bolivianum",
+        "language": "en",
+        "title": "Helanthium bolivianum",
+        "targetRank": "species",
+        "targetScientificName": "Helanthium bolivianum",
+        "matchType": "synonym-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 12,
+        "sourceIndex": 11,
+        "inputScientificName": "Echinodorus quadricostatus",
+        "parameters": {
+          "l0": 8.0,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "synonym-bridge",
+        "morphologyFitClaim": false,
+        "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
+      }
+    },
+    {
+      "id": "paldat-sarcococca-hookeriana-302191-1019121",
+      "status": "active educational atlas target",
+      "species": "Sarcococca hookeriana",
+      "paldatSpecies": "Sarcococca hookeriana",
+      "publicationUrl": "https://www.paldat.org/pub/Sarcococca_hookeriana/302191",
+      "publicationCitation": "Halbritter H., Buchner R. 2016. Sarcococca hookeriana . In: PalDat - A palynological database. /pub/Sarcococca_hookeriana/302191; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1019121.jpg",
+      "localPath": "private-reference-media/paldat/sarcococca-hookeriana-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grain - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "2f51a037095487efe0c8c5a715e769856a8895cdc34e0cfe86006a52e4338835",
+      "shapeTags": [
+        "network",
+        "pits"
+      ],
+      "observationHintJa": "網目、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Sarcococca hookeriana Baill.",
+        "taxonomyUrl": "https://www.gbif.org/species/3988140"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Buxaceae",
+          "japaneseName": "ツゲ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3988140",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Sarcococca",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Sarcococca",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3988140",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ツゲ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ヒマラヤサルココッカ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Sarcococca_hookeriana",
+        "language": "en",
+        "title": "Sarcococca hookeriana",
+        "targetRank": "species",
+        "targetScientificName": "Sarcococca hookeriana",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 14,
+        "sourceIndex": 13,
+        "inputScientificName": "Sarcococca hookeriana",
+        "parameters": {
+          "l0": 9.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-polemonium-pauciflorum-300157-2000812",
+      "status": "active educational atlas target",
+      "species": "Polemonium pauciflorum",
+      "paldatSpecies": "Polemonium pauciflorum",
+      "publicationUrl": "https://www.paldat.org/pub/Polemonium_pauciflorum/300157",
+      "publicationCitation": "Halbritter H. 2015. Polemonium pauciflorum . In: PalDat - A palynological database. /pub/Polemonium_pauciflorum/300157; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/2000812.jpg",
+      "localPath": "private-reference-media/paldat/polemonium-pauciflorum-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        531
+      ],
+      "scaleBar": "100 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen - dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "2a9549d90818bcbde5e2f488e4bfbb9ffaded5d54dc361b9c2d8f2437e4cc453",
+      "shapeTags": [
+        "network",
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "網目、突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 100,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Polemonium pauciflorum S.Watson",
+        "taxonomyUrl": "https://www.gbif.org/species/2927864"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Polemoniaceae",
+          "japaneseName": "ハナシノブ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2927864",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Polemonium",
+          "japaneseName": "ハナシノブ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/phlox/polemonium/spp-j.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Polemonium",
+          "japaneseName": "ハナシノブ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2927864",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/phlox/polemonium/spp-j.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ハナシノブ属（ハナシノブ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ハナシノブ属（ハナシノブ科）の仲間",
+        "labelType": "group-companion",
+        "basisRank": "genus",
+        "status": "review",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": "キバナハナシノブ"
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Polemonium_pauciflorum",
+        "language": "en",
+        "title": "Polemonium pauciflorum",
+        "targetRank": "species",
+        "targetScientificName": "Polemonium pauciflorum",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": {
+        "row": 15,
+        "sourceIndex": 14,
+        "inputScientificName": "Polemonium pauciflorum",
+        "parameters": {
+          "l0": 20.5,
+          "u": 1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-pfaffia-tuberosa-301467-1016761",
+      "status": "active educational atlas target",
+      "species": "Pfaffia tuberosa",
+      "paldatSpecies": "Pfaffia tuberosa",
+      "publicationUrl": "https://www.paldat.org/pub/Pfaffia_tuberosa/301467",
+      "publicationCitation": "Halbritter H. 2016. Pfaffia tuberosa . In: PalDat - A palynological database. /pub/Pfaffia_tuberosa/301467; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1016761.jpg",
+      "localPath": "private-reference-media/paldat/pfaffia-tuberosa-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grain - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、溝・帯を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "ff7cf6b85eaf0bc2794ac472fc364254f42d8e87bb87605b06bbecfab50c852f",
+      "shapeTags": [
+        "spines",
+        "bands"
+      ],
+      "observationHintJa": "突起、溝や帯を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Pfaffia tuberosa (Spreng.) Hicken",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1219488-2"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1219488-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Pfaffia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Pfaffia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1219488-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ヒユ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ヒユ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Amaranthaceae",
+        "language": "en",
+        "title": "Amaranthaceae",
+        "targetRank": "family",
+        "targetScientificName": "Amaranthaceae",
+        "matchType": "family-fallback",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 17,
+        "sourceIndex": 16,
+        "inputScientificName": "Pfaffia tuberosa",
+        "parameters": {
+          "l0": 12.0,
+          "u": -1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-kallstroemia-maxima-300241-2001427",
+      "status": "active educational atlas target",
+      "species": "Kallstroemia maxima",
+      "paldatSpecies": "Kallstroemia maxima",
+      "publicationUrl": "https://www.paldat.org/pub/Kallstroemia_maxima/300241",
+      "publicationCitation": "Halbritter H., Weis B. 2015. Kallstroemia maxima . In: PalDat - A palynological database. /pub/Kallstroemia_maxima/300241; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/2001427.jpg",
+      "localPath": "private-reference-media/paldat/kallstroemia-maxima-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen - dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "22a02ab65c3f67d1504a38d79127126c0a27a7b4d1853dc943aeafc8ceb2393f",
+      "shapeTags": [
+        "network",
+        "pits"
+      ],
+      "observationHintJa": "網目、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Kallstroemia maxima (L.) Hook. & Arn.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77076481-1"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Zygophyllaceae",
+          "japaneseName": "ハマビシ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77076481-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Kallstroemia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Kallstroemia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77076481-1",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ハマビシ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ハマビシ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Kallstroemia",
+        "language": "en",
+        "title": "Kallstroemia",
+        "targetRank": "genus",
+        "targetScientificName": "Kallstroemia",
+        "matchType": "genus-fallback",
+        "checkedOn": "2026-09-15",
+        "verification": "genus article exists and lists Kallstroemia maxima; no species article confirmed"
+      },
+      "paperPreset": {
+        "row": 18,
+        "sourceIndex": 17,
+        "inputScientificName": "Kallstroemia maxima",
+        "parameters": {
+          "l0": 16.5,
+          "u": -1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-ipomoea-cholulensis-300397-1213902",
+      "status": "active educational atlas target",
+      "species": "Ipomoea cholulensis",
+      "paldatSpecies": "Ipomoea cholulensis",
+      "publicationUrl": "https://www.paldat.org/pub/Ipomoea_cholulensis/300397",
+      "publicationCitation": "Halbritter H., Buchner R. 2016. Ipomoea cholulensis . In: PalDat - A palynological database. /pub/Ipomoea_cholulensis/300397; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1213902.jpg",
+      "localPath": "private-reference-media/paldat/ipomoea-cholulensis-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "100 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grain - fresh, rehydration (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、突起、溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "9b5c3c7a4ca210239581ada919d19bddb09fe0b7b98114614e405dd7b5be3121",
+      "shapeTags": [
+        "network",
+        "spines",
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "網目、突起、溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 100,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Ipomoea cholulensis Kunth",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A268637-1"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Convolvulaceae",
+          "japaneseName": "ヒルガオ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A268637-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Ipomoea",
+          "japaneseName": "サツマイモ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://www.maff.go.jp/j/syouan/keneki/kikaku/attach/pdf/pra_table2-27.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Ipomoea",
+          "japaneseName": "サツマイモ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A268637-1",
+          "japaneseNameEvidence": {
+            "url": "https://www.maff.go.jp/j/syouan/keneki/kikaku/attach/pdf/pra_table2-27.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "サツマイモ属（ヒルガオ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "サツマイモ属（ヒルガオ科）の仲間",
+        "labelType": "group-companion",
+        "basisRank": "genus",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Ipomoea",
+        "language": "en",
+        "title": "Ipomoea",
+        "targetRank": "genus",
+        "targetScientificName": "Ipomoea",
+        "matchType": "genus-fallback",
+        "checkedOn": "2026-09-15",
+        "verification": "genus article exists; species appears only in a list article, so genus link used"
+      },
+      "paperPreset": {
+        "row": 22,
+        "sourceIndex": 21,
+        "inputScientificName": "Ipomoea cholulensis",
+        "parameters": {
+          "l0": 19.5,
+          "u": -1.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-pfaffia-gnaphaloides-301466-1016767",
+      "status": "active educational atlas target",
+      "species": "Pfaffia gnaphaloides",
+      "paldatSpecies": "Pfaffia gnaphaloides",
+      "publicationUrl": "https://www.paldat.org/pub/Pfaffia_gnaphaloides/301466",
+      "publicationCitation": "Halbritter H. 2016. Pfaffia gnaphaloides . In: PalDat - A palynological database. /pub/Pfaffia_gnaphaloides/301466; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1016767.jpg",
+      "localPath": "private-reference-media/paldat/pfaffia-gnaphaloides-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grain - fresh, DMP & critical point dried",
+      "learningFocus": "突起、溝・帯を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "6676dc87e7379222ed6aa7dfde00bbe017a682967efab403cef77eb29c016fa6",
+      "shapeTags": [
+        "spines",
+        "bands"
+      ],
+      "observationHintJa": "突起、溝や帯を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "spelling-discrepancy",
+        "acceptedScientificName": "Pfaffia gnaphalioides (L.f.) Mart.",
+        "taxonomyUrl": "https://powo.science.kew.org/results?q=Pfaffia%20gnaphalioides"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/results?q=Pfaffia%20gnaphalioides",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Pfaffia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Pfaffia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/results?q=Pfaffia%20gnaphalioides",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ヒユ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ヒユ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Amaranthaceae",
+        "language": "en",
+        "title": "Amaranthaceae",
+        "targetRank": "family",
+        "targetScientificName": "Amaranthaceae",
+        "matchType": "family-fallback",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": {
+        "row": 23,
+        "sourceIndex": 22,
+        "inputScientificName": "Pfaffia gnaphaloides",
+        "parameters": {
+          "l0": 10.0,
+          "u": -1.0,
+          "r": -1
+        },
+        "matchClass": "spelling-discrepancy",
+        "morphologyFitClaim": false,
+        "note": "PalDat/input spelling differs from POWO accepted spelling Pfaffia gnaphalioides; original input retained."
+      }
+    },
+    {
+      "id": "paldat-bougainvillea-sp-302972-1017988",
+      "status": "active educational atlas target",
+      "species": "Bougainvillea sp.",
+      "paldatSpecies": "Bougainvillea sp",
+      "publicationUrl": "https://www.paldat.org/pub/Bougainvillea_sp/302972",
+      "publicationCitation": "Halbritter H. 2017. Bougainvillea sp . In: PalDat - A palynological database. /pub/Bougainvillea_sp/302972; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1017988.jpg",
+      "localPath": "private-reference-media/paldat/bougainvillea-sp-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen,polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen, polar view - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、突起、溝・帯を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "1ee2b358b37dca02287fe609985fa0b7b358a9a6325cdd5fd6fa4d7e71b41d83",
+      "shapeTags": [
+        "network",
+        "spines",
+        "bands"
+      ],
+      "observationHintJa": "網目、突起、溝や帯を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "genus-unspecified",
+        "inputStatus": "incomplete-identification",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.gbif.org/species/search?q=Bougainvillea"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Nyctaginaceae",
+          "japaneseName": "オシロイバナ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/search?q=Bougainvillea",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Bougainvillea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Bougainvillea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/search?q=Bougainvillea",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オシロイバナ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "オシロイバナ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Bougainvillea",
+        "language": "en",
+        "title": "Bougainvillea",
+        "targetRank": "genus",
+        "targetScientificName": "Bougainvillea",
+        "matchType": "genus-source-record",
+        "checkedOn": "2026-09-15",
+        "verification": "genus article exists; source record is not identified to species"
+      },
+      "paperPreset": {
+        "row": 25,
+        "sourceIndex": 24,
+        "inputScientificName": "Bougainvillea sp.",
+        "parameters": {
+          "l0": 17.5,
+          "u": -1.0,
+          "r": -1
+        },
+        "matchClass": "genus-only",
+        "morphologyFitClaim": false,
+        "note": "Input and PalDat record are genus-only; not a species identification."
+      }
+    },
+    {
+      "id": "paldat-galium-wirtgenii-301588-1013546",
+      "status": "active educational atlas target",
+      "species": "Galium wirtgenii",
+      "paldatSpecies": "Galium wirtgenii",
+      "publicationUrl": "https://www.paldat.org/pub/Galium_wirtgenii/301588",
+      "publicationCitation": "Halbritter H. 2016. Galium wirtgenii . In: PalDat - A palynological database. /pub/Galium_wirtgenii/301588; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1013546.jpg",
+      "localPath": "private-reference-media/paldat/galium-wirtgenii-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "baf01d8425b8f92c789eb9975641457ef46485e6138bf2af747fb2b64a609eb3",
+      "shapeTags": [
+        "spines",
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "突起、溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "subspecies",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Galium verum subsp. wirtgenii (F.W.Schultz) Oborny",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77189685-1"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Rubiaceae",
+          "japaneseName": "アカネ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77189685-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Galium",
+          "japaneseName": "ヤエムグラ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://mikawanoyasou.org/data/yaemugura.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Galium",
+          "japaneseName": "ヤエムグラ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77189685-1",
+          "japaneseNameEvidence": {
+            "url": "https://mikawanoyasou.org/data/yaemugura.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ヤエムグラ属（アカネ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ヤエムグラ属（アカネ科）の仲間",
+        "labelType": "group-companion",
+        "basisRank": "genus",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Galium",
+        "language": "en",
+        "title": "Galium",
+        "targetRank": "genus",
+        "targetScientificName": "Galium",
+        "matchType": "genus-fallback",
+        "checkedOn": "2026-09-15",
+        "verification": "genus article exists; no species article confirmed"
+      },
+      "paperPreset": {
+        "row": 27,
+        "sourceIndex": 26,
+        "inputScientificName": "Galium wirtgenii",
+        "parameters": {
+          "l0": 8.5,
+          "u": 0.0,
+          "r": -1
+        },
+        "matchClass": "synonym-bridge",
+        "morphologyFitClaim": false,
+        "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
+      }
+    },
+    {
+      "id": "paldat-arnebia-pulchra-300934-1208795",
+      "status": "active educational atlas target",
+      "species": "Arnebia pulchra",
+      "paldatSpecies": "Arnebia pulchra",
+      "publicationUrl": "https://www.paldat.org/pub/Arnebia_pulchra/300934",
+      "publicationCitation": "Halbritter H., Buchner R. 2016. Arnebia pulchra . In: PalDat - A palynological database. /pub/Arnebia_pulchra/300934; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1208795.jpg",
+      "localPath": "private-reference-media/paldat/arnebia-pulchra-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grains",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grains - fresh, rehydration (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、溝・帯、孔・くぼみ、平滑面を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "d0e45c693e27b2ca52fb45d72b9cecfd757126fdd866face7da1ccad30cf42e3",
+      "shapeTags": [
+        "spines",
+        "bands",
+        "pits",
+        "smooth"
+      ],
+      "observationHintJa": "突起、溝や帯、孔やくぼみ、平滑な表面を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Huynhia pulchra (Willd. ex Roem. & Schult.) Greuter & Burdet",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A113481-1"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Boraginaceae",
+          "japaneseName": "ムラサキ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A113481-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Arnebia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Huynhia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A113481-1",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ムラサキ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ムラサキ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Arnebia",
+        "language": "en",
+        "title": "Arnebia",
+        "targetRank": "genus",
+        "targetScientificName": "Arnebia",
+        "matchType": "source-genus-fallback",
+        "checkedOn": "2026-09-15",
+        "verification": "source-name genus article exists; no species or accepted-genus article confirmed"
+      },
+      "paperPreset": {
+        "row": 30,
+        "sourceIndex": 29,
+        "inputScientificName": "Arnebia pulchra",
+        "parameters": {
+          "l0": 13.5,
+          "u": 0.0,
+          "r": -1
+        },
+        "matchClass": "synonym-bridge",
+        "morphologyFitClaim": false,
+        "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
+      }
+    },
+    {
+      "id": "paldat-diascia-barberae-300642-2002463",
+      "status": "active educational atlas target",
+      "species": "Diascia barberae",
+      "paldatSpecies": "Diascia barberae",
+      "publicationUrl": "https://www.paldat.org/pub/Diascia_barberae/300642",
+      "publicationCitation": "Halbritter H. 2016. Diascia barberae . In: PalDat - A palynological database. /pub/Diascia_barberae/300642; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/2002463.jpg",
+      "localPath": "private-reference-media/paldat/diascia-barberae-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen - dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "5291586122141f0032a42ea68555b13b8250f41e43777340199c68e547b81529",
+      "shapeTags": [
+        "network",
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "網目、溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Diascia barberae Hook.f.",
+        "taxonomyUrl": "https://www.gbif.org/species/5559593"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Scrophulariaceae",
+          "japaneseName": "ゴマノハグサ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5559593",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Diascia",
+          "japaneseName": "ディアスキア属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/souhon2/shousai2/na-gyou/ni/nikakusou/nikakusou.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Diascia",
+          "japaneseName": "ディアスキア属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5559593",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/souhon2/shousai2/na-gyou/ni/nikakusou/nikakusou.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ディアスキア属（ゴマノハグサ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ニカクソウ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Diascia_(plant)",
+        "language": "en",
+        "title": "Diascia (plant)",
+        "targetRank": "genus",
+        "targetScientificName": "Diascia",
+        "matchType": "genus-fallback",
+        "checkedOn": "2026-09-15",
+        "verification": "genus article exists and lists Diascia barberae; no species article confirmed"
+      },
+      "paperPreset": {
+        "row": 31,
+        "sourceIndex": 30,
+        "inputScientificName": "Diascia barberae",
+        "parameters": {
+          "l0": 12.5,
+          "u": 0.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-utricularia-sandersonii-302898-1010109",
+      "status": "active educational atlas target",
+      "species": "Utricularia sandersonii",
+      "paldatSpecies": "Utricularia sandersonii",
+      "publicationUrl": "https://www.paldat.org/pub/Utricularia_sandersonii/302898",
+      "publicationCitation": "Halbritter H., Buchner R. 2016. Utricularia sandersonii . In: PalDat - A palynological database. /pub/Utricularia_sandersonii/302898; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1010109.jpg",
+      "localPath": "private-reference-media/paldat/utricularia-sandersonii-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grains",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grains - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "d04daca51d184fc325f38a52ef6b27f5b44c18b406ec5d46567266092a1900e9",
+      "shapeTags": [
+        "spines",
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "突起、溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Utricularia sandersonii Oliv.",
+        "taxonomyUrl": "https://redlist.sanbi.org/species.php?species=3467-27",
+        "additionalEvidenceUrls": [
+          "https://redlist.sanbi.org/species.php?species=3467-27"
+        ]
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Lentibulariaceae",
+          "japaneseName": "タヌキモ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://redlist.sanbi.org/species.php?species=3467-27",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Utricularia",
+          "japaneseName": "タヌキモ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/souhon2/shousai2/a-gyou/u/usagigoke/usagigoke.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Utricularia",
+          "japaneseName": "タヌキモ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://redlist.sanbi.org/species.php?species=3467-27",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/souhon2/shousai2/a-gyou/u/usagigoke/usagigoke.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "タヌキモ属（タヌキモ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "タヌキモ属（タヌキモ科）の仲間",
+        "labelType": "group-companion",
+        "basisRank": "genus",
+        "status": "review",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": "ウサギゴケ"
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%B5%E3%82%AE%E3%82%B4%E3%82%B1",
+        "language": "ja",
+        "title": "ウサギゴケ",
+        "targetRank": "species",
+        "targetScientificName": "Utricularia sandersonii",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "Japanese article opened; taxobox and text directly identify Utricularia sandersonii"
+      },
+      "paperPreset": {
+        "row": 32,
+        "sourceIndex": 31,
+        "inputScientificName": "Utricularia sandersonii",
+        "parameters": {
+          "l0": 13.5,
+          "u": 0.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-sarracenia-flava-302598-1012518",
+      "status": "active educational atlas target",
+      "species": "Sarracenia flava",
+      "paldatSpecies": "Sarracenia flava",
+      "publicationUrl": "https://www.paldat.org/pub/Sarracenia_flava/302598",
+      "publicationCitation": "Halbritter H., Buchner R. 2016. Sarracenia flava . In: PalDat - A palynological database. /pub/Sarracenia_flava/302598; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1012518.jpg",
+      "localPath": "private-reference-media/paldat/sarracenia-flava-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "535d70706d466fe37461557fd121435666cbda85cb069114ec27430f366c02b9",
+      "shapeTags": [
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Sarracenia flava L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30118747-2"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Sarraceniaceae",
+          "japaneseName": "サラセニア科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30118747-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Sarracenia",
+          "japaneseName": "ヘイシソウ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/pitcher/sarracenia/spp.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Sarracenia",
+          "japaneseName": "ヘイシソウ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30118747-2",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/pitcher/sarracenia/spp.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ヘイシソウ属（サラセニア科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "キバナヘイシソウ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Sarracenia_flava",
+        "language": "en",
+        "title": "Sarracenia flava",
+        "targetRank": "species",
+        "targetScientificName": "Sarracenia flava",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": {
+        "row": 33,
+        "sourceIndex": 32,
+        "inputScientificName": "Sarracenia flava",
+        "parameters": {
+          "l0": 13.5,
+          "u": 0.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-primula-elatior-306329-1016160",
+      "status": "active educational atlas target",
+      "species": "Primula elatior",
+      "paldatSpecies": "Primula elatior",
+      "publicationUrl": "https://www.paldat.org/pub/Primula_elatior/306329",
+      "publicationCitation": "Halbritter H., Heigl H., Auer W. 2021. Primula elatior . In: PalDat - A palynological database. /pub/Primula_elatior/306329; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1016160.jpg",
+      "localPath": "private-reference-media/paldat/primula-elatior-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "slightly oblique polar view; 7 colpi",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "slightly oblique polar view; 7 colpi - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、溝・帯を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "f573d1873d37d47409eead173c6e2a37c1a5dd5caa6a695d1591c7abe5ed5369",
+      "shapeTags": [
+        "network",
+        "bands"
+      ],
+      "observationHintJa": "網目、溝や帯を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Primula elatior (L.) Hill",
+        "taxonomyUrl": "https://www.gbif.org/species/5414326"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Primulaceae",
+          "japaneseName": "サクラソウ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5414326",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Primula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Primula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5414326",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "サクラソウ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "セイタカサクラソウ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Primula_elatior",
+        "language": "en",
+        "title": "Primula elatior",
+        "targetRank": "species",
+        "targetScientificName": "Primula elatior",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": {
+        "row": 34,
+        "sourceIndex": 33,
+        "inputScientificName": "Primula elatior",
+        "parameters": {
+          "l0": 12.5,
+          "u": 0.0,
+          "r": -1
+        },
+        "matchClass": "exact-species",
+        "morphologyFitClaim": false,
+        "note": null
+      }
+    },
+    {
+      "id": "paldat-ginkgo-biloba-305256-1019745",
+      "status": "active educational atlas target",
+      "species": "Ginkgo biloba",
+      "paldatSpecies": "Ginkgo biloba",
+      "publicationUrl": "https://www.paldat.org/pub/Ginkgo_biloba/305256",
+      "publicationCitation": "Halbritter H., Heigl H. 2021. Ginkgo biloba . In: PalDat - A palynological database. /pub/Ginkgo_biloba/305256; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1019745.jpg",
+      "localPath": "private-reference-media/paldat/ginkgo-biloba-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view (distal)",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view (distal) - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "溝・帯を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "da5460d11b5544d7fc8cd7e8f57254780fe652463cdfaac67c6672e0a1fc3135",
+      "shapeTags": [
+        "bands"
+      ],
+      "observationHintJa": "溝や帯を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Ginkgo_biloba/305256"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Ginkgoaceae",
+          "japaneseName": "イチョウ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Ginkgo_biloba/305256",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Ginkgo",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "イチョウ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "イチョウ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%A7%E3%82%A6",
+        "language": "ja",
+        "title": "イチョウ",
+        "targetRank": "species",
+        "targetScientificName": "Ginkgo biloba",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "Japanese article opened; taxobox and text directly identify Ginkgo biloba"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-pinus-sylvestris-306147-1011552",
+      "status": "active educational atlas target",
+      "species": "Pinus sylvestris",
+      "paldatSpecies": "Pinus sylvestris",
+      "publicationUrl": "https://www.paldat.org/pub/Pinus_sylvestris/306147",
+      "publicationCitation": "Halbritter H., Heigl H., Auer W. 2021. Pinus sylvestris . In: PalDat - A palynological database. /pub/Pinus_sylvestris/306147; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1011552.jpg",
+      "localPath": "private-reference-media/paldat/pinus-sylvestris-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar distal view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar distal view - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみ、複合花粉単位を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "f2b61f3e478ab6112c84b43a84399bb83aab5d1f5dde0ca50b15d2e74b9cad6f",
+      "shapeTags": [
+        "spines",
+        "pits",
+        "compound-unit"
+      ],
+      "observationHintJa": "突起、孔やくぼみ、単粒ではないまとまりを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Pinus_sylvestris/306147"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Pinaceae",
+          "japaneseName": "マツ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Pinus_sylvestris/306147",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Pinus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "マツ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ヨーロッパアカマツ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%BC%E3%83%AD%E3%83%83%E3%83%91%E3%82%A2%E3%82%AB%E3%83%9E%E3%83%84",
+        "language": "ja",
+        "title": "ヨーロッパアカマツ",
+        "targetRank": "species",
+        "targetScientificName": "Pinus sylvestris",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "Japanese article opened; taxobox and text directly identify Pinus sylvestris"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-nymphaea-alba-306292-1010002",
+      "status": "active educational atlas target",
+      "species": "Nymphaea alba",
+      "paldatSpecies": "Nymphaea alba",
+      "publicationUrl": "https://www.paldat.org/pub/Nymphaea_alba/306292",
+      "publicationCitation": "Halbritter H., Heigl H., Auer W., Svojtka M. 2021. Nymphaea alba . In: PalDat - A palynological database. /pub/Nymphaea_alba/306292; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1010002.jpg",
+      "localPath": "private-reference-media/paldat/nymphaea-alba-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grains",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grains - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "80ccbde58dceead596fb1d78841d61ed4c2bb1163769970224d54e593ef5c961",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Nymphaea_alba/306292"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Nymphaeaceae",
+          "japaneseName": "スイレン科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Nymphaea_alba/306292",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Nymphaea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "スイレン科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "セイヨウスイレン",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Nymphaea_alba",
+        "language": "en",
+        "title": "Nymphaea alba",
+        "targetRank": "species",
+        "targetScientificName": "Nymphaea alba",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-lilium-martagon-304746-1015497",
+      "status": "active educational atlas target",
+      "species": "Lilium martagon",
+      "paldatSpecies": "Lilium martagon",
+      "publicationUrl": "https://www.paldat.org/pub/Lilium_martagon/304746",
+      "publicationCitation": "Halbritter H., Heigl H., Svojtka M. 2020. Lilium martagon . In: PalDat - A palynological database. /pub/Lilium_martagon/304746; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1015497.jpg",
+      "localPath": "private-reference-media/paldat/lilium-martagon-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view (distal)",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view (distal) - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、溝・帯を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "718b8080d8d7469e1dd34a242f068c1ec9f7df08c45997f98f2043c4b73db4fc",
+      "shapeTags": [
+        "network",
+        "bands"
+      ],
+      "observationHintJa": "網目、溝や帯を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Lilium_martagon/304746"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Liliaceae",
+          "japaneseName": "ユリ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Lilium_martagon/304746",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Lilium",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ユリ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "マルタゴンリリー",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Lilium_martagon",
+        "language": "en",
+        "title": "Lilium martagon",
+        "targetRank": "species",
+        "targetScientificName": "Lilium martagon",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-zea-mays-304812-1021714",
+      "status": "active educational atlas target",
+      "species": "Zea mays",
+      "paldatSpecies": "Zea mays",
+      "publicationUrl": "https://www.paldat.org/pub/Zea_mays/304812",
+      "publicationCitation": "Diethart B., Heigl H. 2021. Zea mays . In: PalDat - A palynological database. /pub/Zea_mays/304812; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1021714.jpg",
+      "localPath": "private-reference-media/paldat/zea-mays-sem.jpg",
+      "photographer": "Diethart, B.",
+      "view": "polar view (distal)",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view (distal) - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Diethart, B. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "360944d8ba74f194b66b63ab1deebd5bdbaff000c41f9dbce89cfe2c92dabd92",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Zea_mays/304812"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Poaceae",
+          "japaneseName": "イネ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Zea_mays/304812",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Zea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "イネ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "イネ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%A6%E3%83%A2%E3%83%AD%E3%82%B3%E3%82%B7",
+        "language": "ja",
+        "title": "トウモロコシ",
+        "targetRank": "subspecies",
+        "targetScientificName": "Zea mays subsp. mays",
+        "matchType": "infraspecific-match",
+        "checkedOn": "2026-09-15",
+        "verification": "Japanese article opened; text identifies cultivated maize as Zea mays subsp. mays, an infraspecific taxon of the PalDat source species"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-erica-tetralix-304301-1206000",
+      "status": "active educational atlas target",
+      "species": "Erica tetralix",
+      "paldatSpecies": "Erica tetralix",
+      "publicationUrl": "https://www.paldat.org/pub/Erica_tetralix/304301",
+      "publicationCitation": "Halbritter H., Heigl H., Buchner R. 2020. Erica tetralix . In: PalDat - A palynological database. /pub/Erica_tetralix/304301; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1206000.jpg",
+      "localPath": "private-reference-media/paldat/erica-tetralix-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated tetrad",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated tetrad - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "溝・帯、孔・くぼみ、複合花粉単位を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "79aa93a3539fb951159953f6f73ede05e8028b278eabe1b253b349dda3606958",
+      "shapeTags": [
+        "bands",
+        "pits",
+        "compound-unit"
+      ],
+      "observationHintJa": "溝や帯、孔やくぼみ、単粒ではないまとまりを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Erica_tetralix/304301"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Ericaceae",
+          "japaneseName": "ツツジ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Erica_tetralix/304301",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Erica",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ツツジ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ツツジ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Erica_tetralix",
+        "language": "en",
+        "title": "Erica tetralix",
+        "targetRank": "species",
+        "targetScientificName": "Erica tetralix",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-acacia-dealbata-300892-2003014",
+      "status": "active educational atlas target",
+      "species": "Acacia dealbata",
+      "paldatSpecies": "Acacia dealbata",
+      "publicationUrl": "https://www.paldat.org/pub/Acacia_dealbata/300892",
+      "publicationCitation": "Halbritter H. 2016. Acacia dealbata . In: PalDat - A palynological database. /pub/Acacia_dealbata/300892; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/2003014.jpg",
+      "localPath": "private-reference-media/paldat/acacia-dealbata-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polyad",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polyad - dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、平滑面、複合花粉単位を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "bb5b536dc510645b6a43562a772bd0835b1c28961fedfab11dc8315637cd8856",
+      "shapeTags": [
+        "spines",
+        "smooth",
+        "compound-unit"
+      ],
+      "observationHintJa": "突起、平滑な表面、単粒ではないまとまりを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Acacia_dealbata/300892"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Fabaceae",
+          "japaneseName": "マメ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Acacia_dealbata/300892",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Acacia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "マメ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "フサアカシア",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%B5%E3%82%A2%E3%82%AB%E3%82%B7%E3%82%A2",
+        "language": "ja",
+        "title": "フサアカシア",
+        "targetRank": "species",
+        "targetScientificName": "Acacia dealbata",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-cucurbita-pepo-302526-1010330",
+      "status": "active educational atlas target",
+      "species": "Cucurbita pepo",
+      "paldatSpecies": "Cucurbita pepo",
+      "publicationUrl": "https://www.paldat.org/pub/Cucurbita_pepo/302526",
+      "publicationCitation": "Halbritter H., Hesse M. 2016. Cucurbita pepo . In: PalDat - A palynological database. /pub/Cucurbita_pepo/302526; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1010330.jpg",
+      "localPath": "private-reference-media/paldat/cucurbita-pepo-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grain",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "100 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grain - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "623fddf6d7e824084ded459e17c2980c59bfea4518be4c965d4a009ebfe631ef",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 100,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Cucurbita_pepo/302526"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Cucurbitaceae",
+          "japaneseName": "ウリ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Cucurbita_pepo/302526",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Cucurbita",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ウリ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ペポカボチャ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%9D%E3%82%AB%E3%83%9C%E3%83%81%E3%83%A3",
+        "language": "ja",
+        "title": "ペポカボチャ",
+        "targetRank": "species",
+        "targetScientificName": "Cucurbita pepo",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-arabidopsis-thaliana-300148-2000754",
+      "status": "active educational atlas target",
+      "species": "Arabidopsis thaliana",
+      "paldatSpecies": "Arabidopsis thaliana",
+      "publicationUrl": "https://www.paldat.org/pub/Arabidopsis_thaliana/300148",
+      "publicationCitation": "Halbritter H. 2015. Arabidopsis thaliana . In: PalDat - A palynological database. /pub/Arabidopsis_thaliana/300148; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/2000754.jpg",
+      "localPath": "private-reference-media/paldat/arabidopsis-thaliana-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        531
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen - dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、溝・帯を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "0763d09d2229e12e613959ea6ad292dddf989f44d1988d22d5bd6391d3f1bda8",
+      "shapeTags": [
+        "network",
+        "bands"
+      ],
+      "observationHintJa": "網目、溝や帯を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Arabidopsis_thaliana/300148"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Brassicaceae",
+          "japaneseName": "アブラナ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Arabidopsis_thaliana/300148",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Arabidopsis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "アブラナ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "シロイヌナズナ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%AD%E3%82%A4%E3%83%8C%E3%83%8A%E3%82%BA%E3%83%8A",
+        "language": "ja",
+        "title": "シロイヌナズナ",
+        "targetRank": "species",
+        "targetScientificName": "Arabidopsis thaliana",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-papaver-rhoeas-303904-1018124",
+      "status": "active educational atlas target",
+      "species": "Papaver rhoeas",
+      "paldatSpecies": "Papaver rhoeas",
+      "publicationUrl": "https://www.paldat.org/pub/Papaver_rhoeas/303904",
+      "publicationCitation": "Oberschneider W., Heigl H. 2020. Papaver rhoeas . In: PalDat - A palynological database. /pub/Papaver_rhoeas/303904; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1018124.jpg",
+      "localPath": "private-reference-media/paldat/papaver-rhoeas-sem.jpg",
+      "photographer": "Oberschneider, W.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        600,
+        600
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view - fresh, rehydration (water) & chloroform & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Oberschneider, W. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "e1ad7097f3c1ee8d64a62b0b07ccf52a4f019be238b5544e78b1373b35be1fc5",
+      "shapeTags": [
+        "spines",
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "突起、溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Papaver_rhoeas/303904"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Papaveraceae",
+          "japaneseName": "ケシ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Papaver_rhoeas/303904",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Papaver",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ケシ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ヒナゲシ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%8A%E3%82%B2%E3%82%B7",
+        "language": "ja",
+        "title": "ヒナゲシ",
+        "targetRank": "species",
+        "targetScientificName": "Papaver rhoeas",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-plantago-lanceolata-304542-1012747",
+      "status": "active educational atlas target",
+      "species": "Plantago lanceolata",
+      "paldatSpecies": "Plantago lanceolata",
+      "publicationUrl": "https://www.paldat.org/pub/Plantago_lanceolata/304542",
+      "publicationCitation": "Halbritter H., Ulrich S., Heigl H. 2020. Plantago lanceolata . In: PalDat - A palynological database. /pub/Plantago_lanceolata/304542; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1012747.jpg",
+      "localPath": "private-reference-media/paldat/plantago-lanceolata-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen grains",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        532
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen grains - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "ecf05beb889665b3ae0b9bcfda8ea8e10cf5c23d60063c436a3b695ddf387514",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Plantago_lanceolata/304542"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Plantaginaceae",
+          "japaneseName": "オオバコ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Plantago_lanceolata/304542",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Plantago",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オオバコ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ヘラオオバコ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%98%E3%83%A9%E3%82%AA%E3%82%AA%E3%83%90%E3%82%B3",
+        "language": "ja",
+        "title": "ヘラオオバコ",
+        "targetRank": "species",
+        "targetScientificName": "Plantago lanceolata",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "REST summary exists; article HTML contains target scientific name"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-salvia-officinalis-304437-2004813",
+      "status": "active educational atlas target",
+      "species": "Salvia officinalis",
+      "paldatSpecies": "Salvia officinalis",
+      "publicationUrl": "https://www.paldat.org/pub/Salvia_officinalis/304437",
+      "publicationCitation": "Halbritter H., Heigl H. 2020. Salvia officinalis . In: PalDat - A palynological database. /pub/Salvia_officinalis/304437; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/2004813.jpg",
+      "localPath": "private-reference-media/paldat/salvia-officinalis-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated pollen",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        531
+      ],
+      "scaleBar": "100 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated pollen - dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、溝・帯を観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "6fe373c860f57668d6dde94aa2e1604f3fc525cea7064f5f593c3eb15049f2d5",
+      "shapeTags": [
+        "network",
+        "bands"
+      ],
+      "observationHintJa": "網目、溝や帯を観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 100,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Salvia_officinalis/304437"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Lamiaceae",
+          "japaneseName": "シソ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Salvia_officinalis/304437",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Salvia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "シソ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "セージ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%BC%E3%82%B8",
+        "language": "ja",
+        "title": "セージ",
+        "targetRank": "species",
+        "targetScientificName": "Salvia officinalis",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "Japanese article opened; taxobox and text directly identify Salvia officinalis"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-fagus-sylvatica-307041-2001830",
+      "status": "active educational atlas target",
+      "species": "Fagus sylvatica",
+      "paldatSpecies": "Fagus sylvatica",
+      "publicationUrl": "https://www.paldat.org/pub/Fagus_sylvatica/307041",
+      "publicationCitation": "Halbritter H., Bouchal J., Heigl H., Koelzer K. 2026. Fagus sylvatica . In: PalDat - A palynological database. /pub/Fagus_sylvatica/307041; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/2001830.jpg",
+      "localPath": "private-reference-media/paldat/fagus-sylvatica-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        531
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view - dry, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "dd2458a2cb12090731eb220fde17f9fdb03651fc0b3f8e5714b7327eca886fcf",
+      "shapeTags": [
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Fagus_sylvatica/307041"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Fagaceae",
+          "japaneseName": "ブナ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Fagus_sylvatica/307041",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Fagus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ブナ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ブナ科の仲間",
+        "labelType": "group-companion",
+        "basisRank": "family",
+        "status": "none",
+        "notSpeciesIdentification": true,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Fagus_sylvatica",
+        "language": "en",
+        "title": "Fagus sylvatica",
+        "targetRank": "species",
+        "targetScientificName": "Fagus sylvatica",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-betula-pendula-303759-1012132",
+      "status": "active educational atlas target",
+      "species": "Betula pendula",
+      "paldatSpecies": "Betula pendula",
+      "publicationUrl": "https://www.paldat.org/pub/Betula_pendula/303759",
+      "publicationCitation": "Halbritter H., Diethart B., Heigl H. 2020. Betula pendula . In: PalDat - A palynological database. /pub/Betula_pendula/303759; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1012132.jpg",
+      "localPath": "private-reference-media/paldat/betula-pendula-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "突起、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "72deb710caa602249cf6fd0af21247ca789ef9407701a8ad053252d98f5934a8",
+      "shapeTags": [
+        "spines",
+        "pits"
+      ],
+      "observationHintJa": "突起、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Betula_pendula/303759"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Betulaceae",
+          "japaneseName": "カバノキ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Betula_pendula/303759",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Betula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "カバノキ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "オウシュウシラカンバ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Betula_pendula",
+        "language": "en",
+        "title": "Betula pendula",
+        "targetRank": "species",
+        "targetScientificName": "Betula pendula",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-typha-latifolia-304817-1011692",
+      "status": "active educational atlas target",
+      "species": "Typha latifolia",
+      "paldatSpecies": "Typha latifolia",
+      "publicationUrl": "https://www.paldat.org/pub/Typha_latifolia/304817",
+      "publicationCitation": "Halbritter H., Auer W. 2021. Typha latifolia . In: PalDat - A palynological database. /pub/Typha_latifolia/304817; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1011692.jpg",
+      "localPath": "private-reference-media/paldat/typha-latifolia-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "hydrated tetrads",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "hydrated tetrads - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "d7d0b211014e73fec9c7b5f8c20e8f8cf5b98d414800d94d7e18fddb1d05dafb",
+      "shapeTags": [
+        "network",
+        "pits"
+      ],
+      "observationHintJa": "網目、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Typha_latifolia/304817"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Typhaceae",
+          "japaneseName": "ガマ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Typha_latifolia/304817",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Typha",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ガマ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ガマ",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%9E",
+        "language": "ja",
+        "title": "ガマ",
+        "targetRank": "species",
+        "targetScientificName": "Typha latifolia",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "Japanese article opened; taxobox and text directly identify Typha latifolia"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-digitalis-purpurea-304511-1013367",
+      "status": "active educational atlas target",
+      "species": "Digitalis purpurea",
+      "paldatSpecies": "Digitalis purpurea",
+      "publicationUrl": "https://www.paldat.org/pub/Digitalis_purpurea/304511",
+      "publicationCitation": "Bombosi P., Halbritter H., Auer W. 2020. Digitalis purpurea . In: PalDat - A palynological database. /pub/Digitalis_purpurea/304511; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1013367.jpg",
+      "localPath": "private-reference-media/paldat/digitalis-purpurea-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "網目、溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "38c99ee4d500300c381254b00d914e3706e22b146820576807bd35ab45fb9eca",
+      "shapeTags": [
+        "network",
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "網目、溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Digitalis_purpurea/304511"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Plantaginaceae",
+          "japaneseName": "オオバコ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Digitalis_purpurea/304511",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Digitalis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オオバコ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ジギタリス",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://en.wikipedia.org/wiki/Digitalis_purpurea",
+        "language": "en",
+        "title": "Digitalis purpurea",
+        "targetRank": "species",
+        "targetScientificName": "Digitalis purpurea",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "article exists; taxobox and text directly identify the species"
+      },
+      "paperPreset": null
+    },
+    {
+      "id": "paldat-nelumbo-nucifera-306287-1011756",
+      "status": "active educational atlas target",
+      "species": "Nelumbo nucifera",
+      "paldatSpecies": "Nelumbo nucifera",
+      "publicationUrl": "https://www.paldat.org/pub/Nelumbo_nucifera/306287",
+      "publicationCitation": "Weber M., Halbritter H., Heigl H., Auer W., Buchner R. 2021. Nelumbo nucifera . In: PalDat - A palynological database. /pub/Nelumbo_nucifera/306287; accessed 2026-09-15",
+      "imageUrl": "https://www.paldat.org/pic/1011756.jpg",
+      "localPath": "private-reference-media/paldat/nelumbo-nucifera-sem.jpg",
+      "photographer": "Halbritter, H.",
+      "view": "polar view",
+      "modality": "SEM",
+      "sourcePixels": [
+        709,
+        567
+      ],
+      "scaleBar": "10 µm, visually checked in original image, retained without cropping",
+      "preparation": "polar view - fresh, rehydrated (water) & critical point dried & sputter coated with gold",
+      "learningFocus": "溝・帯、孔・くぼみを観察",
+      "notModeled": [
+        "species identification from appearance",
+        "aperture development",
+        "layered wall structure"
+      ],
+      "requiredCredit": "Photo: Halbritter, H. / PalDat (2000 onwards, www.paldat.org)",
+      "license": "Not MIT; copyright AutPal. Educational/noncommercial exception and attribution requirements apply; see PalDat policy.",
+      "sha256": "cc33a87097c18724980e96b2a9f312f9b1669e6d0e0e3863b44bdf867becc00d",
+      "shapeTags": [
+        "bands",
+        "pits"
+      ],
+      "observationHintJa": "溝や帯、孔やくぼみを観察。発芽口や壁の層など、数理モデル外の構造を含みます。",
+      "checkedOn": "2026-09-15",
+      "scaleMicrometers": 10,
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Nelumbo_nucifera/306287"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Nelumbonaceae",
+          "japaneseName": "ハス科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Nelumbo_nucifera/306287",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Nelumbo",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ハス科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      },
+      "displayResolution": {
+        "label": "ハス",
+        "labelType": "species-japanese-name",
+        "basisRank": "species",
+        "status": "recommended",
+        "notSpeciesIdentification": false,
+        "heldSpeciesNameCandidate": null
+      },
+      "wikipedia": {
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%B9",
+        "language": "ja",
+        "title": "ハス",
+        "targetRank": "species",
+        "targetScientificName": "Nelumbo nucifera",
+        "matchType": "exact-species",
+        "checkedOn": "2026-09-15",
+        "verification": "Japanese article opened; taxobox and text directly identify Nelumbo nucifera"
+      },
+      "paperPreset": null
     }
-  ],
-  "shapeTagsMeaning": "Editorial visual browsing cues, not PalDat taxonomic diagnoses or physical-model correspondence. Bands/pits may include apertures."
+  ]
 }

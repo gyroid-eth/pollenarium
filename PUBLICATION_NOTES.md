@@ -9,7 +9,7 @@
 
 The Git repository contains the static application, independent numerical solvers, tests, numerical audits, documentation, and a curated image-provenance manifest. It does not contain PalDat photographs, article figures/PDFs, author code, personal experiment records, or internal design-review screenshots.
 
-The default static build is code-only. The official noncommercial educational Pages deployment fetches exactly the 15 images recorded in the manifest, verifies their SHA-256 hashes, and includes them in a separate media directory under PalDat’s educational/noncommercial exception. Original scale bars and per-image photographer/source credits are retained. This deployment choice does not grant image rights to commercial forks or turn the media into open data. There are no advertising, payment, account, or application telemetry services in this app.
+The default static build is code-only. The official noncommercial educational Pages deployment fetches exactly the 52 images recorded in the manifest, verifies their SHA-256 hashes, and includes them in a separate media directory under PalDat’s educational/noncommercial exception. Original scale bars and per-image photographer/source credits are retained. This deployment choice does not grant image rights to commercial forks or turn the media into open data. There are no advertising, payment, account, or application telemetry services in this app.
 
 ## Rebuild and deploy
 

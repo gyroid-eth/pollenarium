@@ -1,0 +1,604 @@
+{
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-09-15T13:56:39+09:00",
+  "checkedOn": "2026-09-15",
+  "table": "Radja et al. 2019 Table 1 as encoded in references/paper-presets.json",
+  "rowCount": 34,
+  "coverage": {
+    "rowsWithCandidate": 33,
+    "rowsWithoutCandidate": 1,
+    "matchClassCounts": {
+      "exact-species": 25,
+      "genus-only": 2,
+      "not-found": 1,
+      "spelling-discrepancy": 1,
+      "synonym-bridge": 5
+    }
+  },
+  "rows": [
+    {
+      "row": 1,
+      "inputScientificName": "Alisma lanceolatum",
+      "parameters": {
+        "l0": 9.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "alisma-lanceolatum-304719-1013446",
+      "paldatScientificName": "Alisma lanceolatum",
+      "publicationUrl": "https://www.paldat.org/pub/Alisma_lanceolatum/304719",
+      "imageUrl": "https://www.paldat.org/pic/1013446.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 2,
+      "inputScientificName": "Iris bucharica",
+      "parameters": {
+        "l0": 6.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "iris-bucharica-302289-1011227",
+      "paldatScientificName": "Iris bucharica",
+      "publicationUrl": "https://www.paldat.org/pub/Iris_bucharica/302289",
+      "imageUrl": "https://www.paldat.org/pic/1011227.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 3,
+      "inputScientificName": "Chenopodium album",
+      "parameters": {
+        "l0": 19.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "chenopodium-album-304986-1021681",
+      "paldatScientificName": "Chenopodium album",
+      "publicationUrl": "https://www.paldat.org/pub/Chenopodium_album/304986",
+      "imageUrl": "https://www.paldat.org/pic/1021681.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 4,
+      "inputScientificName": "Gaillardia aristata",
+      "parameters": {
+        "l0": 10.0,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "gaillardia-aristata-306220-1013069",
+      "paldatScientificName": "Gaillardia aristata",
+      "publicationUrl": "https://www.paldat.org/pub/Gaillardia_aristata/306220",
+      "imageUrl": "https://www.paldat.org/pic/1013069.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 5,
+      "inputScientificName": "Bidens pilosa",
+      "parameters": {
+        "l0": 14.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "bidens-pilosa-305444-2005911",
+      "paldatScientificName": "Bidens pilosa",
+      "publicationUrl": "https://www.paldat.org/pub/Bidens_pilosa/305444",
+      "imageUrl": "https://www.paldat.org/pic/2005911.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 6,
+      "inputScientificName": "Iva xanthiifolia",
+      "parameters": {
+        "l0": 19.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-iva-xanthiifolia-300563-1207002",
+      "paldatScientificName": "Iva xanthiifolia",
+      "publicationUrl": "https://www.paldat.org/pub/Iva_xanthiifolia/300563",
+      "imageUrl": "https://www.paldat.org/pic/1207002.jpg",
+      "matchClass": "synonym-bridge",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
+    },
+    {
+      "row": 7,
+      "inputScientificName": "Ibicella lutea",
+      "parameters": {
+        "l0": 11.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-ibicella-lutea-301894-1020381",
+      "paldatScientificName": "Ibicella lutea",
+      "publicationUrl": "https://www.paldat.org/pub/Ibicella_lutea/301894",
+      "imageUrl": "https://www.paldat.org/pic/1020381.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 8,
+      "inputScientificName": "Cerastium tomentosum",
+      "parameters": {
+        "l0": 9.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-cerastium-tomentosum-303812-1010942",
+      "paldatScientificName": "Cerastium tomentosum",
+      "publicationUrl": "https://www.paldat.org/pub/Cerastium_tomentosum/303812",
+      "imageUrl": "https://www.paldat.org/pic/1010942.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 9,
+      "inputScientificName": "Alisma plantago-aquatica",
+      "parameters": {
+        "l0": 8.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-alisma-plantago-aquatica-304718-1018267",
+      "paldatScientificName": "Alisma plantago-aquatica",
+      "publicationUrl": "https://www.paldat.org/pub/Alisma_plantago-aquatica/304718",
+      "imageUrl": "https://www.paldat.org/pic/1018267.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 10,
+      "inputScientificName": "Amaranthus blitum",
+      "parameters": {
+        "l0": 12.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-amaranthus-blitum-307024-2001192",
+      "paldatScientificName": "Amaranthus blitum",
+      "publicationUrl": "https://www.paldat.org/pub/Amaranthus_blitum/307024",
+      "imageUrl": "https://www.paldat.org/pic/2001192.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 11,
+      "inputScientificName": "Phyllanthus sp.",
+      "parameters": {
+        "l0": 11.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-phyllanthus-sp-302971-1017792",
+      "paldatScientificName": "Phyllanthus spec",
+      "publicationUrl": "https://www.paldat.org/pub/Phyllanthus_spec/302971",
+      "imageUrl": "https://www.paldat.org/pic/1017792.jpg",
+      "matchClass": "genus-only",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": "Input is genus-only; PalDat source is likewise unidentified at species level (Phyllanthus spec)."
+    },
+    {
+      "row": 12,
+      "inputScientificName": "Echinodorus quadricostatus",
+      "parameters": {
+        "l0": 8.0,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-echinodorus-quadricostatus-301458-1010643",
+      "paldatScientificName": "Echinodorus quadricostatus",
+      "publicationUrl": "https://www.paldat.org/pub/Echinodorus_quadricostatus/301458",
+      "imageUrl": "https://www.paldat.org/pic/1010643.jpg",
+      "matchClass": "synonym-bridge",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
+    },
+    {
+      "row": 13,
+      "inputScientificName": "Echinodorus cordifolius",
+      "parameters": {
+        "l0": 4.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "echinodorus-cordifolius-303026-2005819",
+      "paldatScientificName": "Echinodorus cordifolius",
+      "publicationUrl": "https://www.paldat.org/pub/Echinodorus_cordifolius/303026",
+      "imageUrl": "https://www.paldat.org/pic/2005819.jpg",
+      "matchClass": "synonym-bridge",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
+    },
+    {
+      "row": 14,
+      "inputScientificName": "Sarcococca hookeriana",
+      "parameters": {
+        "l0": 9.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-sarcococca-hookeriana-302191-1019121",
+      "paldatScientificName": "Sarcococca hookeriana",
+      "publicationUrl": "https://www.paldat.org/pub/Sarcococca_hookeriana/302191",
+      "imageUrl": "https://www.paldat.org/pic/1019121.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 15,
+      "inputScientificName": "Polemonium pauciflorum",
+      "parameters": {
+        "l0": 20.5,
+        "u": 1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-polemonium-pauciflorum-300157-2000812",
+      "paldatScientificName": "Polemonium pauciflorum",
+      "publicationUrl": "https://www.paldat.org/pub/Polemonium_pauciflorum/300157",
+      "imageUrl": "https://www.paldat.org/pic/2000812.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 16,
+      "inputScientificName": "Gomphrena globosa",
+      "parameters": {
+        "l0": 15.5,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": "gomphrena-globosa-300588-1211648",
+      "paldatScientificName": "Gomphrena globosa",
+      "publicationUrl": "https://www.paldat.org/pub/Gomphrena_globosa/300588",
+      "imageUrl": "https://www.paldat.org/pic/1211648.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 17,
+      "inputScientificName": "Pfaffia tuberosa",
+      "parameters": {
+        "l0": 12.0,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-pfaffia-tuberosa-301467-1016761",
+      "paldatScientificName": "Pfaffia tuberosa",
+      "publicationUrl": "https://www.paldat.org/pub/Pfaffia_tuberosa/301467",
+      "imageUrl": "https://www.paldat.org/pic/1016761.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 18,
+      "inputScientificName": "Kallstroemia maxima",
+      "parameters": {
+        "l0": 16.5,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-kallstroemia-maxima-300241-2001427",
+      "paldatScientificName": "Kallstroemia maxima",
+      "publicationUrl": "https://www.paldat.org/pub/Kallstroemia_maxima/300241",
+      "imageUrl": "https://www.paldat.org/pic/2001427.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 19,
+      "inputScientificName": "Caldesia parnassifolia",
+      "parameters": {
+        "l0": 5.5,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": null,
+      "paldatScientificName": null,
+      "publicationUrl": null,
+      "imageUrl": null,
+      "matchClass": "not-found",
+      "presetFilterEligible": false,
+      "morphologyFitClaim": false,
+      "note": "No same-species PalDat record found; Caldesia reniformis was not substituted."
+    },
+    {
+      "row": 20,
+      "inputScientificName": "Phlox drummondii",
+      "parameters": {
+        "l0": 16.0,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": "phlox-drummondii-300583-1211789",
+      "paldatScientificName": "Phlox drummondii",
+      "publicationUrl": "https://www.paldat.org/pub/Phlox_drummondii/300583",
+      "imageUrl": "https://www.paldat.org/pic/1211789.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 21,
+      "inputScientificName": "Chondrilla juncea",
+      "parameters": {
+        "l0": 8.0,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": "chondrilla-juncea-304698-1013865",
+      "paldatScientificName": "Chondrilla juncea",
+      "publicationUrl": "https://www.paldat.org/pub/Chondrilla_juncea/304698",
+      "imageUrl": "https://www.paldat.org/pic/1013865.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 22,
+      "inputScientificName": "Ipomoea cholulensis",
+      "parameters": {
+        "l0": 19.5,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-ipomoea-cholulensis-300397-1213902",
+      "paldatScientificName": "Ipomoea cholulensis",
+      "publicationUrl": "https://www.paldat.org/pub/Ipomoea_cholulensis/300397",
+      "imageUrl": "https://www.paldat.org/pic/1213902.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 23,
+      "inputScientificName": "Pfaffia gnaphaloides",
+      "parameters": {
+        "l0": 10.0,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-pfaffia-gnaphaloides-301466-1016767",
+      "paldatScientificName": "Pfaffia gnaphaloides",
+      "publicationUrl": "https://www.paldat.org/pub/Pfaffia_gnaphaloides/301466",
+      "imageUrl": "https://www.paldat.org/pic/1016767.jpg",
+      "matchClass": "spelling-discrepancy",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": "PalDat/input spelling differs from POWO accepted spelling Pfaffia gnaphalioides; original input retained."
+    },
+    {
+      "row": 24,
+      "inputScientificName": "Persicaria mitis",
+      "parameters": {
+        "l0": 19.5,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": "persicaria-mitis-302862-1017282",
+      "paldatScientificName": "Persicaria mitis",
+      "publicationUrl": "https://www.paldat.org/pub/Persicaria_mitis/302862",
+      "imageUrl": "https://www.paldat.org/pic/1017282.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 25,
+      "inputScientificName": "Bougainvillea sp.",
+      "parameters": {
+        "l0": 17.5,
+        "u": -1.0,
+        "r": -1
+      },
+      "candidateId": "paldat-bougainvillea-sp-302972-1017988",
+      "paldatScientificName": "Bougainvillea sp",
+      "publicationUrl": "https://www.paldat.org/pub/Bougainvillea_sp/302972",
+      "imageUrl": "https://www.paldat.org/pic/1017988.jpg",
+      "matchClass": "genus-only",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": "Input and PalDat record are genus-only; not a species identification."
+    },
+    {
+      "row": 26,
+      "inputScientificName": "Berberis vulgaris",
+      "parameters": {
+        "l0": 3.5,
+        "u": 0.0,
+        "r": -1
+      },
+      "candidateId": "berberis-vulgaris-303900-1012963",
+      "paldatScientificName": "Berberis vulgaris",
+      "publicationUrl": "https://www.paldat.org/pub/Berberis_vulgaris/303900",
+      "imageUrl": "https://www.paldat.org/pic/1012963.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 27,
+      "inputScientificName": "Galium wirtgenii",
+      "parameters": {
+        "l0": 8.5,
+        "u": 0.0,
+        "r": -1
+      },
+      "candidateId": "paldat-galium-wirtgenii-301588-1013546",
+      "paldatScientificName": "Galium wirtgenii",
+      "publicationUrl": "https://www.paldat.org/pub/Galium_wirtgenii/301588",
+      "imageUrl": "https://www.paldat.org/pic/1013546.jpg",
+      "matchClass": "synonym-bridge",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
+    },
+    {
+      "row": 28,
+      "inputScientificName": "Galium album",
+      "parameters": {
+        "l0": 13.5,
+        "u": 0.0,
+        "r": -1
+      },
+      "candidateId": "galium-album-305038-1018166",
+      "paldatScientificName": "Galium album",
+      "publicationUrl": "https://www.paldat.org/pub/Galium_album/305038",
+      "imageUrl": "https://www.paldat.org/pic/1018166.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 29,
+      "inputScientificName": "Primula veris",
+      "parameters": {
+        "l0": 8.5,
+        "u": 0.0,
+        "r": -1
+      },
+      "candidateId": "primula-veris-306818-1016116",
+      "paldatScientificName": "Primula veris",
+      "publicationUrl": "https://www.paldat.org/pub/Primula_veris/306818",
+      "imageUrl": "https://www.paldat.org/pic/1016116.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 30,
+      "inputScientificName": "Arnebia pulchra",
+      "parameters": {
+        "l0": 13.5,
+        "u": 0.0,
+        "r": -1
+      },
+      "candidateId": "paldat-arnebia-pulchra-300934-1208795",
+      "paldatScientificName": "Arnebia pulchra",
+      "publicationUrl": "https://www.paldat.org/pub/Arnebia_pulchra/300934",
+      "imageUrl": "https://www.paldat.org/pic/1208795.jpg",
+      "matchClass": "synonym-bridge",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": "PalDat preserves the paper/source name; current accepted-name bridge is documented in the candidate taxonomy field."
+    },
+    {
+      "row": 31,
+      "inputScientificName": "Diascia barberae",
+      "parameters": {
+        "l0": 12.5,
+        "u": 0.0,
+        "r": -1
+      },
+      "candidateId": "paldat-diascia-barberae-300642-2002463",
+      "paldatScientificName": "Diascia barberae",
+      "publicationUrl": "https://www.paldat.org/pub/Diascia_barberae/300642",
+      "imageUrl": "https://www.paldat.org/pic/2002463.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 32,
+      "inputScientificName": "Utricularia sandersonii",
+      "parameters": {
+        "l0": 13.5,
+        "u": 0.0,
+        "r": -1
+      },
+      "candidateId": "paldat-utricularia-sandersonii-302898-1010109",
+      "paldatScientificName": "Utricularia sandersonii",
+      "publicationUrl": "https://www.paldat.org/pub/Utricularia_sandersonii/302898",
+      "imageUrl": "https://www.paldat.org/pic/1010109.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 33,
+      "inputScientificName": "Sarracenia flava",
+      "parameters": {
+        "l0": 13.5,
+        "u": 0.0,
+        "r": -1
+      },
+      "candidateId": "paldat-sarracenia-flava-302598-1012518",
+      "paldatScientificName": "Sarracenia flava",
+      "publicationUrl": "https://www.paldat.org/pub/Sarracenia_flava/302598",
+      "imageUrl": "https://www.paldat.org/pic/1012518.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    },
+    {
+      "row": 34,
+      "inputScientificName": "Primula elatior",
+      "parameters": {
+        "l0": 12.5,
+        "u": 0.0,
+        "r": -1
+      },
+      "candidateId": "paldat-primula-elatior-306329-1016160",
+      "paldatScientificName": "Primula elatior",
+      "publicationUrl": "https://www.paldat.org/pub/Primula_elatior/306329",
+      "imageUrl": "https://www.paldat.org/pic/1016160.jpg",
+      "matchClass": "exact-species",
+      "presetFilterEligible": true,
+      "morphologyFitClaim": false,
+      "note": null
+    }
+  ],
+  "updatedAt": "2026-09-15T14:09:23+09:00",
+  "sources": {
+    "paperPresets": "references/paper-presets.json",
+    "atlasManifest": "references/paldat-manifest.json",
+    "taxonomyAndJapaneseNames": "references/japanese-names.json"
+  }
+}

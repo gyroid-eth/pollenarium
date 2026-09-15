@@ -9,7 +9,7 @@ Observe real pollen, explore mathematical patterns, and keep your own specimen c
 
 *Actual app screen with three example specimens. SEM: H. Halbritter / PalDat. [Screenshot credits and separate image terms](docs/SCREENSHOTS.md).*
 
-- Browse 15 individually credited SEM references in a searchable shape atlas.
+- Browse 52 individually credited SEM references in a searchable shape atlas, including a filter for the 33 references linked to paper Table 1 rows.
 - Explore two distinct models from Radja et al. (2019): restricted equilibrium shapes (Eq. 6) and conserved pattern growth (Eq. 7).
 - Save complete numerical states, conditions, observations and generated snapshots locally; export/import JSON without an account.
 
@@ -31,7 +31,7 @@ Open [localhost:8916](http://localhost:8916/). The app uses browser ES modules, 
 
 Original code and original project outputs are **MIT licensed**; see [LICENSE](LICENSE). The article, author code and PalDat photographs are separate works and are not relicensed by this repository.
 
-The educational demo serves a separate 15-image PalDat pack under PalDat's educational/noncommercial exception, with photographer and source attribution. Image files are excluded from Git history and fetched during the deployment build. This does not make them MIT assets or grant unrestricted commercial reuse. See [image rights](references/PALDAT_RIGHTS.md), the [per-image manifest](references/paldat-manifest.json), and [PalDat's terms](https://www.paldat.org/info/copyright).
+The educational demo serves a separate 52-image PalDat pack under PalDat's educational/noncommercial exception, with photographer and source attribution. Image files are excluded from Git history and fetched during the deployment build. This does not make them MIT assets or grant unrestricted commercial reuse. See [image rights](references/PALDAT_RIGHTS.md), the [per-image manifest](references/paldat-manifest.json), the [34-row preset correspondence](references/paper-atlas-correspondence.json), and [PalDat's terms](https://www.paldat.org/info/copyright).
 
 Saved specimens belong to the browser's site storage; there is no account or cloud sync. Export important records as JSON. Exports contain generated model snapshots and reference metadata, **not SEM image bytes**.
 

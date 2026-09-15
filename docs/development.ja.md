@@ -24,7 +24,7 @@ python3 scripts/build_static.py
 
 ### 別条件の教育用画像パック
 
-[公開教育デモ](https://gyroid-eth.github.io/pollenarium/)は、PalDatの画像を別条件のパックとして配信する構成です。デプロイ時に個別確認済みの15点だけを取得し、ビルドに含めます。
+[公開教育デモ](https://gyroid-eth.github.io/pollenarium/)は、PalDatの画像を別条件のパックとして配信する構成です。デプロイ時にmanifestへ個別記録した52点だけを取得し、SHA-256を検証してビルドに含めます。
 
 ```sh
 python3 scripts/fetch_reference_media.py

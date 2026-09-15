@@ -4,14 +4,19 @@
   "accessedOn": "2026-09-15",
   "scope": {
     "paldatManifestPath": "references/paldat-manifest.json",
-    "paldatManifestRecords": 15,
-    "paldatManifestUniqueTaxa": 15,
+    "paldatManifestRecords": 52,
+    "paldatManifestUniqueTaxa": 52,
     "paperPresetsPath": "references/paper-presets.json",
     "paperTable1Rows": 34,
     "paperTable1UniqueTaxa": 34,
-    "unionUniqueTaxa": 36,
-    "confirmedJapaneseNames": 22,
-    "unconfirmedJapaneseNames": 14
+    "unionUniqueTaxa": 53,
+    "confirmedJapaneseNames": 36,
+    "unconfirmedJapaneseNames": 17,
+    "atlasCandidates": 52,
+    "atlasOnlyDiversityAdditions": 17,
+    "displayRecommended": 31,
+    "displayReview": 5,
+    "displayNone": 17
   },
   "policy": {
     "japaneseName": "種または明示された種内分類群に対応する根拠を確認できた和名のみ。属和名、英名の音写、推測名は入れない。",
@@ -22,6 +27,83 @@
     "companionLabel": "種和名とは独立した補助ラベル。現行属の確認済み和名があれば『○○属（○○科）の仲間』、なければ『○○科の仲間』。種同定を意味しない。"
   },
   "taxa": [
+    {
+      "inputScientificName": "Acacia dealbata",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-acacia-dealbata-300892-2003014"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Acacia_dealbata/300892"
+      },
+      "japaneseName": "フサアカシア",
+      "kana": "フサアカシア",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Acacia dealbata",
+          "targetRank": "species",
+          "name": "フサアカシア",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "フサアカシア",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Fabaceae",
+          "japaneseName": "マメ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Acacia_dealbata/300892",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Acacia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "マメ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Acacia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Acacia_dealbata/300892"
+        }
+      }
+    },
     {
       "inputScientificName": "Alisma lanceolatum",
       "sourceOccurrences": {
@@ -93,7 +175,9 @@
     {
       "inputScientificName": "Alisma plantago-aquatica",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-alisma-plantago-aquatica-304718-1018267"
+        ],
         "paperTable1Rows": [
           9
         ]
@@ -185,7 +269,9 @@
     {
       "inputScientificName": "Amaranthus blitum",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-amaranthus-blitum-307024-2001192"
+        ],
         "paperTable1Rows": [
           10
         ]
@@ -274,6 +360,83 @@
       }
     },
     {
+      "inputScientificName": "Arabidopsis thaliana",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-arabidopsis-thaliana-300148-2000754"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Arabidopsis_thaliana/300148"
+      },
+      "japaneseName": "シロイヌナズナ",
+      "kana": "シロイヌナズナ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Arabidopsis thaliana",
+          "targetRank": "species",
+          "name": "シロイヌナズナ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "シロイヌナズナ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Brassicaceae",
+          "japaneseName": "アブラナ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Arabidopsis_thaliana/300148",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Arabidopsis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "アブラナ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Arabidopsis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Arabidopsis_thaliana/300148"
+        }
+      }
+    },
+    {
       "inputScientificName": "Aristolochia clematitis",
       "sourceOccurrences": {
         "paldatManifestIds": [
@@ -348,7 +511,9 @@
     {
       "inputScientificName": "Arnebia pulchra",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-arnebia-pulchra-300934-1208795"
+        ],
         "paperTable1Rows": [
           30
         ]
@@ -496,6 +661,83 @@
       }
     },
     {
+      "inputScientificName": "Betula pendula",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-betula-pendula-303759-1012132"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Betula_pendula/303759"
+      },
+      "japaneseName": "オウシュウシラカンバ",
+      "kana": "オウシュウシラカンバ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Betula pendula",
+          "targetRank": "species",
+          "name": "オウシュウシラカンバ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "オウシュウシラカンバ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Betulaceae",
+          "japaneseName": "カバノキ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Betula_pendula/303759",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Betula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "カバノキ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Betula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Betula_pendula/303759"
+        }
+      }
+    },
+    {
       "inputScientificName": "Bidens pilosa",
       "sourceOccurrences": {
         "paldatManifestIds": [
@@ -592,7 +834,9 @@
     {
       "inputScientificName": "Bougainvillea sp.",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-bougainvillea-sp-302972-1017988"
+        ],
         "paperTable1Rows": [
           25
         ]
@@ -735,7 +979,9 @@
     {
       "inputScientificName": "Cerastium tomentosum",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-cerastium-tomentosum-303812-1010942"
+        ],
         "paperTable1Rows": [
           8
         ]
@@ -995,6 +1241,83 @@
       }
     },
     {
+      "inputScientificName": "Cucurbita pepo",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-cucurbita-pepo-302526-1010330"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Cucurbita_pepo/302526"
+      },
+      "japaneseName": "ペポカボチャ",
+      "kana": "ペポカボチャ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Cucurbita pepo",
+          "targetRank": "species",
+          "name": "ペポカボチャ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ペポカボチャ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Cucurbitaceae",
+          "japaneseName": "ウリ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Cucurbita_pepo/302526",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Cucurbita",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ウリ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Cucurbita",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Cucurbita_pepo/302526"
+        }
+      }
+    },
+    {
       "inputScientificName": "Delonix regia",
       "sourceOccurrences": {
         "paldatManifestIds": [
@@ -1095,7 +1418,9 @@
     {
       "inputScientificName": "Diascia barberae",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-diascia-barberae-300642-2002463"
+        ],
         "paperTable1Rows": [
           31
         ]
@@ -1177,6 +1502,83 @@
           "ja": "ディアスキア属（ゴマノハグサ科）の仲間",
           "basisRank": "genus",
           "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Digitalis purpurea",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-digitalis-purpurea-304511-1013367"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Digitalis_purpurea/304511"
+      },
+      "japaneseName": "ジギタリス",
+      "kana": "ジギタリス",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Digitalis purpurea",
+          "targetRank": "species",
+          "name": "ジギタリス",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ジギタリス",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Plantaginaceae",
+          "japaneseName": "オオバコ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Digitalis_purpurea/304511",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Digitalis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オオバコ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Digitalis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Digitalis_purpurea/304511"
         }
       }
     },
@@ -1266,7 +1668,9 @@
     {
       "inputScientificName": "Echinodorus quadricostatus",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-echinodorus-quadricostatus-301458-1010643"
+        ],
         "paperTable1Rows": [
           12
         ]
@@ -1331,6 +1735,134 @@
           "ja": "オモダカ科の仲間",
           "basisRank": "family",
           "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Erica tetralix",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-erica-tetralix-304301-1206000"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Erica_tetralix/304301"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "この調査で種レベルの標準和名を確認できず、推測で補わない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Ericaceae",
+          "japaneseName": "ツツジ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Erica_tetralix/304301",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Erica",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ツツジ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Erica",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Erica_tetralix/304301"
+        }
+      }
+    },
+    {
+      "inputScientificName": "Fagus sylvatica",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-fagus-sylvatica-307041-2001830"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Fagus_sylvatica/307041"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "この調査で種レベルの標準和名を確認できず、推測で補わない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Fagaceae",
+          "japaneseName": "ブナ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Fagus_sylvatica/307041",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Fagus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ブナ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Fagus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Fagus_sylvatica/307041"
         }
       }
     },
@@ -1515,7 +2047,9 @@
     {
       "inputScientificName": "Galium wirtgenii",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-galium-wirtgenii-301588-1013546"
+        ],
         "paperTable1Rows": [
           27
         ]
@@ -1583,6 +2117,83 @@
           "ja": "ヤエムグラ属（アカネ科）の仲間",
           "basisRank": "genus",
           "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Ginkgo biloba",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-ginkgo-biloba-305256-1019745"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Ginkgo_biloba/305256"
+      },
+      "japaneseName": "イチョウ",
+      "kana": "イチョウ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Ginkgo biloba",
+          "targetRank": "species",
+          "name": "イチョウ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "イチョウ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Ginkgoaceae",
+          "japaneseName": "イチョウ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Ginkgo_biloba/305256",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Ginkgo",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "イチョウ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Ginkgo",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Ginkgo_biloba/305256"
         }
       }
     },
@@ -1690,7 +2301,9 @@
     {
       "inputScientificName": "Ibicella lutea",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-ibicella-lutea-301894-1020381"
+        ],
         "paperTable1Rows": [
           7
         ]
@@ -1772,7 +2385,9 @@
     {
       "inputScientificName": "Ipomoea cholulensis",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-ipomoea-cholulensis-300397-1213902"
+        ],
         "paperTable1Rows": [
           22
         ]
@@ -1920,7 +2535,9 @@
     {
       "inputScientificName": "Iva xanthiifolia",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-iva-xanthiifolia-300563-1207002"
+        ],
         "paperTable1Rows": [
           6
         ]
@@ -2001,7 +2618,9 @@
     {
       "inputScientificName": "Kallstroemia maxima",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-kallstroemia-maxima-300241-2001427"
+        ],
         "paperTable1Rows": [
           18
         ]
@@ -2063,6 +2682,314 @@
           "ja": "ハマビシ科の仲間",
           "basisRank": "family",
           "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Lilium martagon",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-lilium-martagon-304746-1015497"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Lilium_martagon/304746"
+      },
+      "japaneseName": "マルタゴンリリー",
+      "kana": "マルタゴンリリー",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Lilium martagon",
+          "targetRank": "species",
+          "name": "マルタゴンリリー",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "マルタゴンリリー",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Liliaceae",
+          "japaneseName": "ユリ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Lilium_martagon/304746",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Lilium",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ユリ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Lilium",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Lilium_martagon/304746"
+        }
+      }
+    },
+    {
+      "inputScientificName": "Nelumbo nucifera",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-nelumbo-nucifera-306287-1011756"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Nelumbo_nucifera/306287"
+      },
+      "japaneseName": "ハス",
+      "kana": "ハス",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Nelumbo nucifera",
+          "targetRank": "species",
+          "name": "ハス",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ハス",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Nelumbonaceae",
+          "japaneseName": "ハス科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Nelumbo_nucifera/306287",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Nelumbo",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ハス科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Nelumbo",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Nelumbo_nucifera/306287"
+        }
+      }
+    },
+    {
+      "inputScientificName": "Nymphaea alba",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-nymphaea-alba-306292-1010002"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Nymphaea_alba/306292"
+      },
+      "japaneseName": "セイヨウスイレン",
+      "kana": "セイヨウスイレン",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Nymphaea alba",
+          "targetRank": "species",
+          "name": "セイヨウスイレン",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "セイヨウスイレン",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Nymphaeaceae",
+          "japaneseName": "スイレン科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Nymphaea_alba/306292",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Nymphaea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "スイレン科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Nymphaea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Nymphaea_alba/306292"
+        }
+      }
+    },
+    {
+      "inputScientificName": "Papaver rhoeas",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-papaver-rhoeas-303904-1018124"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Papaver_rhoeas/303904"
+      },
+      "japaneseName": "ヒナゲシ",
+      "kana": "ヒナゲシ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Papaver rhoeas",
+          "targetRank": "species",
+          "name": "ヒナゲシ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ヒナゲシ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Papaveraceae",
+          "japaneseName": "ケシ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Papaver_rhoeas/303904",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Papaver",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ケシ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Papaver",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Papaver_rhoeas/303904"
         }
       }
     },
@@ -2143,7 +3070,9 @@
     {
       "inputScientificName": "Pfaffia gnaphaloides",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-pfaffia-gnaphaloides-301466-1016767"
+        ],
         "paperTable1Rows": [
           23
         ]
@@ -2209,7 +3138,9 @@
     {
       "inputScientificName": "Pfaffia tuberosa",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-pfaffia-tuberosa-301467-1016761"
+        ],
         "paperTable1Rows": [
           17
         ]
@@ -2378,7 +3309,9 @@
     {
       "inputScientificName": "Phyllanthus sp.",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-phyllanthus-sp-302971-1017792"
+        ],
         "paperTable1Rows": [
           11
         ]
@@ -2446,9 +3379,165 @@
       }
     },
     {
+      "inputScientificName": "Pinus sylvestris",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-pinus-sylvestris-306147-1011552"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Pinus_sylvestris/306147"
+      },
+      "japaneseName": "ヨーロッパアカマツ",
+      "kana": "ヨーロッパアカマツ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Pinus sylvestris",
+          "targetRank": "species",
+          "name": "ヨーロッパアカマツ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ヨーロッパアカマツ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Pinaceae",
+          "japaneseName": "マツ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Pinus_sylvestris/306147",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Pinus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "マツ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Pinus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Pinus_sylvestris/306147"
+        }
+      }
+    },
+    {
+      "inputScientificName": "Plantago lanceolata",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-plantago-lanceolata-304542-1012747"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Plantago_lanceolata/304542"
+      },
+      "japaneseName": "ヘラオオバコ",
+      "kana": "ヘラオオバコ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Plantago lanceolata",
+          "targetRank": "species",
+          "name": "ヘラオオバコ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ヘラオオバコ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Plantaginaceae",
+          "japaneseName": "オオバコ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Plantago_lanceolata/304542",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Plantago",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オオバコ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Plantago",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Plantago_lanceolata/304542"
+        }
+      }
+    },
+    {
       "inputScientificName": "Polemonium pauciflorum",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-polemonium-pauciflorum-300157-2000812"
+        ],
         "paperTable1Rows": [
           15
         ]
@@ -2535,7 +3624,9 @@
     {
       "inputScientificName": "Primula elatior",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-primula-elatior-306329-1016160"
+        ],
         "paperTable1Rows": [
           34
         ]
@@ -2719,9 +3810,88 @@
       }
     },
     {
+      "inputScientificName": "Salvia officinalis",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-salvia-officinalis-304437-2004813"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Salvia_officinalis/304437"
+      },
+      "japaneseName": "セージ",
+      "kana": "セージ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Salvia officinalis",
+          "targetRank": "species",
+          "name": "セージ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "セージ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Lamiaceae",
+          "japaneseName": "シソ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Salvia_officinalis/304437",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Salvia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "シソ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Salvia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Salvia_officinalis/304437"
+        }
+      }
+    },
+    {
       "inputScientificName": "Sarcococca hookeriana",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-sarcococca-hookeriana-302191-1019121"
+        ],
         "paperTable1Rows": [
           14
         ]
@@ -2800,7 +3970,9 @@
     {
       "inputScientificName": "Sarracenia flava",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-sarracenia-flava-302598-1012518"
+        ],
         "paperTable1Rows": [
           33
         ]
@@ -2895,9 +4067,88 @@
       }
     },
     {
+      "inputScientificName": "Typha latifolia",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-typha-latifolia-304817-1011692"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Typha_latifolia/304817"
+      },
+      "japaneseName": "ガマ",
+      "kana": "ガマ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList 2021-05-14",
+          "url": "http://ylist.info/20210514YList_download_tab.txt",
+          "accessedOn": "2026-09-15",
+          "mapping": "direct scientific/Japanese name pair in YList",
+          "targetScientificName": "Typha latifolia",
+          "targetRank": "species",
+          "name": "ガマ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ガマ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Typhaceae",
+          "japaneseName": "ガマ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Typha_latifolia/304817",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Typha",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ガマ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Typha",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Typha_latifolia/304817"
+        }
+      }
+    },
+    {
       "inputScientificName": "Utricularia sandersonii",
       "sourceOccurrences": {
-        "paldatManifestIds": [],
+        "paldatManifestIds": [
+          "paldat-utricularia-sandersonii-302898-1010109"
+        ],
         "paperTable1Rows": [
           32
         ]
@@ -2983,7 +4234,78 @@
           "notSpeciesIdentification": true
         }
       }
+    },
+    {
+      "inputScientificName": "Zea mays",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "paldat-zea-mays-304812-1021714"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "not-reconciled-beyond-PalDat",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.paldat.org/pub/Zea_mays/304812"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": [
+          {
+            "name": "トウモロコシ",
+            "targetScientificName": "Zea mays subsp. mays",
+            "targetRank": "subspecies",
+            "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%A6%E3%83%A2%E3%83%AD%E3%82%B3%E3%82%B7"
+          }
+        ]
+      },
+      "nameEvidence": [],
+      "notes": "種全体の標準和名はこの調査では確定せず。トウモロコシは Zea mays subsp. mays に対応するためWikipedia欄で亜種一致として区別。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "PalDat source family; Japanese family name from YList LAPG/APG family fields",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Poaceae",
+          "japaneseName": "イネ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Zea_mays/304812",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Zea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "イネ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Zea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null,
+          "taxonomySourceUrl": "https://www.paldat.org/pub/Zea_mays/304812"
+        }
+      }
     }
   ],
-  "updatedAt": "2026-09-15T12:39:09+09:00"
+  "updatedAt": "2026-09-15T14:09:23+09:00"
 }
