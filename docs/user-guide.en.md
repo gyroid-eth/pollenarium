@@ -79,7 +79,7 @@ Select **取り出す** (“Take out”) on a card to restore it:
 
 Use a card's **JSON** action to export one record. On another browser or device, select **JSONを読み込む** (“Import JSON”), then take out the imported specimen. Importing adds a new record; repeated imports create multiple records. The current limit is 20 MB per file.
 
-JSON contains the generated model image and numerical state, **not the PalDat SEM image bytes**. It retains the reference URL and credit. The generated PNG is embedded in the JSON; the interface does not offer a separate PNG download action.
+JSON contains the generated model image and numerical state, **not the PalDat SEM image bytes**. It retains the reference URL and credit. The generated PNG is embedded in the JSON; the report dialog also lets you download the generated PNG separately.
 
 Records live in the browser's IndexedDB. There is no account, server-side specimen storage or cloud synchronization. Browser, profile and origin (scheme, hostname and port) matter: `localhost`, `127.0.0.1` and the hosted demo use separate storage. Changing only the URL path on the same origin normally shares storage.
 
@@ -107,3 +107,9 @@ See [model definitions](../MODEL.md), [coverage](../COVERAGE.md) and [same-field
 | Import rejected | Check the supported record/model format and the 20 MB limit. Arbitrary older prototype formats are not supported |
 
 The educational demo uses a separately restricted PalDat image pack with photographer attribution. The code's MIT license does not cover those photographs. Read [the image terms](../references/PALDAT_RIGHTS.md) before reusing them.
+
+## Share a candidate match
+
+Save a result in My specimens and choose **この結果を報告** (Report this result). Describe what looks similar and what differs. Review and copy the full report, download the generated PNG and reproducible specimen JSON, then open the GitHub issue composer. Replace the short instructions with your copied report, attach both files and submit it yourself after signing in.
+
+Reports are player-proposed matches, not automatically approved paper presets or inferred biological material properties. The selected saved state is used, even if the current experiment has changed. JSON retains the full numerical state and view for import into the app. PalDat SEM pixels are excluded; source links and credits remain. The app does not submit an issue automatically. Review your notes before publishing them.

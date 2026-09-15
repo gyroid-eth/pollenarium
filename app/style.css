@@ -94,6 +94,7 @@ summary{font-size:11px;color:var(--muted)}
 .card-actions{display:flex;gap:5px;margin-top:10px}
 .card-actions button{font-size:11px;padding:5px 8px}
 .card .restore{background:#39362e}
+.card .report{width:100%;margin-top:7px;padding:6px 8px;font-size:11px;border-color:#625945;background:#28251f;color:#e5d8c0}
 footer{border-top:1px solid var(--line);padding:20px 0;display:flex;justify-content:space-between;gap:16px;color:var(--muted);font-size:10px}
 dialog{background:#15181a;color:var(--ink);border:1px solid #626460;border-radius:8px;max-width:660px;padding:35px;line-height:1.9}
 dialog::backdrop{background:#000b}
@@ -102,6 +103,23 @@ dialog p{font-size:13px;color:var(--muted)}
 #toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#e4d6bb;color:#25221c;border-radius:6px;padding:12px 20px;box-shadow:0 4px 30px #0006;display:none;font-size:12px;z-index:5}
 #media-missing{color:var(--muted);text-align:center;font-size:12px}
 .error{color:#ebb5a8!important}
+
+/* A saved result becomes a user-reviewed draft; the app never submits it. */
+.report-dialog{width:min(780px,calc(100vw - 40px));max-width:780px;max-height:calc(100dvh - 40px);overflow:auto;padding:30px}
+.report-dialog h2{font:28px/1.35 var(--serif);margin:5px 0 8px}
+.report-dialog>p{margin:8px 0}
+.report-context{padding:8px 10px;border-left:2px solid var(--accent);background:#202426;overflow-wrap:anywhere}
+.report-notes{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.report-notes label,.report-body-label{display:block;font-size:11px;color:var(--muted)}
+.report-notes textarea,.report-body-label textarea{display:block;width:100%;margin-top:5px;resize:vertical;font-size:12px;line-height:1.55}
+.report-body-label textarea{min-height:190px;white-space:pre;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.report-steps{margin:14px 0;padding-left:22px;font-size:12px;color:var(--muted)}
+.report-privacy{font-size:11px!important;border-top:1px solid var(--line);padding-top:10px}
+.report-downloads{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0}
+.report-downloads button{font-size:11px}
+.report-submit{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:12px}
+.report-submit span{font-size:10px;line-height:1.5;color:var(--muted);max-width:360px}
+.button-link{display:inline-block;border:1px solid var(--accent);border-radius:5px;background:var(--accent);color:#22201a;padding:8px 12px;text-decoration:none;font-size:12px;white-space:nowrap}
 
 /* A reference atlas opens independently from the running experiment. */
 .atlas-launch{font-size:12px;background:#282a29;border-color:#5c5c52;padding:7px 11px}
@@ -148,6 +166,7 @@ dialog p{font-size:13px;color:var(--muted)}
   .atlas-search-label{width:100%;min-width:0}.atlas-close{font-size:11px;padding:9px 10px}.atlas-toolbar{align-items:start;margin:16px 0}
   .shape-filters{gap:5px}#atlas-count{font-size:10px}.taxon-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 8px}
   .taxon-media{height:105px}.taxon strong{font-size:15px}.atlas-foot{font-size:10px}
+  .report-dialog{width:calc(100vw - 20px);max-height:calc(100dvh - 20px);padding:20px}.report-dialog h2{font-size:24px}.report-notes{grid-template-columns:1fr}.report-submit{align-items:stretch;flex-direction:column}.button-link{text-align:center;white-space:normal}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 

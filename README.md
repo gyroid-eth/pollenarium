@@ -12,6 +12,7 @@ Observe real pollen, explore mathematical patterns, and keep your own specimen c
 - Browse 52 individually credited SEM references in a searchable shape atlas, including a filter for the 33 references linked to paper Table 1 rows.
 - Explore two distinct models from Radja et al. (2019): restricted equilibrium shapes (Eq. 6) and conserved pattern growth (Eq. 7).
 - Save complete numerical states, conditions, observations and generated snapshots locally; export/import JSON without an account.
+- Report a saved candidate match with generated PNG, reproducible JSON and your observations; review and submit it yourself on GitHub.
 
 You judge resemblance. There is no automatic score or biological parameter identification. This is an independent numerical implementation with documented approximations, not a certified reproduction of every published image or global minimum. See [model details](MODEL.md), [coverage](COVERAGE.md) and [numerical diagnostics](REPRODUCTION_DIAGNOSTICS.md).
 
