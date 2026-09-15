@@ -43,7 +43,9 @@ Integrating Eq. 7 for a long time is not the same as the restricted Eq. 6 equili
 
 Change one parameter at a time to make comparisons easier. Press **停止** (“Stop”) to inspect the current state. Saving is disabled while computing or after you change conditions without recalculating. Follow the status message beside the controls.
 
-Drag the generated sphere to rotate it; use a mouse wheel to zoom. **凹凸の見せ方** changes graphical relief only. The rendering is not a physical wall-thickness prediction or an electron-microscope image model.
+Drag the generated sphere to rotate it; use a mouse wheel to zoom. **凹凸の見せ方** controls the geometric presentation of the outer wall. Adjust height, protrusion sharpness and valley depth, or reset the two extra controls to their defaults while retaining the relief height. These settings change the height mapping while retaining the computed field and its spatial pattern; stripes do not become independently placed spines.
+
+This is a geometric representation of a possible wall shape, not a simulation of sporopollenin deposition, a physical wall-thickness prediction, or an electron-microscope image model. Display settings are preserved with saved specimens and report JSON, separately from model parameters.
 
 | Setting | Meaning |
 | --- | --- |

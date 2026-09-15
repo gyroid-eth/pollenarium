@@ -49,6 +49,15 @@ canvas{width:100%;height:100%;display:block;touch-action:none}
 .view-control label{display:flex;align-items:center;gap:12px}
 .view-control input{width:92px}
 .view-control span{color:#9ea7a9;font-size:10px}
+.view-settings{margin-top:10px;padding-top:7px}
+.view-settings summary{width:max-content}
+.view-shape-controls{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:10px 0}
+.view-shape-controls label>span{display:flex;justify-content:space-between;gap:8px;font-size:11px}
+.view-shape-controls output{color:var(--accent);font-variant-numeric:tabular-nums}
+.view-shape-controls input{display:block;width:100%;margin:6px 0}
+.view-shape-controls small,.view-settings p{display:block;color:var(--muted);font-size:9px;line-height:1.5}
+.view-settings button{font-size:10px;padding:5px 8px}
+.view-settings p{display:inline;margin-left:9px}
 .result-foot p{font-size:11px;line-height:1.6;color:var(--muted);margin:10px 0 0}
 .controls{background:var(--panel);padding:16px;border:1px solid var(--line);border-radius:5px;min-width:0;line-height:1.55}
 .tabs{display:flex;border:1px solid var(--line);border-radius:6px;padding:3px;gap:3px}
@@ -160,6 +169,7 @@ dialog p{font-size:13px;color:var(--muted)}
   header{height:65px;padding:0 14px}.brand{font-size:26px}nav{gap:0}nav .text-button{display:none}main{padding:0 14px}
   .intro{display:block;padding:14px 0}.intro>p{margin-top:7px}.workbench{grid-template-columns:1fr}
   .sem-stage,.canvas-stage{height:320px}.reference-foot,.result-foot{min-height:0}.panel-top{padding:14px}.panel-title{font-size:20px}.gesture{font-size:8px}
+  .view-shape-controls{grid-template-columns:1fr}.view-settings p{display:block;margin:8px 0 0}
   .section-heading h2{font-size:23px}.section-heading h2 span{display:block;margin:5px 0 0}.section-heading{gap:10px}
   footer{display:block}footer a{display:block;margin-top:8px}.atlas-dialog{width:calc(100vw - 20px);height:calc(100dvh - 20px);padding:18px}
   .atlas-header{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px}.atlas-header>div{grid-column:1/-1}.atlas-header h2{font-size:26px}
