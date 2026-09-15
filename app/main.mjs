@@ -28,7 +28,13 @@ function controls(){
 }
 function change(key,value){draft[key]=value;dirty=true;$('preset').value='custom';buttons()}
 function buttons(){ $('run').disabled=busy;$('pause').disabled=!busy;$('save').disabled=busy||!current||dirty;$('continue').hidden=mode!=='dynamics'||!current||busy||dirty;$('draft-note').textContent=dirty?'条件を変更しました。再計算してから標本に残せます。':busy?'計算中。停止すると、今の状態を標本に残せます。':'条件・計算場・表示・観察メモを一緒に保存。';}
-function presetMenu(){const select=$('preset');select.replaceChildren(new Option('自由に条件を設定','custom'));(mode==='equilibrium'?presets.equilibrium:presets.dynamics).forEach((p,i)=>select.add(new Option(mode==='equilibrium'?`${taxonName(p.species).full} · l₀ ${p.l0} / u ${p.u}`:`${p.name} · q₀ ${p.q0} / τ ${p.tau}`,String(i))))}
+function presetMenu(){
+ const select=$('preset');select.replaceChildren(new Option('自由に条件を設定','custom'));
+ const entries=(mode==='equilibrium'?presets.equilibrium:presets.dynamics).map((p,i)=>({p,i}));
+ if(mode==='equilibrium')entries.sort((a,b)=>a.p.species.localeCompare(b.p.species,'en'));
+ // Keep source indices as option values: precomputed states follow Table 1 order.
+ for(const {p,i} of entries)select.add(new Option(mode==='equilibrium'?`${taxonName(p.species).full} · l₀ ${p.l0} / u ${p.u}`:`${p.name} · q₀ ${p.q0} / τ ${p.tau}`,String(i)));
+}
 function metric(name,value){const div=document.createElement('div');div.className='metric';const s=document.createElement('small');s.textContent=name;const b=document.createElement('strong');b.textContent=value;div.append(s,b);return div}
 function showState(m){current=m.state;if(mode==='dynamics')$('model-tag').textContent=current.model===MODEL_ID?'EQ. 7 / 旧方式の標本':'EQ. 7 / 4次時間積分';renderer.update(m.field,m.grid,current);const d=current.diagnostics;
  $('metrics').replaceChildren(...(mode==='equilibrium'?[metric('ENERGY',fmt(d.energy,5)),metric('GRADIENT',fmt(d.gradientNorm,2)),metric('STARTS',`${current.search?.completedRestarts??'—'} / ${current.parameters.restarts}`)]:[metric('TIME',fmt(current.time,4)),metric('MEAN DRIFT',fmt(d.meanDrift,2)),metric('PEAK DEGREE',String(d.peakDegree))]));
