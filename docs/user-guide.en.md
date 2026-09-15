@@ -10,7 +10,7 @@ Actual screen: SEM at left, computed field in the center, conditions at right, s
 
 ## 1. Choose an observation in the atlas
 
-In Observe, select **15点から選ぶ** (“Choose from 15”). Search by scientific name, or filter by protrusions, pits/pores, grooves/bands, networks, or smoothness. **すべて** (“All”) resets the shape filter; clear the search field separately when needed.
+In Observe, select **15点から選ぶ** (“Choose from 15”). Search by scientific name, Japanese name, or Japanese genus/family label, or filter by protrusions, pits/pores, grooves/bands, networks, or smoothness. **すべて** (“All”) resets the shape filter; clear the search field separately when needed.
 
 Selecting a photograph updates the image, species, photographer and source in Observe. **It does not reset or reconfigure your calculation.** Choose mathematical presets separately in the settings panel. A running calculation continues while the atlas is open, so its field can still evolve. Stop it first if you want to inspect a fixed result.
 
@@ -21,6 +21,8 @@ The filters are visual browsing cues. Some pores and grooves are apertures, whos
 ![Pollenarium atlas screenshot](https://github.com/gyroid-eth/pollenarium/releases/download/docs-media-v1/atlas.png)
 
 Choose from 15 references using scientific names and visual features. SEM: H. Halbritter, W. Oberschneider and B. Diethart / PalDat. [Image credits](SCREENSHOTS.md).
+
+Japanese labels supplement scientific names. Where a Japanese species name is unconfirmed or under review, a genus/family group label is shown instead. Name sources are linked from Observe.
 
 ## 2. Choose a model
 

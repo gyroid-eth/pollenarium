@@ -1,0 +1,2989 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-15T12:26:32+09:00",
+  "accessedOn": "2026-09-15",
+  "scope": {
+    "paldatManifestPath": "references/paldat-manifest.json",
+    "paldatManifestRecords": 15,
+    "paldatManifestUniqueTaxa": 15,
+    "paperPresetsPath": "references/paper-presets.json",
+    "paperTable1Rows": 34,
+    "paperTable1UniqueTaxa": 34,
+    "unionUniqueTaxa": 36,
+    "confirmedJapaneseNames": 22,
+    "unconfirmedJapaneseNames": 14
+  },
+  "policy": {
+    "japaneseName": "種または明示された種内分類群に対応する根拠を確認できた和名のみ。属和名、英名の音写、推測名は入れない。",
+    "kana": "確認した和名のカナ表記。japaneseName が null の場合は null。",
+    "confidence": "high=学術・公的DB等で種との直接対応あり、medium=種内分類群・旧分類・公的リスト等を介するため注記が必要、none=未確認。",
+    "taxonomy": "現行名は主に POWO、照合補助に GBIF Backbone を使用。分類体系間の差は notes に残す。",
+    "displayDecision": "recommended=その分類群の表示候補として採用可、review=根拠はあるが階級・名称区分等を親レビュー、none=候補なし。",
+    "companionLabel": "種和名とは独立した補助ラベル。現行属の確認済み和名があれば『○○属（○○科）の仲間』、なければ『○○科の仲間』。種同定を意味しない。"
+  },
+  "taxa": [
+    {
+      "inputScientificName": "Alisma lanceolatum",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "alisma-lanceolatum-304719-1013446"
+        ],
+        "paperTable1Rows": [
+          1
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Alisma lanceolatum With.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1047073-2"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "lanceolate water plantain"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "ヘラオモダカは Alisma canaliculatum の和名であり、本種へ流用しない。調査したYList一括データに本種の種レベル項目なし。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Alismataceae",
+          "japaneseName": "オモダカ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1047073-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Alisma",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Alisma",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1047073-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オモダカ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Alisma plantago-aquatica",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          9
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Alisma plantago-aquatica L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30019518-2"
+      },
+      "japaneseName": "サジオモダカ",
+      "kana": "サジオモダカ",
+      "nameStatus": "confirmed",
+      "confidence": "medium",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "common water-plantain"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=23268",
+          "mapping": "species-level broad-sense entry",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Alisma plantago-aquatica",
+          "targetRank": "species",
+          "name": "サジオモダカ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        },
+        {
+          "source": "Kumamoto University Medicinal Plant Garden",
+          "url": "https://www.pharm.kumamoto-u.ac.jp/yakusodb/detail/003378.php",
+          "mapping": "A. plantago-aquatica var. orientale",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Alisma plantago-aquatica var. orientale",
+          "targetRank": "variety",
+          "name": "サジオモダカ",
+          "nameCategory": "sourceDefinedJapaneseName",
+          "supportsDisplay": false,
+          "displayUse": "context-only"
+        }
+      ],
+      "notes": "YListは種を広義でサジオモダカとするが、日本産資料の多くは var./subsp. orientale にこの和名を対応させるため確信度medium。",
+      "displayDecision": {
+        "candidate": "サジオモダカ",
+        "status": "review",
+        "reason": "YListに種レベル広義の対応はあるが、国内の具体的用法は主に var./subsp. orientale"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Alismataceae",
+          "japaneseName": "オモダカ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30019518-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Alisma",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Alisma",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30019518-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オモダカ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Amaranthus blitum",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          10
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Amaranthus blitum L.",
+        "taxonomyUrl": "https://www.gbif.org/species/8911082"
+      },
+      "japaneseName": "イヌビユ",
+      "kana": "イヌビユ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "purple amaranth"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=28084",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Amaranthus blitum",
+          "targetRank": "species",
+          "name": "イヌビユ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        },
+        {
+          "source": "Okayama Prefecture plant checklist",
+          "url": "https://okayama-shizenhogo-c.jp/media/pdf/save/catalog/e28ce12946a5c787da6b621b4494d8be.pdf",
+          "mapping": "direct scientific/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Amaranthus blitum",
+          "targetRank": "species",
+          "name": "イヌビユ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "イヌビユ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/8911082",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Amaranthus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Amaranthus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/8911082",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ヒユ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Aristolochia clematitis",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "aristolochia-clematitis-303787-1018467"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Aristolochia clematitis L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A92841-1"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "European birthwort"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "ウマノスズクサは属名または別種に用いられるため、本種の種和名として代用しない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Aristolochiaceae",
+          "japaneseName": "ウマノスズクサ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A92841-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Aristolochia",
+          "japaneseName": "ウマノスズクサ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://mhlw-grants.niph.go.jp/system/files/2005/058051/200501080A/200501080A0008.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Aristolochia",
+          "japaneseName": "ウマノスズクサ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A92841-1",
+          "japaneseNameEvidence": {
+            "url": "https://mhlw-grants.niph.go.jp/system/files/2005/058051/200501080A/200501080A0008.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ウマノスズクサ属（ウマノスズクサ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Arnebia pulchra",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          30
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Huynhia pulchra (Willd. ex Roem. & Schult.) Greuter & Burdet",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A113481-1"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [
+          "アルネビア・プルクラ"
+        ],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "POWOでは Huynhia pulchra の異名。カナ音写は検索語としてのみ保持し、標準和名とはしない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Boraginaceae",
+          "japaneseName": "ムラサキ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A113481-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Arnebia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Huynhia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A113481-1",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ムラサキ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Berberis vulgaris",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "berberis-vulgaris-303900-1012963"
+        ],
+        "paperTable1Rows": [
+          26
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Berberis vulgaris L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/328527-2"
+      },
+      "japaneseName": "セイヨウメギ",
+      "kana": "セイヨウメギ",
+      "nameStatus": "confirmed",
+      "confidence": "medium",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [
+          "ベルベリス・ブルガリス"
+        ],
+        "english": [
+          "common barberry",
+          "European barberry"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "Ministry of Health, Labour and Welfare list",
+          "url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T260601I0030.pdf",
+          "mapping": "government list gives セイヨウメギ as other name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Berberis vulgaris",
+          "targetRank": "species",
+          "name": "セイヨウメギ",
+          "nameCategory": "otherNameInGovernmentList",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": "公的リストでは主名称が学名音写、セイヨウメギは他名欄のためmedium。",
+      "displayDecision": {
+        "candidate": "セイヨウメギ",
+        "status": "review"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Berberidaceae",
+          "japaneseName": "メギ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/328527-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Berberis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Berberis",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/328527-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "メギ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Bidens pilosa",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "bidens-pilosa-305444-2005911"
+        ],
+        "paperTable1Rows": [
+          5
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Bidens pilosa L.",
+        "taxonomyUrl": "https://www.gbif.org/species/5391845"
+      },
+      "japaneseName": "コセンダングサ",
+      "kana": "コセンダングサ",
+      "nameStatus": "confirmed",
+      "confidence": "medium",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "hairy beggar-ticks"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "Amami wildlife database",
+          "url": "https://www.amami.or.jp/seibutsusigen/detail_plant/plant_detail_1095.html",
+          "mapping": "direct B. pilosa species pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Bidens pilosa",
+          "targetRank": "species",
+          "name": "コセンダングサ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        },
+        {
+          "source": "NIES Invasive Species Database",
+          "url": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80460.html",
+          "mapping": "B. pilosa var. pilosa",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Bidens pilosa var. pilosa",
+          "targetRank": "variety",
+          "name": "コセンダングサ",
+          "nameCategory": "sourceDefinedJapaneseName",
+          "supportsDisplay": false,
+          "displayUse": "context-only"
+        }
+      ],
+      "notes": "日本の標準的資料ではしばしば var. pilosa に限定してコセンダングサを対応させるためmedium。",
+      "displayDecision": {
+        "candidate": "コセンダングサ",
+        "status": "recommended",
+        "reason": "奄美DBに種レベルの直接対応あり。NIESの変種対応は補助文脈"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Asteraceae",
+          "japaneseName": "キク科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5391845",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Bidens",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Bidens",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5391845",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "キク科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Bougainvillea sp.",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          25
+        ]
+      },
+      "taxonomy": {
+        "rank": "genus-unspecified",
+        "inputStatus": "incomplete-identification",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.gbif.org/species/search?q=Bougainvillea"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "ブーゲンビリア"
+        ],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "種未同定。ブーゲンビリアは属・園芸群の呼称なので種和名に代用しない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Nyctaginaceae",
+          "japaneseName": "オシロイバナ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/search?q=Bougainvillea",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Bougainvillea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Bougainvillea",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/search?q=Bougainvillea",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オシロイバナ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Caldesia parnassifolia",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          19
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Caldesia parnassifolia (L.) Parl.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A58293-1"
+      },
+      "japaneseName": "マルバオモダカ",
+      "kana": "マルバオモダカ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "Ministry of the Environment Red List/RDB",
+          "url": "https://ikilog.biodic.go.jp/rl_rdb/c/1197.html",
+          "mapping": "direct scientific/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Caldesia parnassifolia",
+          "targetRank": "species",
+          "name": "マルバオモダカ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": "環境省ページ内には parnassiifolia とする表記も見えるが、POWOおよび入力は parnassifolia を採用。",
+      "displayDecision": {
+        "candidate": "マルバオモダカ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Alismataceae",
+          "japaneseName": "オモダカ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A58293-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Caldesia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Caldesia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A58293-1",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オモダカ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Cerastium tomentosum",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          8
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Cerastium tomentosum L.",
+        "taxonomyUrl": "https://www.gbif.org/species/3085438"
+      },
+      "japaneseName": "シロミミナグサ",
+      "kana": "シロミミナグサ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "ツナユキソウ"
+        ],
+        "transliterations": [],
+        "english": [
+          "snow-in-summer"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=12691",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Cerastium tomentosum",
+          "targetRank": "species",
+          "name": "シロミミナグサ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "シロミミナグサ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Caryophyllaceae",
+          "japaneseName": "ナデシコ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3085438",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Cerastium",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Cerastium",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3085438",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ナデシコ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Chenopodium album",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "chenopodium-album-304986-1021681"
+        ],
+        "paperTable1Rows": [
+          3
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Chenopodium album L.",
+        "taxonomyUrl": "https://www.gbif.org/species/3083838"
+      },
+      "japaneseName": "シロザ",
+      "kana": "シロザ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "fat-hen",
+          "white goosefoot"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=3269",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Chenopodium album",
+          "targetRank": "species",
+          "name": "シロザ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "シロザ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3083838",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Chenopodium",
+          "japaneseName": "アカザ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/goosefoot/chenopodium/alb.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Chenopodium",
+          "japaneseName": "アカザ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3083838",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/goosefoot/chenopodium/alb.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "アカザ属（ヒユ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Chondrilla juncea",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "chondrilla-juncea-304698-1013865"
+        ],
+        "paperTable1Rows": [
+          21
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Chondrilla juncea L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A328774-2"
+      },
+      "japaneseName": "エダウチニガナ",
+      "kana": "エダウチニガナ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "rush skeletonweed"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=41669",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Chondrilla juncea",
+          "targetRank": "species",
+          "name": "エダウチニガナ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        },
+        {
+          "source": "Aichi Prefecture checklist",
+          "url": "https://kankyojoho.pref.aichi.jp/DownLoad/DownLoad/08_shiryoulist.pdf",
+          "mapping": "direct scientific/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Chondrilla juncea",
+          "targetRank": "species",
+          "name": "エダウチニガナ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "エダウチニガナ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Asteraceae",
+          "japaneseName": "キク科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A328774-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Chondrilla",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Chondrilla",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A328774-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "キク科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Delonix regia",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "delonix-regia-302200-2004953"
+        ],
+        "paperTable1Rows": []
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Delonix regia (Bojer ex Hook.) Raf.",
+        "taxonomyUrl": "https://www.gbif.org/species/2956176"
+      },
+      "japaneseName": "ホウオウボク",
+      "kana": "ホウオウボク",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "royal poinciana",
+          "flamboyant"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=13278",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Delonix regia",
+          "targetRank": "species",
+          "name": "ホウオウボク",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        },
+        {
+          "source": "Kyushu Regional Forest Office",
+          "url": "https://www.rinya.maff.go.jp/kyusyu/iriomote_fc/iriomote_syokubutusi/pdf/s276_hououboku.pdf",
+          "mapping": "direct scientific/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Delonix regia",
+          "targetRank": "species",
+          "name": "ホウオウボク",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ホウオウボク",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Fabaceae",
+          "japaneseName": "マメ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2956176",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Delonix",
+          "japaneseName": "ホウオウボク属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/gaikokugo/d/Delonix%20regia.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Delonix",
+          "japaneseName": "ホウオウボク属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2956176",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/gaikokugo/d/Delonix%20regia.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ホウオウボク属（マメ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Diascia barberae",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          31
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Diascia barberae Hook.f.",
+        "taxonomyUrl": "https://www.gbif.org/species/5559593"
+      },
+      "japaneseName": "ニカクソウ",
+      "kana": "ニカクソウ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "ディアスキア",
+          "ディアスキア・バーベラエ"
+        ],
+        "transliterations": [],
+        "english": [
+          "twinspur"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=22980",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Diascia barberae",
+          "targetRank": "species",
+          "name": "ニカクソウ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ニカクソウ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Scrophulariaceae",
+          "japaneseName": "ゴマノハグサ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5559593",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Diascia",
+          "japaneseName": "ディアスキア属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/souhon2/shousai2/na-gyou/ni/nikakusou/nikakusou.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Diascia",
+          "japaneseName": "ディアスキア属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5559593",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/souhon2/shousai2/na-gyou/ni/nikakusou/nikakusou.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ディアスキア属（ゴマノハグサ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Echinodorus cordifolius",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "echinodorus-cordifolius-303026-2005819"
+        ],
+        "paperTable1Rows": [
+          13
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Aquarius cordifolius (L.) Christenh. & Byng",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A58327-1"
+      },
+      "japaneseName": "シャゼンオモダカ",
+      "kana": "シャゼンオモダカ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "ハイシャゼンモダカ"
+        ],
+        "transliterations": [],
+        "english": [
+          "creeping burhead"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=20449",
+          "mapping": "standard name under Echinodorus combination",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Echinodorus cordifolius",
+          "targetRank": "species",
+          "name": "シャゼンオモダカ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": "POWOでは Echinodorus cordifolius を Aquarius cordifolius の異名とする。和名は旧属組合せに直接対応。",
+      "displayDecision": {
+        "candidate": "シャゼンオモダカ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Alismataceae",
+          "japaneseName": "オモダカ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A58327-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Echinodorus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Aquarius",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A58327-1",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オモダカ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Echinodorus quadricostatus",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          12
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Helanthium bolivianum (Rusby) Lehtonen & Myllys",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A88205-2"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "チェーンソード",
+          "ドワーフチェーンソード"
+        ],
+        "transliterations": [
+          "エキノドルス・クアドリコスタトゥス"
+        ],
+        "english": [
+          "chain sword"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "POWOでは Helanthium bolivianum の異名。流通名は分類群の取り違えを含み得るため標準和名に採用しない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Alismataceae",
+          "japaneseName": "オモダカ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A88205-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Echinodorus",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Helanthium",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A88205-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "オモダカ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Gaillardia aristata",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "gaillardia-aristata-306220-1013069"
+        ],
+        "paperTable1Rows": [
+          4
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Gaillardia aristata Pursh",
+        "taxonomyUrl": "https://www.gbif.org/species/5387859"
+      },
+      "japaneseName": "オオテンニンギク",
+      "kana": "オオテンニンギク",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "ガイラルディア"
+        ],
+        "transliterations": [],
+        "english": [
+          "blanketflower"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=9596",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Gaillardia aristata",
+          "targetRank": "species",
+          "name": "オオテンニンギク",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        },
+        {
+          "source": "MAFF variety examination guideline",
+          "url": "https://www.hinshu2.maff.go.jp/info/sinsakijun/kijun/1293.pdf",
+          "mapping": "direct species/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Gaillardia aristata",
+          "targetRank": "species",
+          "name": "オオテンニンギク",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "オオテンニンギク",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Asteraceae",
+          "japaneseName": "キク科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5387859",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Gaillardia",
+          "japaneseName": "テンニンギク属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://www.hinshu2.maff.go.jp/info/sinsakijun/kijun/1293.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Gaillardia",
+          "japaneseName": "テンニンギク属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5387859",
+          "japaneseNameEvidence": {
+            "url": "https://www.hinshu2.maff.go.jp/info/sinsakijun/kijun/1293.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "テンニンギク属（キク科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Galium album",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "galium-album-305038-1018166"
+        ],
+        "paperTable1Rows": [
+          28
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Galium album Mill.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/749481-1"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [
+          "ガリウム・アルブム"
+        ],
+        "english": [
+          "white bedstraw",
+          "upright hedge bedstraw"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "日本語の標準和名を信頼できる和名DB・公的資料で確認できず。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Rubiaceae",
+          "japaneseName": "アカネ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/749481-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Galium",
+          "japaneseName": "ヤエムグラ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://mikawanoyasou.org/data/yaemugura.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Galium",
+          "japaneseName": "ヤエムグラ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/749481-1",
+          "japaneseNameEvidence": {
+            "url": "https://mikawanoyasou.org/data/yaemugura.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ヤエムグラ属（アカネ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Galium wirtgenii",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          27
+        ]
+      },
+      "taxonomy": {
+        "rank": "subspecies",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Galium verum subsp. wirtgenii (F.W.Schultz) Oborny",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77189685-1"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [
+          "ガリウム・ベルム・ウィルトゲニー"
+        ],
+        "english": [
+          "Wirtgen's bedstraw"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "POWOでは Galium verum の亜種。見つかった日本語表記は学名音写で、標準和名とは確認できない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Rubiaceae",
+          "japaneseName": "アカネ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77189685-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Galium",
+          "japaneseName": "ヤエムグラ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://mikawanoyasou.org/data/yaemugura.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Galium",
+          "japaneseName": "ヤエムグラ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77189685-1",
+          "japaneseNameEvidence": {
+            "url": "https://mikawanoyasou.org/data/yaemugura.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ヤエムグラ属（アカネ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Gomphrena globosa",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "gomphrena-globosa-300588-1211648"
+        ],
+        "paperTable1Rows": [
+          16
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Gomphrena globosa L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/327333-2"
+      },
+      "japaneseName": "センニチコウ",
+      "kana": "センニチコウ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "センニチソウ"
+        ],
+        "transliterations": [],
+        "english": [
+          "globe amaranth"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "Sakata Seed",
+          "url": "https://sakata-tsushin.com/lesson-flower/detail_63/",
+          "mapping": "direct scientific/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Gomphrena globosa",
+          "targetRank": "species",
+          "name": "センニチコウ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        },
+        {
+          "source": "Encyclopedia entry",
+          "url": "https://kotobank.jp/word/%E3%81%9B%E3%82%93%E3%81%AB%E3%81%A1%E3%81%93%E3%81%86-3157406",
+          "mapping": "direct scientific/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Gomphrena globosa",
+          "targetRank": "species",
+          "name": "センニチコウ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": "2021年YList一括データには学名を Gomphrena globrosa とする綴り誤りがあるため、和名根拠は別資料を採用。",
+      "displayDecision": {
+        "candidate": "センニチコウ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/327333-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Gomphrena",
+          "japaneseName": "センニチコウ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://sakata-tsushin.com/lesson-flower/detail_63/",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Gomphrena",
+          "japaneseName": "センニチコウ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/327333-2",
+          "japaneseNameEvidence": {
+            "url": "https://sakata-tsushin.com/lesson-flower/detail_63/",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "センニチコウ属（ヒユ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Ibicella lutea",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          7
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Ibicella lutea (Lindl.) Van Eselt.",
+        "taxonomyUrl": "https://www.gbif.org/species/3172647"
+      },
+      "japaneseName": "キバナツノゴマ",
+      "kana": "キバナツノゴマ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "オオツノゴマ",
+          "キバナノツノゴマ"
+        ],
+        "transliterations": [],
+        "english": [
+          "yellow unicorn-plant"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=26847",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Ibicella lutea",
+          "targetRank": "species",
+          "name": "キバナツノゴマ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "キバナツノゴマ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Martyniaceae",
+          "japaneseName": "ツノゴマ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3172647",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Ibicella",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Ibicella",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3172647",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ツノゴマ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Ipomoea cholulensis",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          22
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Ipomoea cholulensis Kunth",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A268637-1"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [
+          "イポメア・コルレンシス"
+        ],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "入力綴りはPOWOで受理名として確認。日本語の標準和名は確認できない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Convolvulaceae",
+          "japaneseName": "ヒルガオ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A268637-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Ipomoea",
+          "japaneseName": "サツマイモ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://www.maff.go.jp/j/syouan/keneki/kikaku/attach/pdf/pra_table2-27.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Ipomoea",
+          "japaneseName": "サツマイモ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A268637-1",
+          "japaneseNameEvidence": {
+            "url": "https://www.maff.go.jp/j/syouan/keneki/kikaku/attach/pdf/pra_table2-27.pdf",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "サツマイモ属（ヒルガオ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Iris bucharica",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "iris-bucharica-302289-1011227"
+        ],
+        "paperTable1Rows": [
+          2
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Iris bucharica Foster",
+        "taxonomyUrl": "https://www.gbif.org/species/5298417"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [
+          "ブハラアイリス"
+        ],
+        "english": [
+          "Bukhara iris"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "英名の音写しか確認できず、標準和名として採用しない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Iridaceae",
+          "japaneseName": "アヤメ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5298417",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Iris",
+          "japaneseName": "アヤメ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://jpsearch.go.jp/gallery/ndl-ZwlK4987YNP",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Iris",
+          "japaneseName": "アヤメ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5298417",
+          "japaneseNameEvidence": {
+            "url": "https://jpsearch.go.jp/gallery/ndl-ZwlK4987YNP",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "アヤメ属（アヤメ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Iva xanthiifolia",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          6
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "synonym",
+        "acceptedScientificName": "Euphrosyne xanthiifolia (Nutt.) A.Gray",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A329301-2"
+      },
+      "japaneseName": "フナバシソウ",
+      "kana": "フナバシソウ",
+      "nameStatus": "confirmed",
+      "confidence": "medium",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "アカザヨモギ"
+        ],
+        "transliterations": [],
+        "english": [
+          "giant sumpweed"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=30371",
+          "mapping": "synonym entry maps Iva xanthiifolia to フナバシソウ",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Iva xanthiifolia",
+          "targetRank": "species",
+          "name": "フナバシソウ",
+          "nameCategory": "nameOnSynonymRecord",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": "POWOの受理名は Euphrosyne xanthiifolia。GBIFは Cyclachaena xanthiifolia を受理名とし分類体系差がある。",
+      "displayDecision": {
+        "candidate": "フナバシソウ",
+        "status": "review"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Asteraceae",
+          "japaneseName": "キク科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A329301-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Iva",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Euphrosyne",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A329301-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "キク科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Kallstroemia maxima",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          18
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Kallstroemia maxima (L.) Hook. & Arn.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77076481-1"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [
+          "カリストロエミア・マキシマ"
+        ],
+        "english": [
+          "big caltrop"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "台湾の植物DBには中国語名があるが、日本語の標準和名は確認できない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Zygophyllaceae",
+          "japaneseName": "ハマビシ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77076481-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Kallstroemia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Kallstroemia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77076481-1",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ハマビシ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Persicaria mitis",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "persicaria-mitis-302862-1017282"
+        ],
+        "paperTable1Rows": [
+          24
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Persicaria mitis (Schrank) Assenov",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77108460-1"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "tasteless water-pepper"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "YListのハルタデ対応は Persicaria mitis auct. non Delarbre（誤用名）であり、POWOの受理種 P. mitis (Schrank) Assenov の和名根拠には使えない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Polygonaceae",
+          "japaneseName": "タデ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77108460-1",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Persicaria",
+          "japaneseName": "イヌタデ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://chigaku.ed.gifu-u.ac.jp/chigakuhp/html/kyo/seibutsu/syokubutsu/SogoZukan/hishi/tadeka/index.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Persicaria",
+          "japaneseName": "イヌタデ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77108460-1",
+          "japaneseNameEvidence": {
+            "url": "https://chigaku.ed.gifu-u.ac.jp/chigakuhp/html/kyo/seibutsu/syokubutsu/SogoZukan/hishi/tadeka/index.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "イヌタデ属（タデ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Pfaffia gnaphaloides",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          23
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "spelling-discrepancy",
+        "acceptedScientificName": "Pfaffia gnaphalioides (L.f.) Mart.",
+        "taxonomyUrl": "https://powo.science.kew.org/results?q=Pfaffia%20gnaphalioides"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [
+          "ファフィア・グナファリオイデス"
+        ],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "入力は gnaphaloides（iなし）。POWOでは Pfaffia gnaphalioides を受理名として扱う資料が確認でき、入力綴りは要修正候補。GBIF Backboneは入力綴りも受理しておりDB間差がある。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/results?q=Pfaffia%20gnaphalioides",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Pfaffia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Pfaffia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/results?q=Pfaffia%20gnaphalioides",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ヒユ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Pfaffia tuberosa",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          17
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Pfaffia tuberosa (Spreng.) Hicken",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1219488-2"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [
+          "ファフィア・ツベロサ"
+        ],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "日本語学術文献で学名使用は確認したが、種和名は確認できない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Amaranthaceae",
+          "japaneseName": "ヒユ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1219488-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Pfaffia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Pfaffia",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1219488-2",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ヒユ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Phlox drummondii",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "phlox-drummondii-300583-1211789"
+        ],
+        "paperTable1Rows": [
+          20
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Phlox drummondii Hook.",
+        "taxonomyUrl": "https://www.gbif.org/species/2927723"
+      },
+      "japaneseName": "キキョウナデシコ",
+      "kana": "キキョウナデシコ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "フロックス",
+          "ヒメフロックス",
+          "フロックス・ドラモンディ"
+        ],
+        "transliterations": [],
+        "english": [
+          "annual phlox"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=12318",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Phlox drummondii",
+          "targetRank": "species",
+          "name": "キキョウナデシコ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        },
+        {
+          "source": "Kindai University repository paper",
+          "url": "https://kindai.repo.nii.ac.jp/record/21340/files/AN10068675-20201031-0298.pdf",
+          "mapping": "direct scientific/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Phlox drummondii",
+          "targetRank": "species",
+          "name": "キキョウナデシコ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "キキョウナデシコ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Polemoniaceae",
+          "japaneseName": "ハナシノブ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2927723",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Phlox",
+          "japaneseName": "クサキョウチクトウ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/phlox/polemonium/spp-j.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Phlox",
+          "japaneseName": "クサキョウチクトウ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2927723",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/phlox/polemonium/spp-j.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "クサキョウチクトウ属（ハナシノブ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Phyllanthus sp.",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          11
+        ]
+      },
+      "taxonomy": {
+        "rank": "genus-unspecified",
+        "inputStatus": "incomplete-identification",
+        "acceptedScientificName": null,
+        "taxonomyUrl": "https://www.gbif.org/species/search?q=Phyllanthus"
+      },
+      "japaneseName": null,
+      "kana": null,
+      "nameStatus": "unconfirmed",
+      "confidence": "none",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [],
+      "notes": "種未同定。コミカンソウ属などの属和名を種和名に代用しない。",
+      "displayDecision": {
+        "candidate": null,
+        "status": "none"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Phyllanthaceae",
+          "japaneseName": "コミカンソウ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/search?q=Phyllanthus",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Phyllanthus",
+          "japaneseName": "コミカンソウ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://www1.ous.ac.jp/garden/hada/plantsdic/angiospermae/dicotyledoneae/choripetalae/euphorbiaceae/komikansou/komikansou.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Phyllanthus",
+          "japaneseName": "コミカンソウ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/search?q=Phyllanthus",
+          "japaneseNameEvidence": {
+            "url": "https://www1.ous.ac.jp/garden/hada/plantsdic/angiospermae/dicotyledoneae/choripetalae/euphorbiaceae/komikansou/komikansou.htm",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "コミカンソウ属（コミカンソウ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Polemonium pauciflorum",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          15
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Polemonium pauciflorum S.Watson",
+        "taxonomyUrl": "https://www.gbif.org/species/2927864"
+      },
+      "japaneseName": "キバナハナシノブ",
+      "kana": "キバナハナシノブ",
+      "nameStatus": "confirmed",
+      "confidence": "medium",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "ポレモニウム・サルファートランペット"
+        ],
+        "transliterations": [],
+        "english": [
+          "fewflower Jacob's-ladder"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "Hokkaido University plant list",
+          "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/phlox/polemonium/spp-j.html",
+          "mapping": "direct species/Japanese name pair; marked horticultural import",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Polemonium pauciflorum",
+          "targetRank": "species",
+          "name": "キバナハナシノブ",
+          "nameCategory": "horticulturalJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": "学術機関ページで直接対応するが園芸輸入欄の名称であるためmedium。",
+      "displayDecision": {
+        "candidate": "キバナハナシノブ",
+        "status": "review"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Polemoniaceae",
+          "japaneseName": "ハナシノブ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2927864",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Polemonium",
+          "japaneseName": "ハナシノブ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/phlox/polemonium/spp-j.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Polemonium",
+          "japaneseName": "ハナシノブ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/2927864",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/phlox/polemonium/spp-j.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ハナシノブ属（ハナシノブ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Primula elatior",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          34
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Primula elatior (L.) Hill",
+        "taxonomyUrl": "https://www.gbif.org/species/5414326"
+      },
+      "japaneseName": "セイタカサクラソウ",
+      "kana": "セイタカサクラソウ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "oxlip"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=12771",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Primula elatior",
+          "targetRank": "species",
+          "name": "セイタカサクラソウ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "セイタカサクラソウ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Primulaceae",
+          "japaneseName": "サクラソウ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5414326",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Primula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Primula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/5414326",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "サクラソウ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Primula veris",
+      "sourceOccurrences": {
+        "paldatManifestIds": [
+          "primula-veris-306818-1016116"
+        ],
+        "paperTable1Rows": [
+          29
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Primula veris L.",
+        "taxonomyUrl": "https://www.gbif.org/species/8377689"
+      },
+      "japaneseName": "キバナノクリンソウ",
+      "kana": "キバナノクリンソウ",
+      "nameStatus": "confirmed",
+      "confidence": "medium",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "カウスリップ"
+        ],
+        "transliterations": [
+          "プリムラ・ベリス"
+        ],
+        "english": [
+          "cowslip"
+        ],
+        "taxonQualifiedJapaneseNames": [
+          {
+            "name": "キバナノクリンザクラ",
+            "targetScientificName": "Primula veris subsp. veris",
+            "targetRank": "subspecies",
+            "nameCategory": "standardJapaneseName",
+            "source": "YList",
+            "url": "http://ylist.info/ylist_detail_display.php?pass=12770",
+            "accessedOn": "2026-09-15"
+          }
+        ]
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=12770",
+          "mapping": "P. veris subsp. veris standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Primula veris subsp. veris",
+          "targetRank": "subspecies",
+          "name": "キバナノクリンザクラ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": false,
+          "displayUse": "context-only"
+        },
+        {
+          "source": "NARO seed testing table",
+          "url": "https://www.naro.go.jp/laboratory/ncss/shubyokensa/f4765328d91df11d3ec7cb7e989c7eea.pdf",
+          "mapping": "species mapped to キバナノクリンソウ",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Primula veris",
+          "targetRank": "species",
+          "name": "キバナノクリンソウ",
+          "nameCategory": "commonJapaneseNameInOfficialTechnicalTable",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": "NAROは種 Primula veris にキバナノクリンソウを直接対応。YListのキバナノクリンザクラは基準亜種 P. veris subsp. veris に対応するため、階級付き別名として保持。",
+      "displayDecision": {
+        "candidate": "キバナノクリンソウ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Primulaceae",
+          "japaneseName": "サクラソウ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/8377689",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Primula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Primula",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/8377689",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "サクラソウ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Sarcococca hookeriana",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          14
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Sarcococca hookeriana Baill.",
+        "taxonomyUrl": "https://www.gbif.org/species/3988140"
+      },
+      "japaneseName": "ヒマラヤサルココッカ",
+      "kana": "ヒマラヤサルココッカ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "sweet box"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=39283",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Sarcococca hookeriana",
+          "targetRank": "species",
+          "name": "ヒマラヤサルココッカ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "ヒマラヤサルココッカ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Buxaceae",
+          "japaneseName": "ツゲ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3988140",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Sarcococca",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "japaneseNameEvidence": null
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Sarcococca",
+          "japaneseName": null,
+          "japaneseNameStatus": "unconfirmed",
+          "taxonomySourceUrl": "https://www.gbif.org/species/3988140",
+          "japaneseNameEvidence": null
+        },
+        "companionLabel": {
+          "ja": "ツゲ科の仲間",
+          "basisRank": "family",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Sarracenia flava",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          33
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Sarracenia flava L.",
+        "taxonomyUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30118747-2"
+      },
+      "japaneseName": "キバナヘイシソウ",
+      "kana": "キバナヘイシソウ",
+      "nameStatus": "confirmed",
+      "confidence": "high",
+      "alternativeNames": {
+        "horticulturalOrTrade": [],
+        "transliterations": [],
+        "english": [
+          "yellow pitcherplant"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "YList",
+          "url": "http://ylist.info/ylist_detail_display.php?pass=11803",
+          "mapping": "standard name",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Sarracenia flava",
+          "targetRank": "species",
+          "name": "キバナヘイシソウ",
+          "nameCategory": "standardJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        },
+        {
+          "source": "Okayama Nature Conservation Center report",
+          "url": "https://okayama-shizenhogo-c.jp/templates/front/pdf/chosa-kenkyu/vol19/19_p29-41.pdf",
+          "mapping": "direct scientific/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Sarracenia flava",
+          "targetRank": "species",
+          "name": "キバナヘイシソウ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": null,
+      "displayDecision": {
+        "candidate": "キバナヘイシソウ",
+        "status": "recommended"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Sarraceniaceae",
+          "japaneseName": "サラセニア科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30118747-2",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Sarracenia",
+          "japaneseName": "ヘイシソウ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/pitcher/sarracenia/spp.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Sarracenia",
+          "japaneseName": "ヘイシソウ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30118747-2",
+          "japaneseNameEvidence": {
+            "url": "https://hosho.ees.hokudai.ac.jp/tsuyu/top/plt/pitcher/sarracenia/spp.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "ヘイシソウ属（サラセニア科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    },
+    {
+      "inputScientificName": "Utricularia sandersonii",
+      "sourceOccurrences": {
+        "paldatManifestIds": [],
+        "paperTable1Rows": [
+          32
+        ]
+      },
+      "taxonomy": {
+        "rank": "species",
+        "inputStatus": "accepted",
+        "acceptedScientificName": "Utricularia sandersonii Oliv.",
+        "taxonomyUrl": "https://redlist.sanbi.org/species.php?species=3467-27",
+        "additionalEvidenceUrls": [
+          "https://redlist.sanbi.org/species.php?species=3467-27"
+        ]
+      },
+      "japaneseName": "ウサギゴケ",
+      "kana": "ウサギゴケ",
+      "nameStatus": "confirmed",
+      "confidence": "medium",
+      "alternativeNames": {
+        "horticulturalOrTrade": [
+          "ウトリクラリア・サンダーソニー"
+        ],
+        "transliterations": [],
+        "english": [
+          "Sanderson's bladderwort"
+        ],
+        "taxonQualifiedJapaneseNames": []
+      },
+      "nameEvidence": [
+        {
+          "source": "Japanese plant encyclopedia",
+          "url": "https://gkzplant.sakura.ne.jp/souhon2/shousai2/a-gyou/u/usagigoke/usagigoke.html",
+          "mapping": "direct scientific/Japanese name pair",
+          "accessedOn": "2026-09-15",
+          "targetScientificName": "Utricularia sandersonii",
+          "targetRank": "species",
+          "name": "ウサギゴケ",
+          "nameCategory": "commonJapaneseName",
+          "supportsDisplay": true,
+          "displayUse": "eligible"
+        }
+      ],
+      "notes": "種との対応は確認できるが、国内標準和名DBではなく園芸・図鑑系の和名のためmedium。",
+      "displayDecision": {
+        "candidate": "ウサギゴケ",
+        "status": "review"
+      },
+      "classification": {
+        "system": "APG family concept; current accepted genus follows POWO/WCVP 2026",
+        "accessedOn": "2026-09-15",
+        "family": {
+          "scientificName": "Lentibulariaceae",
+          "japaneseName": "タヌキモ科",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://redlist.sanbi.org/species.php?species=3467-27",
+          "japaneseNameEvidence": {
+            "source": "YList 2021-05-14 LAPG/APG family fields",
+            "url": "http://ylist.info/20210514YList_download_tab.txt",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "originalNameGenus": {
+          "scientificName": "Utricularia",
+          "japaneseName": "タヌキモ属",
+          "japaneseNameStatus": "confirmed",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/souhon2/shousai2/a-gyou/u/usagigoke/usagigoke.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "acceptedNameGenus": {
+          "scientificName": "Utricularia",
+          "japaneseName": "タヌキモ属",
+          "japaneseNameStatus": "confirmed",
+          "taxonomySourceUrl": "https://redlist.sanbi.org/species.php?species=3467-27",
+          "japaneseNameEvidence": {
+            "url": "https://gkzplant.sakura.ne.jp/souhon2/shousai2/a-gyou/u/usagigoke/usagigoke.html",
+            "accessedOn": "2026-09-15"
+          }
+        },
+        "companionLabel": {
+          "ja": "タヌキモ属（タヌキモ科）の仲間",
+          "basisRank": "genus",
+          "notSpeciesIdentification": true
+        }
+      }
+    }
+  ],
+  "updatedAt": "2026-09-15T12:39:09+09:00"
+}

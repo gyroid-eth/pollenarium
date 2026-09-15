@@ -1,7 +1,8 @@
 /** Curated reference selection; deliberately independent of the numerical state. */
 export class ReferenceAtlas {
-  constructor({images, onSelect, selectedId}) {
+  constructor({images, onSelect, selectedId, taxonName}) {
     this.images = [...images];
+    this.taxonName = taxonName;
     this.onSelect = onSelect;
     this.selectedId = selectedId;
     this.shape = 'all';
@@ -35,7 +36,7 @@ export class ReferenceAtlas {
     });
     // Native <dialog> provides Escape and an inert background.
     this.search.addEventListener('input', () => {
-      this.query = this.search.value.trim().toLocaleLowerCase();
+      this.query = this.search.value.trim().normalize('NFKC').toLocaleLowerCase();
       this.render();
     });
     const labels = {all:'すべて', spines:'突起', pits:'くぼみ・孔', bands:'溝・帯', network:'網目', smooth:'平滑'};
@@ -60,7 +61,7 @@ export class ReferenceAtlas {
   render() {
     const matches = this.images.filter(ref =>
       (this.shape === 'all' || ref.shapeTags?.includes(this.shape)) &&
-      ref.species.toLocaleLowerCase().includes(this.query));
+      this.taxonName(ref.species).search.includes(this.query));
     this.count.textContent = `${matches.length} / ${this.images.length}点のSEM`;
     for (const button of this.filters.children)
       button.setAttribute('aria-pressed', String(button.dataset.shape === this.shape));
@@ -73,7 +74,7 @@ export class ReferenceAtlas {
       button.className = 'taxon';
       button.dataset.reference = ref.id;
       button.setAttribute('aria-pressed', String(ref.id === this.selectedId()));
-      button.setAttribute('aria-label', `${ref.species}を観察する`);
+      button.setAttribute('aria-label', `${this.taxonName(ref.species).full}を観察する`);
       const media = document.createElement('span');
       media.className = 'taxon-media';
       const image = document.createElement('img');
@@ -87,10 +88,13 @@ export class ReferenceAtlas {
       if (ref.localPath) image.src = new URL('../' + ref.localPath, import.meta.url);
       const name = document.createElement('strong');
       name.textContent = ref.species;
+      const japanese = document.createElement('span');
+      japanese.className = 'taxon-ja';
+      japanese.textContent = this.taxonName(ref.species).label;
       const credit = document.createElement('small');
       credit.textContent = ref.requiredCredit.replace(/^Photo: /, '').split(' / PalDat')[0] + ' / PalDat';
       media.append(image, missing);
-      button.append(media, name, credit);
+      button.append(media, name, japanese, credit);
       button.onclick = () => { this.onSelect(ref.id); this.dialog.close(); };
       item.append(button);
       this.grid.append(item);
