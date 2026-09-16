@@ -200,3 +200,6 @@ dialog p{font-size:13px;color:var(--muted)}
 #relief-value{font-variant-numeric:tabular-nums;color:var(--accent)}
 
 @media(max-width:700px){.view-settings[data-height-mode="component-profile-v1"] .view-shape-controls{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+
+.card-actions{flex-wrap:wrap}
+.card-actions .delete-specimen{margin-left:auto;color:#d5aaa5}
